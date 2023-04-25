@@ -1,4 +1,10 @@
 # Вопрос-ответ, для Python-разработчика на собеседовании.
+<a href="https://mc.yandex.ru/pixel/8711235002931986822?rnd=%aw_random%">
+    <img src="https://mc.yandex.ru/pixel/8711235002931986822?rnd=%aw_random%" />        
+  </a>&nbsp;&nbsp;
+<a href="https://mc.yandex.ru/watch/92801430">
+    <img src="https://mc.yandex.ru/watch/92801430" />        
+  </a>&nbsp;&nbsp;
 
 407 ответов
 
