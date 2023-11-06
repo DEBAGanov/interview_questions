@@ -261,9 +261,163 @@ export class ExampleComponent {
 
 ## 11. `Описать аутентификацию и авторизацию Angular.`
 
+Аутентификация и авторизация являются важными аспектами разработки веб-приложений. В Angular есть несколько подходов к реализации аутентификации и авторизации, включая использование JSON Web Tokens (JWT) и HttpInterceptor.
+
+Аутентификация с использованием JSON Web Tokens (JWT): JSON Web Tokens (JWT) - это открытый стандарт (RFC 7519), который определяет компактный и самодостаточный формат для представления информации об аутентификации в виде JSON-объекта. В Angular вы можете использовать JWT для аутентификации пользователей.
+
+Для реализации аутентификации с использованием JWT в Angular, вам потребуется:
+
+Создать серверную часть, которая будет генерировать и проверять JWT-токены.
+Реализовать механизм хранения токена на клиентской стороне (например, в localStorage или sessionStorage).
+Создать сервис аутентификации в Angular, который будет отправлять запросы на сервер для аутентификации и получения токена, а также сохранять и проверять токен на клиентской стороне.
+Авторизация с использованием HttpInterceptor: HttpInterceptor - это механизм в Angular, который позволяет перехватывать и изменять HTTP-запросы и ответы. Вы можете использовать HttpInterceptor для авторизации запросов, добавляя заголовки авторизации или проверяя токены доступа.
+
+Для реализации авторизации с использованием HttpInterceptor в Angular, вам потребуется:
+
++ Создать класс, реализующий интерфейс HttpInterceptor.
++ В классе HttpInterceptor реализовать методы для перехвата и изменения HTTP-запросов и ответов.
++ Зарегистрировать HttpInterceptor в провайдере приложения, чтобы он был доступен для использования во всем приложении.
+
+Примеры кода:
+
++ Аутентификация с использованием JWT:
+```javascript
+// Сервис аутентификации
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+
+@Injectable()
+export class AuthService {
+  constructor(private http: HttpClient) {}
+
+  login(username: string, password: string) {
+    return this.http.post('/api/auth/login', { username, password });
+  }
+}
+
+// Компонент для входа пользователя
+import { Component } from '@angular/core';
+import { AuthService } from './auth.service';
+
+@Component({
+  selector: 'app-login',
+  template: `
+    <form (ngSubmit)="login()">
+      <input type="text" [(ngModel)]="username" name="username" placeholder="Username">
+      <input type="password" [(ngModel)]="password" name="password" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+  `,
+})
+export class LoginComponent {
+  username: string;
+  password: string;
+
+  constructor(private authService: AuthService) {}
+
+  login() {
+    this.authService.login(this.username, this.password).subscribe(
+      (response) => {
+        // Сохранение токена на клиентской стороне
+        localStorage.setItem('token', response.token);
+      },
+      (error) => {
+        console.error('Ошибка аутентификации:', error);
+      }
+    );
+  }
+}
+
+```
+
+
++ Авторизация с использованием HttpInterceptor:
+```javascript
+// HttpInterceptor
+import { Injectable } from '@angular/core';
+import { HttpInterceptor, HttpRequest, HttpHandler, HttpEvent } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+@Injectable()
+export class AuthInterceptor implements HttpInterceptor {
+  intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+    // Получение токена из localStorage
+    const token = localStorage.getItem('token');
+
+    // Добавление заголовка авторизации
+    if (token) {
+      request = request.clone({
+        setHeaders: {
+          Authorization: `Bearer ${token}`
+        }
+      });
+    }
+
+    return next.handle(request);
+  }
+}
+
+// Регистрация HttpInterceptor в провайдере приложения
+import { NgModule } from '@angular/core';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { AuthInterceptor } from './auth.interceptor';
+
+@NgModule({
+  imports: [HttpClientModule],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
+    }
+  ]
+})
+export class CoreModule {}
+```
+
+Обратите внимание: Это только примеры кода для демонстрации основных концепций аутентификации и авторизации в Angular. Реальная реализация может варьироваться в зависимости от требований вашего приложения.
+
 ## 12. `Что такое процесс цикла дайджеста в Angular?`
 
-## 13. `Что такое угловой маршрутизатор?`
+В Angular процесс цикла дайджеста (digest cycle) является ключевым механизмом для обновления данных и обновления представления. Во время цикла дайджеста Angular проверяет все связанные скоупы (scopes) и выполняет проверку изменений в данных. Если происходят изменения, Angular обновляет представление, чтобы отразить эти изменения.
+
+Процесс цикла дайджеста в Angular состоит из следующих шагов:
+
++ Запуск цикла дайджеста: Цикл дайджеста запускается в ответ на событие, такое как пользовательское действие или изменение данных.
++ Проверка изменений: Angular проверяет все скоупы (scopes) и их модели данных на наличие изменений. Он сравнивает текущие значения с предыдущими значениями и определяет, какие из них изменились.
++ Применение изменений: Если Angular обнаруживает изменения в данных, он обновляет представление, чтобы отразить эти изменения. Это может включать обновление текста, добавление или удаление элементов DOM и другие изменения в пользовательском интерфейсе.
++ Проверка изменений вложенных скоупов: Angular также проверяет изменения во всех вложенных скоупах и их моделях данных.
++ Повторение цикла дайджеста: Цикл дайджеста повторяется до тех пор, пока не будет достигнуто состояние стабильности, то есть пока не будет обнаружено никаких изменений в данных или представлении.
+
+Цикл дайджеста в Angular позволяет обеспечить синхронизацию данных и представления, что делает фреймворк мощным инструментом для разработки динамических веб-приложений.
+
+## 13. `Что такое Angular Router?`
+
+Angular Router - это сервис в Angular, который позволяет осуществлять навигацию между различными представлениями приложения. Он позволяет переходить от одного представления к другому в процессе выполнения пользовательских задач.
+
+Angular Router предоставляет механизм для определения маршрутов и их связывания с компонентами приложения. Он позволяет определить, какой компонент должен быть отображен при переходе по определенному URL-адресу или при выполнении определенного действия пользователем.
+
+Чтобы использовать Angular Router, необходимо импортировать соответствующие модули и классы. Например, для определения маршрутов и настройки маршрутизации в Angular, вы можете использовать классы Routes и RouterModule из модуля @angular/router.
+
+Пример использования Angular Router для определения маршрутов выглядит следующим образом:
+
+import { Routes, RouterModule } from '@angular/router';
+
+const routes: Routes = [
+  { path: 'home', component: HomeComponent },
+  { path: 'about', component: AboutComponent },
+  { path: 'contact', component: ContactComponent },
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+В этом примере мы определяем три маршрута: 'home', 'about' и 'contact', и связываем каждый маршрут с соответствующим компонентом.
+
+Angular Router также предоставляет множество других возможностей, таких как параметры маршрута, защита маршрутов, вложенные маршруты и многое другое. Он является важной частью разработки приложений на Angular и обеспечивает гибкую и мощную систему навигации внутри приложения.
+
 
 ## 14. `Что такое ОТДЫХ?`
 
