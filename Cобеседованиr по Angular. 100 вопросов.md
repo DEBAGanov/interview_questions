@@ -400,7 +400,7 @@ Angular Router предоставляет механизм для определ
 Чтобы использовать Angular Router, необходимо импортировать соответствующие модули и классы. Например, для определения маршрутов и настройки маршрутизации в Angular, вы можете использовать классы Routes и RouterModule из модуля @angular/router.
 
 Пример использования Angular Router для определения маршрутов выглядит следующим образом:
-
+```javascript
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
@@ -414,12 +414,65 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+```
+
 В этом примере мы определяем три маршрута: 'home', 'about' и 'contact', и связываем каждый маршрут с соответствующим компонентом.
 
 Angular Router также предоставляет множество других возможностей, таких как параметры маршрута, защита маршрутов, вложенные маршруты и многое другое. Он является важной частью разработки приложений на Angular и обеспечивает гибкую и мощную систему навигации внутри приложения.
 
 
-## 14. `Что такое ОТДЫХ?`
+## 14. `Что такое REST?`
+REST API в Angular - это способ взаимодействия с сервером, используя протокол HTTP и стандартные методы запросов, такие как GET, POST, PUT и DELETE. В Angular, для работы с REST API, можно использовать сервис HttpClient, который предоставляет удобные методы для отправки HTTP-запросов и получения ответов от сервера.
+
+REST API в Angular позволяет вам обмениваться данными с сервером и выполнять различные операции, такие как получение, создание, обновление и удаление данных. Он является важной частью разработки веб-приложений на Angular и позволяет создавать мощные и интерактивные приложения.
+
+Обратите внимание, что RESTful API не является частью Angular-приложения. RESTful API - это веб-сервис, написанный на серверной стороне, который может использоваться Angular-приложением для взаимодействия с сервером
+
+Для работы с REST API в Angular можно использовать модуль HttpClient, который предоставляет удобные методы для отправки HTTP-запросов и получения ответов. Вот некоторые основные шаги для работы с REST API в Angular:
+
++ Импортируйте модуль HttpClientModule в вашем Angular-приложении.
+```javascript
+import { HttpClientModule } from '@angular/common/http';
+Добавьте HttpClientModule в раздел imports в файле AppModule.
+
+@NgModule({
+  imports: [
+    HttpClientModule
+  ],
+  // ...
+})
+export class AppModule { }
+```
+
++ В вашем компоненте или сервисе импортируйте HttpClient и используйте его для отправки HTTP-запросов.
+```javascript
+import { HttpClient } from '@angular/common/http';
+
+constructor(private http: HttpClient) { }
+
+// Пример GET-запроса
+getData() {
+  return this.http.get('https://api.example.com/data');
+}
+
+// Пример POST-запроса
+postData(data: any) {
+  return this.http.post('https://api.example.com/data', data);
+}
+```
+
++ Вызовите методы getData() или postData() для отправки запросов и получения данных.
+```javascript
+this.getData().subscribe((response) => {
+  console.log(response);
+}, (error) => {
+  console.error(error);
+});
+```
+
+Примечание: Важно помнить, что HTTP-запросы асинхронны, поэтому для получения данных необходимо использовать методы подписки, такие как subscribe().
+
+Это основные шаги для работы с REST API в Angular. Вы также можете использовать другие методы, такие как PUT и DELETE, для взаимодействия с API.
 
 ## 15. `Объясните Angular CLI.`
 
