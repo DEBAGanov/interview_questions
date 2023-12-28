@@ -5,17 +5,17 @@
 | 75%         	| [В чем разница между checked и unchecked исключениями](https://dzen.ru/media/debaganov/java-122-kakaia-raznica-mejdu-checked-i-unchecked-exception-throw-throws-64803aa0cf27637a0dae22fd)                                                                                                     	| Java Core        	|
 | 68%         	| Какие методы в классе Object знаешь                                                                                                                       	| Java Core        	|
 | 68%         	| Расскажи про иерархию исключений                                                                                                                          	| Java Core        	|
-| 62%         	| Что такое SOLID                                                                                                                                           	| Общие            	|
+| 62%         	| [Что такое SOLID](https://dzen.ru/media/debaganov/java-31-chto-takoe-solid-privedite-primery-647c426f0a3add4ef62280b2)                                                                                                                                           	| Общие            	|
 | 62%         	| Расскажи об иерархии коллекций в Java                                                                                                                     	| Java Collections 	|
 | 56%         	| В чём различие между интерфейсом и абстрактным классом                                                                                                    	| Java Core        	|
-| 56%         	| Чем отличаются LinkedList и ArrayList                                                                                                                     	| Java Collections 	|
+| 56%         	| [Чем отличаются LinkedList и ArrayList]()                                                                                                                     	| Java Collections 	|
 | 56%         	| Расскажи про Hash Code & Equals Contract                                                                                                                  	| Java Core        	|
 | 56%         	| В чём разница между примитивом и ссылочным типом данных                                                                                                   	| Java Core        	|
 | 56%         	| Как организована HashMap                                                                                                                                  	| Java Collections 	|
 | 50%         	| Какой есть опыт в программировании                                                                                                                        	| Общие            	|
 | 50%         	| Что знаешь о классе object                                                                                                                                	| Java Core        	|
 | 50%         	| Какие есть принципы ООП                                                                                                                                   	| ООП              	|
-| 43%         	| Что такое ACID                                                                                                                                            	| Базы данных      	|
+| 43%         	| [Что такое ACID]()                                                                                                                                            	| Базы данных      	|
 | 43%         	| что такое Stream в Java ?                                                                                                                                 	| Java 8           	|
 | 43%         	| Какие Spring Scope знаешь                                                                                                                                 	| Spring           	|
 | 37%         	| Что такое функциональный интерфейс                                                                                                                        	| Java 8           	|
@@ -85,7 +85,7 @@
 | 12%         	| Как работает оператор try with resourses                                                                                                                  	| Java Core        	|
 | 12%         	| Может ли примитивный тип данных попасть в Hip                                                                                                             	| Java Core        	|
 | 12%         	| Какие методы располагаются в интерфейсе                                                                                                                   	| Java Core        	|
-| 12%         	| В чем взаимосвязь контракта equals и hashCode                                                                                                             	| Java Core        	|
+| 12%         	| [В чем взаимосвязь контракта equals и hashCode]()                                                                                                             	| Java Core        	|
 | 12%         	| Что такое принципы SOLID                                                                                                                                  	| Общие            	|
 | 12%         	| String Builder и String Buffer , в чём различия                                                                                                           	| Java Core        	|
 | 12%         	| Что знаешь про функциональный интерфейс Java 8+                                                                                                           	| Java Core        	|
@@ -1008,7 +1008,7 @@
 | 6%          	| Почему композицию чаще рекомендуют использовать, чем наследование                                                                                         	| Нет              	|
 | 6%          	| В чём основная идея адаптера                                                                                                                              	| Нет              	|
 | 6%          	| В чём идея Autoboxing и Unboxing                                                                                                                          	| Нет              	|
-| 6%          	| Что нужно сделать , для того чтобы создать имутабельный класс в Java                                                                                      	| Нет              	|
+| 6%          	| [Что нужно сделать , для того чтобы создать имутабельный класс в Java]()                                                                                      	| Нет              	|
 | 6%          	| Базовые отличия между List и Linked List                                                                                                                  	| Нет              	|
 | 6%          	| Какие способы обработки есть проверяемых исключений                                                                                                       	| Нет              	|
 | 6%          	| Что такое try/catch                                                                                                                                       	| Нет              	|
