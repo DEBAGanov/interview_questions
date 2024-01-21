@@ -13,39 +13,39 @@ Spring-starter
 
 ## [lesson 1. Введение](#lesson-1.-Введение)
 
-+ [Модули Spring (out of the box)](###Модули Spring (out of the box))
-+ [Удобство и простота использования](###Удобство)
-+ Микросервисная архитектура
-+ Support & Community
-+ Что нужно знать для изучения курса Spring
+1. [Модули Spring (out of the box)](###Модули Spring (out of the box))
+2. [Удобство и простота использования](###Удобство)
+3. Микросервисная архитектура
+4. Support & Community
+5. Что нужно знать для изучения курса Spring
 
 
 ## lesson 2. Установка программного обеспечения
 
 
-- [Установка Java 17](#Установка-Java-17)
-- [Установка IntelliJ IDEA Ultimate Edition](#Установка-IntelliJ-IDEA-Ultimate-Edition)
-- [Установка PostgreSQL](#Установка-PostgreSQL)
-- [Установка Docker](#Установка-Docker)
-- [Создание нового проекта](#Создание-нового-проекта)
+  6. [Установка Java 17](#Установка-Java-17)
+  7. 1. [Установка IntelliJ IDEA Ultimate Edition](#Установка-IntelliJ-IDEA-Ultimate-Edition)
+  8. [Установка PostgreSQL](#Установка-PostgreSQL)
+  9. [Установка Docker](#Установка-Docker)
+  10. [Создание нового проекта](#Создание-нового-проекта)
 
 
 ## lesson 3. Inversion of Control. Dependency Injection
 
-- [Object Dependencies]
-- [Object Dependencies в коде]
-- [Inversion of Control & Dependency Injection]
-- [Inversion of Control & Dependency Injection в коде]
-- [3 способа внедрения зависимостей в объекте]
+11. [Object Dependencies]
+12. [Object Dependencies в коде]
+13. [Inversion of Control & Dependency Injection]
+14. [Inversion of Control & Dependency Injection в коде]
+15. [3 способа внедрения зависимостей в объекте]
 
 ## lesson 4. IoC Container
 
-+ Spring IoC Container
-+ Bean
-+ Bean Definition
-+ POJO
-+ Основные интерфейсы IoC Container
-+ 3 способа создания Bean Definitions
+16. Spring IoC Container
+17. Bean
+18. Bean Definition
+19. POJO
+20. Основные интерфейсы IoC Container
+21. 3 способа создания Bean Definitions
 
 # 2. XML-based Configuration
 
