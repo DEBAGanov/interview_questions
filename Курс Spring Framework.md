@@ -8,10 +8,10 @@ Spring-starter
 
 # Содержание
 
-#  [1. Intro](#1. Intro)
+#  [1. Intro](#1.-Intro)
 
 
-## [lesson 1. Введение](##Введение)
+## [lesson 1. Введение](#lesson-1.-Введение)
 
 + [Модули Spring (out of the box)](###Модули Spring (out of the box))
 + [Удобство и простота использования](###Удобство)
@@ -24,7 +24,7 @@ Spring-starter
 
 
 - [Установка Java 17](#Установка-Java-17)
-- [Установка IntelliJ IDEA Ultimate Edition](#Установка-IntelliJ IDEA-Ultimate-Edition)
+- [Установка IntelliJ IDEA Ultimate Edition](#Установка-IntelliJ-IDEA-Ultimate-Edition)
 - [Установка PostgreSQL](#Установка-PostgreSQL)
 - [Установка Docker](#Установка-Docker)
 - [Создание нового проекта](#Создание-нового-проекта)
@@ -32,11 +32,11 @@ Spring-starter
 
 ## lesson 3. Inversion of Control. Dependency Injection
 
-+ Object Dependencies
-+ Object Dependencies в коде
-+ Inversion of Control & Dependency Injection
-+ Inversion of Control & Dependency Injection в коде
-+ 3 способа внедрения зависимостей в объекте
+- [Object Dependencies]
+- [Object Dependencies в коде]
+- [Inversion of Control & Dependency Injection]
+- [Inversion of Control & Dependency Injection в коде]
+- [3 способа внедрения зависимостей в объекте]
 
 ## lesson 4. IoC Container
 
