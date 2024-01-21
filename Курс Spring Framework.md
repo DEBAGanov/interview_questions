@@ -24,10 +24,10 @@ Spring-starter
 
 
 - [Установка Java 17](#Установка-Java-17)
-+ Установка IntelliJ IDEA Ultimate Edition
-+ Установка PostgreSQL
-+ Установка Docker
-+ Создание нового проекта
+- [Установка IntelliJ IDEA Ultimate Edition](#Установка-IntelliJ IDEA-Ultimate-Edition)
+- [Установка PostgreSQL](#Установка-PostgreSQL)
+- [Установка Docker](#Установка-Docker)
+- [Создание нового проекта](#Создание-нового-проекта)
 
 
 ## lesson 3. Inversion of Control. Dependency Injection
