@@ -23,7 +23,7 @@ Spring-starter
 ## lesson 2. Установка программного обеспечения
 
 
-### [Установка Java 17](###Установка-Java-17)
+- [Установка Java 17](###Установка-Java-17)
 + Установка IntelliJ IDEA Ultimate Edition
 + Установка PostgreSQL
 + Установка Docker
