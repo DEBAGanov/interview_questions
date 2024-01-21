@@ -8,12 +8,12 @@ Spring-starter
 
 # Содержание
 
-#  1. [Intro](#Intro)
+#  [1. Intro](#1. Intro)
 
 
 ## [lesson 1. Введение](##Введение)
 
-+ [Модули Spring (out of the box)](###Модули)
++ [Модули Spring (out of the box)](###Модули Spring (out of the box))
 + [Удобство и простота использования](###Удобство)
 + Микросервисная архитектура
 + Support & Community
@@ -23,7 +23,7 @@ Spring-starter
 ## lesson 2. Установка программного обеспечения
 
 
-+ Установка Java 17
+### Установка Java 17
 + Установка IntelliJ IDEA Ultimate Edition
 + Установка PostgreSQL
 + Установка Docker
