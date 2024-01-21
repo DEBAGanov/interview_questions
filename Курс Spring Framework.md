@@ -24,7 +24,7 @@ Spring-starter
 
 
   6. [Установка Java 17](#Установка-Java-17)
-  7. 1. [Установка IntelliJ IDEA Ultimate Edition](#Установка-IntelliJ-IDEA-Ultimate-Edition)
+  7. [Установка IntelliJ IDEA Ultimate Edition](#Установка-IntelliJ-IDEA-Ultimate-Edition)
   8. [Установка PostgreSQL](#Установка-PostgreSQL)
   9. [Установка Docker](#Установка-Docker)
   10. [Создание нового проекта](#Создание-нового-проекта)
@@ -32,8 +32,8 @@ Spring-starter
 
 ## lesson 3. Inversion of Control. Dependency Injection
 
-11. [Object Dependencies]
-12. [Object Dependencies в коде]
+11. [Object Dependencies](#Object-Dependencies)
+12. [Object Dependencies в коде](#Object-Dependencies-в-коде)
 13. [Inversion of Control & Dependency Injection]
 14. [Inversion of Control & Dependency Injection в коде]
 15. [3 способа внедрения зависимостей в объекте]
@@ -51,59 +51,59 @@ Spring-starter
 
 ## lesson 5. XML-based Configuration
 
-+ BeanFactory и ApplicationContext интерфейсы
-+ ClassPathXmlApplicationContext
-+ XML config
-+ Идентификаторы (id) бинов как ключи в IoC Container
-+ Алиасы бинов (alias)
+22. BeanFactory и ApplicationContext интерфейсы
+23. ClassPathXmlApplicationContext
+24. XML config
+25. Идентификаторы (id) бинов как ключи в IoC Container
+26. Алиасы бинов (alias)
 
 ## lesson 6. Constructor Injection
 
-+ Внедрение примитивных типов данных
-+ Внедрение коллекций list/set
-+ Внедрение ассоциативного массива map
-+ Поле genericArgumentValues в BeanDefinition
-+ Поле indexedArgumentValues в BeanDefinition
-+ Указание атрибута type в параметрах конструктора
-+ Указание атрибута name в параметрах конструктора
+27. Внедрение примитивных типов данных
+28. Внедрение коллекций list/set
+29. Внедрение ассоциативного массива map
+30. Поле genericArgumentValues в BeanDefinition
+31. Поле indexedArgumentValues в BeanDefinition
+32. Указание атрибута type в параметрах конструктора
+33. Указание атрибута name в параметрах конструктора
 
 ## lesson 7. Factory Method Injection
 
-+ Внедрение других бинов через ref*
-+ Создание новое бина CompanyRepository
-+ Внедрение зависимостей через factory method
-+ Атрибут factory-bean (паттерн ServiceLocator)
+34. Внедрение других бинов через ref*
+35. Создание новое бина CompanyRepository
+36. Внедрение зависимостей через factory method
+37. Атрибут factory-bean (паттерн ServiceLocator)
 
 ## lesson 8. Property Injection
 
-+ Использование set* методов в ConnectionPool
-+ Поле propertyValues в BeanDefinition
-+ Упрощенный жизненный цикл бинов - Bean Lifecycle
-+ Плюсы и минусы Constructor и Property Injections
-+ Циклические зависимости через Property Injection
+38. Использование set* методов в ConnectionPool
+39. Поле propertyValues в BeanDefinition
+40. Упрощенный жизненный цикл бинов - Bean Lifecycle
+41. Плюсы и минусы Constructor и Property Injections
+42. Циклические зависимости через Property Injection
 
 ## lesson 9. Bean Scopes
 
-+ Common Bean Scopes
-+ Custom Bean Scopes
-+ Web Bean Scopes
-+ Prototype Bean Scope
+43. Common Bean Scopes
+44. Custom Bean Scopes
+45. Web Bean Scopes
+46. Prototype Bean Scope
 
 ## lesson 10. Lifecycle Callbacks
 
-+ Измененный Bean Lifecycle
-+ Initialization callbacks
-+ Destruction callbacks
+47. Измененный Bean Lifecycle
+48. Initialization callbacks
+49. Destruction callbacks
 
 ## lesson 11. Injection from Properties Files
 
-+ Зачем использовать properties files
-+ Создание файла application.properties
-+ PropertySourcesPlaceholderConfigurer bean
-+ Expression Language (EL)
-+ Spring Expression Language (SpEL)
-+ SpEL документация
-+ System properties
+50. Зачем использовать properties files
+51. Создание файла application.properties
+52. PropertySourcesPlaceholderConfigurer bean
+53. Expression Language (EL)
+54. Spring Expression Language (SpEL)
+55. SpEL документация
+56. System properties
 
 ## lesson 12. BeanFactoryPostProcessor (BFPP)
 
