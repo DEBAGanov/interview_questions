@@ -13,14 +13,14 @@ Spring-starter
 
 ## [lesson 1. Введение](#lesson-1.-Введение)
 
-1. [Модули Spring (out of the box)](###Модули Spring (out of the box))
-2. [Удобство и простота использования](###Удобство)
-3. Микросервисная архитектура
-4. Support & Community
-5. Что нужно знать для изучения курса Spring
+1. [Модули Spring (out of the box)](#Модули Spring (out of the box))
+2. [Удобство и простота использования](#Удобство и простота использования)
+3. [Микросервисная архитектура](#Микросервисная архитектура)
+4. [Support & Community](#Support & Community)
+5. [Что нужно знать для изучения курса Spring](#Что нужно знать для изучения курса Spring)
 
 
-## lesson 2. Установка программного обеспечения
+## [lesson 2. Установка программного обеспечения](#lesson-2.-Установка-программного-обеспечения)
 
 
   6. [Установка Java 17](#Установка-Java-17)
@@ -34,9 +34,9 @@ Spring-starter
 
 11. [Object Dependencies](#Object-Dependencies)
 12. [Object Dependencies в коде](#Object-Dependencies-в-коде)
-13. [Inversion of Control & Dependency Injection](#Inversion of Control & Dependency Injection)
-14. [Inversion of Control & Dependency Injection в коде](#Inversion of Control & Dependency Injection в коде)
-15. [3 способа внедрения зависимостей в объекте](#3 способа внедрения зависимостей в объекте)
+13. [Inversion of Control & Dependency Injection](#Inversion-of-Control-&-Dependency-Injection)
+14. [Inversion of Control & Dependency Injection в коде](#Inversion-of-Control-&-Dependency-Injection-в-коде)
+15. [3 способа внедрения зависимостей в объекте](#3-способа-внедрения-зависимостей-в-объекте)
 
 ## lesson 4. IoC Container
 
