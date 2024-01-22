@@ -34,28 +34,28 @@ Spring-starter
 
 11. [Object Dependencies](#Object-Dependencies)
 12. [Object Dependencies в коде](#Object-Dependencies-в-коде)
-13. [Inversion of Control & Dependency Injection]
-14. [Inversion of Control & Dependency Injection в коде]
-15. [3 способа внедрения зависимостей в объекте]
+13. [Inversion of Control & Dependency Injection](#Inversion of Control & Dependency Injection)
+14. [Inversion of Control & Dependency Injection в коде](#Inversion of Control & Dependency Injection в коде)
+15. [3 способа внедрения зависимостей в объекте](#3 способа внедрения зависимостей в объекте)
 
 ## lesson 4. IoC Container
 
-16. Spring IoC Container
-17. Bean
-18. Bean Definition
-19. POJO
-20. Основные интерфейсы IoC Container
-21. 3 способа создания Bean Definitions
+16. [Spring IoC Container](#Spring-IoC-Container)
+17. [Bean](#Bean)
+18. [Bean Definition](#Bean-Definition)
+19. [POJO](POJO)
+20. [Основные интерфейсы IoC Container](#Основные-интерфейсы-IoC-Container)
+21. [3 способа создания Bean Definitions](#3-способа-создания-Bean-Definitions)
 
 # 2. XML-based Configuration
 
 ## lesson 5. XML-based Configuration
 
-22. BeanFactory и ApplicationContext интерфейсы
-23. ClassPathXmlApplicationContext
-24. XML config
-25. Идентификаторы (id) бинов как ключи в IoC Container
-26. Алиасы бинов (alias)
+22. [BeanFactory и ApplicationContext интерфейсы](#BeanFactory-и-ApplicationContext-интерфейсы)
+23. [ClassPathXmlApplicationContext](#ClassPathXmlApplicationContext)
+24. [XML config](#XML-config)
+25. [Идентификаторы (id) бинов как ключи в IoC Container](#Идентификаторы-(id)-бинов-как-ключи-в-IoC-Container)
+26. [Алиасы бинов (alias)](#Алиасы-бинов-(alias))
 
 ## lesson 6. Constructor Injection
 
@@ -107,138 +107,138 @@ Spring-starter
 
 ## lesson 12. BeanFactoryPostProcessor (BFPP)
 
-+ Интерфейс BeanFactoryPostProcessor
-+ Как работает PropertySourcesPlaceholderConfigurer
-+ Измененный Bean Lifecycle
-+ Метод isAssignableFrom
+57. Интерфейс BeanFactoryPostProcessor
+58. Как работает PropertySourcesPlaceholderConfigurer
+59. Измененный Bean Lifecycle
+60. Метод isAssignableFrom
 
 ## lesson 13. Custom BeanFactoryPostProcessor
 
-+ Создание собственных BeanFactoryPostProcessor
-+ Интерфейс Ordered
-+ Интерфейс PriorityOrdered
+61. Создание собственных BeanFactoryPostProcessor
+62. Интерфейс Ordered
+63. Интерфейс PriorityOrdered
 
 
 # 3. Annotation-based Configuration
 
 ## lesson 14. Annotation-based Configuration
 
-+ Подключение зависимости jakarta annotation api
-+ Аннотации @PostConstruct и @PreDestroy
-+ Класс CommonAnnotationBeanPostProcessor
-+ context:annotation-config xml element
+64. Подключение зависимости jakarta annotation api
+65. Аннотации @PostConstruct и @PreDestroy
+66. Класс CommonAnnotationBeanPostProcessor
+67. context:annotation-config xml element
 
 
 
 
 ## lesson 15. BeanPostProcessor (BPP)
 
-+ Интерфейс BeanPostProcessor
-+ Bean Lifecycle (final version)
-+ Интерфейс Aware
-+ Класс ApplicationContextAwareProcessor
+68. Интерфейс BeanPostProcessor
+69. Bean Lifecycle (final version)
+70. Интерфейс Aware
+71. Класс ApplicationContextAwareProcessor
 
 
 ## lesson 16. Custom BeanPostProcessor. Часть 1
 
-+ Создание своей аннотации @InjectBean
-+ Создание InjectBeanPostProcessor
-+ Утилитный класс ReflectionUtils
-+ Тестирование InjectBeanPostProcessor
+72. Создание своей аннотации @InjectBean
+73. Создание InjectBeanPostProcessor
+74. Утилитный класс ReflectionUtils
+75. Тестирование InjectBeanPostProcessor
 
 ## lesson 17. Custom BeanPostProcessor. Часть 2
-+ Создание аннотации @Transaction
-+ Создание CrudRepository
-+ Создание TransactionBeanPostProcessor
-+ Тестирование TransactionBeanPostProcessor
-+ Корректируем TransactionBeanPostProcessor
-+ Создание AuditingBeanPostProcessor
+76. Создание аннотации @Transaction
+77. Создание CrudRepository
+78. Создание TransactionBeanPostProcessor
+79. Тестирование TransactionBeanPostProcessor
+80. Корректируем TransactionBeanPostProcessor
+81. Создание AuditingBeanPostProcessor
 
 
 ## lesson 18. @Autowired & @Value
 
-+ Аннотация @Autowired
-+ Аннотация @Resource
-+ Решение конлифкта бинов. @Qualifier
-+ Collection injection
-+ Properties injection. @Value
+82. Аннотация @Autowired
+83. Аннотация @Resource
+84. Решение конлифкта бинов. @Qualifier
+85. Collection injection
+86. Properties injection. @Value
 
 
 ## lesson 19. Classpath Scanning
-+ context:component-scan. Аннотации @Component
-+ Замена бинов из xml на @Component
-+ Тестирование функционала
+87. context:component-scan. Аннотации @Component
+88. Замена бинов из xml на @Component
+89. Тестирование функционала
 
 ## lesson 20. Bean Definition Readers
 
-+ Component Scan classes
-+ Bean Definition Readers
-+ Класс ComponentScanBeanDefinitionParser
-+ Класс AnnotatedBeanDefinitionReader
+90. Component Scan classes
+91. Bean Definition Readers
+92. Класс ComponentScanBeanDefinitionParser
+93. Класс AnnotatedBeanDefinitionReader
 
 ## lesson 21. Type Filters
 
-+ Атрибут annotation-config
-+ Атрибут name-generator
-+ Атрибут resource-pattern
-+ Атрибут scoped-proxy
-+ Атрибут scope-resolver
-+ Атрибут use-default-filters
-+ 5 type filters
-+ Custom filters
+94. Атрибут annotation-config
+95. Атрибут name-generator
+96. Атрибут resource-pattern
+97. Атрибут scoped-proxy
+98. Атрибут scope-resolver
+99. Атрибут use-default-filters
+100. 5 type filters
+101. Custom filters
 
 
 ## lesson 22. @Scope
-+ Атрибут scope-resolver
-+ Класс AnnotationScopeMetadataResolver
-+ Аннотация @Scope
+102. Атрибут scope-resolver
+103. Класс AnnotationScopeMetadataResolver
+104. Аннотация @Scope
 
 
 ## lesson 23. JSR 250, JSR 330
 
-+ Аббревиатура JSR
-+ JSR 250
-+ JSR 330
-+ Класс Jsr330ScopeMetadataResolver
+105. Аббревиатура JSR
+106. JSR 250
+107. JSR 330
+108. Класс Jsr330ScopeMetadataResolver
 
 
 
 # 4. Java-based Configuration
 
 ## lesson 24. Java-based Configuration
-+ Класс ConfigurationClassBeanDefinitionReader
-+ Создание ApplicationConfiguration. @Configuration
-+ Аннотация @PropertySource
-+ Аннотация @ComponentScan
-+ Класс AnnotationConfigApplicationContext
+109. Класс ConfigurationClassBeanDefinitionReader
+110. Создание ApplicationConfiguration. @Configuration
+111. Аннотация @PropertySource
+112. Аннотация @ComponentScan
+113. Класс AnnotationConfigApplicationContext
 
 
 ## lesson 25. @Import & @ImportResource
-+ Класс AnnotationConfigApplicationContext
-+ Аннотация @ImportResource
-+ Аннотация @Import
+114. Класс AnnotationConfigApplicationContext
+115. Аннотация @ImportResource
+116. Аннотация @Import
 
 ## lesson 26. @Bean. Часть 1
 
-+ Аннотация @Bean
-+ Тестирование Java конфигурации
-+ Свойства аннотации @Bean
-+ Аннотация @Scope с @Bean
-+ Внедрение зависимостей с @Bean
-+ Конфликт имен @Bean и @Component
+117. Аннотация @Bean
+118. Тестирование Java конфигурации
+119. Свойства аннотации @Bean
+120. Аннотация @Scope с @Bean
+121. Внедрение зависимостей с @Bean
+122. Конфликт имен @Bean и @Component
 
 ## lesson 27. @Bean. Часть 2
 
-+ 3-ий вариант внедрения зависимостей в @Bean
-+ Cglib proxy в @Configuration
-+ Свойство proxyBeanMethods в @Configuration
-+ @Bean создаются через паттерн Service Locator
+123. 3-ий вариант внедрения зависимостей в @Bean
+124. Cglib proxy в @Configuration
+125. Свойство proxyBeanMethods в @Configuration
+126. @Bean создаются через паттерн Service Locator
 
 ## lesson 28. Profiles
-+ Environment Bean
-+ Аннотация @Profile
-+ Активация profiles через properties
-+ Активация profiles через ApplicationContext
+127. Environment Bean
+128. Аннотация @Profile
+129. Активация profiles через properties
+130. Активация profiles через ApplicationContext
 
 
 
@@ -248,17 +248,17 @@ Spring-starter
 
 
 ## lesson 29. Event Listeners. Часть 1
-+ Шаблон проектирования Listener
-+ Создание события (Event)
-+ Создание слушателя событий (Listener). @EventListener
-+ Реализация логики для отправки события
+131. Шаблон проектирования Listener
+132. Создание события (Event)
+133. Создание слушателя событий (Listener). @EventListener
+134. Реализация логики для отправки события
 
 ## lesson 30. Event Listeners. Часть 2
 
-+ Bean ApplicationEventPublisher
-+ Тестирование слушателей событий
-+ Listeners order
-+ Listeners conditions
+135. Bean ApplicationEventPublisher
+136. Тестирование слушателей событий
+137. Listeners order
+138. Listeners conditions
 
 
 # 6. Spring Boot
@@ -266,77 +266,77 @@ Spring-starter
 
 ## lesson 31. Spring Boot. Введение
 
-+ Spring modules
-+ Spring Data Configuration
-+ Modules Auto Configuration
-+ Conditions
-+ Spring Boot Starters
-+ Dependency Management
-+ How to build Spring Boot Application
+139. Spring modules
+140. Spring Data Configuration
+141. Modules Auto Configuration
+142. Conditions
+143. Spring Boot Starters
+144. Dependency Management
+145. How to build Spring Boot Application
 
 ## lesson 32. @Conditional
 
-+ Аннотация @Conditional
-+ Класс Condition
-+ Custom JpaCondition
-+ Тестирование JpaCondition
-+ Аннотация @Profile
-+ Другие @Condition аннотации
+146. Аннотация @Conditional
+147. Класс Condition
+148. Custom JpaCondition
+149. Тестирование JpaCondition
+150. Аннотация @Profile
+151. Другие @Condition аннотации
 
 ## lesson 33. Spring Boot. Настройка проекта
 
-+ Spring Boot Gradle Plugin
-+ Spring Dependency Management Plugin
-+ spring-boot-starter
-+ Run Spring Boot Application
-+ Autogenerated Spring Boot Project
-+ Maven spring-boot-starter-parent pom
+152. Spring Boot Gradle Plugin
+153. Spring Dependency Management Plugin
+154. spring-boot-starter
+155. Run Spring Boot Application
+156. Autogenerated Spring Boot Project
+157. Maven spring-boot-starter-parent pom
 
 ## lesson 34. @SpringBootApplication
 
-+ Структура Spring Boot приложения
-+ Что делает метод SpringApplication.run
-+ Аннотация @SpringBootApplication
-+ Аннотация @SpringBootConfiguration
-+ Аннотация @ComponentScan
-+ Аннотация @PropertySource
-+ Аннотация @EnableAutoConfiguration
+158. Структура Spring Boot приложения
+159. Что делает метод SpringApplication.run
+160. Аннотация @SpringBootApplication
+161. Аннотация @SpringBootConfiguration
+162. Аннотация @ComponentScan
+163. Аннотация @PropertySource
+164. Аннотация @EnableAutoConfiguration
 
 
 ## lesson 35. Lombok
 
-+ Подключение Lombok
-+ Gradle Lombok Plugin
-+ IntelliJ IDEA Lombok Plugin
-+ Аннотации Lombok
-+ Файл lombok.config
+165. Подключение Lombok
+166. Gradle Lombok Plugin
+167. IntelliJ IDEA Lombok Plugin
+168. Аннотации Lombok
+169. Файл lombok.config
 
 ## lesson 36. Properties
 
-+ Файл spring.properties
-+ Externalized Configuration
-+ Profile-specific properties
-+ Spring program arguments & VM options
-+ Property Placeholders & Default values
-+ spring.config.location
+170. Файл spring.properties
+171. Externalized Configuration
+172. Profile-specific properties
+173. Spring program arguments & VM options
+174. Property Placeholders & Default values
+175. spring.config.location
 
 ## lesson 37. Yaml format
 
-+ YAML - Yet Another Markup Language
-+ Класс YamlPropertiesFactoryBean
-+ Приоритет properties vs yaml
-+ Переписывание application.properties на yaml
+176. YAML - Yet Another Markup Language
+177. Класс YamlPropertiesFactoryBean
+178. Приоритет properties vs yaml
+179. Переписывание application.properties на yaml
 
 
 ## lesson 38. @ConfigurationProperties
 
-+ Класс JpaProperties
-+ Класс DatabaseProperties
-+ Аннотация @ConfigurationProperties
-+ Аннотация @ConfigurationPropertiesScan
-+ Immutable DatabaseProperties
-+ DatabaseProperties as record
-+ Property key names
+180. Класс JpaProperties
+181. Класс DatabaseProperties
+182. Аннотация @ConfigurationProperties
+183. Аннотация @ConfigurationPropertiesScan
+184. Immutable DatabaseProperties
+185. DatabaseProperties as record
+186. Property key names
 
 
 
@@ -345,67 +345,67 @@ Spring-starter
 
 ## lesson 39. Logging Starter
 
-+ Application as a Black Box
-+ Logging libraries
-+ Log Levels
-+ spring-boot-starter-logging dependency
-+ Аннотация @Slf4j
-+ Delombok annotations
-+ Формат логов по умолчанию
-+ logging.* properties
+190. Application as a Black Box
+191. Logging libraries
+192. Log Levels
+193. spring-boot-starter-logging dependency
+194. Аннотация @Slf4j
+195. Delombok annotations
+196. Формат логов по умолчанию
+197. logging.* properties
 
 ## lesson 40. Logback Configuration
 
-+ Logback default xml configs
-+ File Output
-+ Custom log configuration
+198. Logback default xml configs
+199. File Output
+200. Custom log configuration
 
 
 # 8. Test Starter
 
 ## lesson 41. Test Starter
 
-+ Подключение spring-boot-starter-test
-+ Транзитивные зависимости spring-boot-starter-test
-+ Зависимость spring-test
-+ Зависимость spring-boot-test
-+ Зависимость spring-boot-test-autoconfigure
-+ Пример написания Unit тестов
-+ Java Gradle Plugin tasks relationship
+201. Подключение spring-boot-starter-test
+202. Транзитивные зависимости spring-boot-starter-test
+203. Зависимость spring-test
+204. Зависимость spring-boot-test
+205. Зависимость spring-boot-test-autoconfigure
+206. Пример написания Unit тестов
+207. Java Gradle Plugin tasks relationship
 
 ## lesson 42. Integration Testing. Part 1
 
-+ Основные цели Spring Integration Testing
-+ Жизненный цикл тестов
-+ JUnit 5 Extension Model
-+ TestContext Framework
-+ SpringExtension source code
+208. Основные цели Spring Integration Testing
+209. Жизненный цикл тестов
+210. JUnit 5 Extension Model
+211. TestContext Framework
+212. SpringExtension source code
 
 ## lesson 43. Integration Testing. Part 2
 
-+ Создание CompanyServiceIT
-+ SpringExtension via @ExtendWith
-+ Аннотация @ContextConfiguration
-+ Аннотация @TestPropertySource
-+ Класс ApplicationContextInitializer
-+ Аннотация @SpringBootTest
-+ Написание первого интеграционного теста
-+ Класс DependencyInjectionTestExecutionListener
+213. Создание CompanyServiceIT
+214. SpringExtension via @ExtendWith
+215. Аннотация @ContextConfiguration
+216. Аннотация @TestPropertySource
+217. Класс ApplicationContextInitializer
+218. Аннотация @SpringBootTest
+219. Написание первого интеграционного теста
+220. Класс DependencyInjectionTestExecutionListener
 
 ## lesson 44. Integration Testing. Part 3
 
-+ Аннотация @ActiveProfiles
-+ Custom Test Annotations
-+ Аннотация @TestConstructor
-+ Замена @TestConstructor на spring.properties
+221. Аннотация @ActiveProfiles
+222. Custom Test Annotations
+223. Аннотация @TestConstructor
+224. Замена @TestConstructor на spring.properties
 
 ## lesson 45. Context Caching
 
-+ Создание нескольких ApplicationContext в тестах
-+ Аннотации @MockBean и @SpyBean
-+ Класс MockitoTestExecutionListener
-+ Аннотация @TestConfiguration
-+ Аннотация @DirtiesContext
+225. Создание нескольких ApplicationContext в тестах
+226. Аннотации @MockBean и @SpyBean
+227. Класс MockitoTestExecutionListener
+228. Аннотация @TestConfiguration
+229. Аннотация @DirtiesContext
 
 
 # 9. Data JPA Starter
