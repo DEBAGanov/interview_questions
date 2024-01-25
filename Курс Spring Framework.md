@@ -536,39 +536,39 @@ Spring-starter
 
 ## lesson 62. @Lock & @QueryHints
 
-310. Аннотация @Lock
-311. Демонстрация пессимистических блокировок
-312. Аннотация @QueryHints
+310. [Аннотация @Lock](#Аннотация @Lock)
+311. [Демонстрация пессимистических блокировок](#Демонстрация пессимистических блокировок)
+312. [Аннотация @QueryHints](#Аннотация @QueryHints)
 
 ## lesson 63. Projection
 
-313. Class-based Projections
-314. Generic Class-based Projections
-315. Interface-based Projections
-316. SpEL in Projections
+313. [Class-based Projections](#Class-based Projections)
+314. [Generic Class-based Projections](#Generic Class-based Projections)
+315. [Interface-based Projections](#Interface-based Projections)
+316. [SpEL in Projections](#SpEL in Projections)
 
 ## lesson 64. Custom Repository Implementation
 
-317. Запрос фильтрации через Custom Implementation
-318. Criteria API для запроса фильтрации
-319. Аннотация @EnableJpaRepository
-320. Тестирование запроса фильтрации
+317. [Запрос фильтрации через Custom Implementation](#Запрос фильтрации через Custom Implementation)
+318. [Criteria API для запроса фильтрации](#Criteria API для запроса фильтрации)
+319. [Аннотация @EnableJpaRepository](#Аннотация @EnableJpaRepository)
+320. [Тестирование запроса фильтрации](#Тестирование запроса фильтрации)
 
 ## lesson 65. JPA Auditing
-321. Создание AuditingEntity
-322. Аннотация @EnableJpaAuditing
-323. Тестирование @CreatedDate и @LastModifiedDate
-324. Аннотации @CreatedBy и @LastModifiedBy
-325. Создание AuditorAware Bean
-326. Тестирование @CreatedBy и @LastModifiedBy
+321. [Создание AuditingEntity](#Создание AuditingEntity)
+322. [Аннотация @EnableJpaAuditing](#Аннотация @EnableJpaAuditing)
+323. [Тестирование @CreatedDate и @LastModifiedDate](#Тестирование @CreatedDate и @LastModifiedDate)
+324. [Аннотации @CreatedBy и @LastModifiedBy](#Аннотации @CreatedBy и @LastModifiedBy)
+325. [Создание AuditorAware Bean](#Создание AuditorAware Bean)
+326. [Тестирование @CreatedBy и @LastModifiedBy](#Тестирование @CreatedBy и @LastModifiedBy)
 
 ## lesson 66. Hibernate Envers
-327. Подключение Hibernate Envers
-328. Создание сущности Revision
-329. Аннотация @Audited
-330. Аннотация @EnableEnversRepositories
-331. Тестирование Hibernate Envers
-332. Класс RevisionRepository
+327. [Подключение Hibernate Envers](#Подключение Hibernate Envers)
+328. [Создание сущности Revision](#Создание сущности Revision)
+329. [Аннотация @Audited](#Аннотация @Audited)
+330. [Аннотация @EnableEnversRepositories](#Аннотация @EnableEnversRepositories)
+331. [Тестирование Hibernate Envers](#Тестирование Hibernate Envers)
+332. [Класс RevisionRepository](#Класс RevisionRepository)
 
 
 ## lesson 67. Querydsl
