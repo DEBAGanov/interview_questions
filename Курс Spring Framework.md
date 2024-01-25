@@ -729,225 +729,225 @@ Spring-starter
 # 16. Thymeleaf
 
 ## lesson 86. Thymeleaf Starter. Введение
-421. View Resolvers
-422. Thymeleaf Template Engine Intro
-423. Настройка Thymeleaf в проекте
-424. Использование Thymeleaf
-425. Тестирование функционала
+421. [View Resolvers](#View Resolvers)
+422. [Thymeleaf Template Engine Intro](#Thymeleaf Template Engine Intro)
+423. [Настройка Thymeleaf в проекте](#Настройка Thymeleaf в проекте)
+424. [Использование Thymeleaf](#Использование Thymeleaf)
+425. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 87. CRUD. View Layer. Часть 1
-426. Создание users.html для метода findAll
-427. Создание user.html для метода findById
-428. Тестирование функционала
-429. Добавление кнопки для метода delete
+426. [Создание users.html для метода findAll](#Создание users.html для метода findAll)
+427. [Создание user.html для метода findById](#Создание user.html для метода findById)
+428. [Тестирование функционала](#Тестирование функционала)
+429. [Добавление кнопки для метода delete](#Добавление кнопки для метода delete)
 
 ## lesson 88. CRUD. View Layer. Часть 2
-430. Создание registration endpoint
-431. Создание registration.html
-432. Тестирование функционала registration
-433. redirect с сохранением введенных параметров
+430. [Создание registration endpoint](#Создание registration endpoint)
+431. [Создание registration.html](#Создание registration.html)
+432. [Тестирование функционала registration](#Тестирование функционала registration)
+433. [redirect с сохранением введенных параметров](#redirect с сохранением введенных параметров)
 
 ## lesson 89. Filter Query
-434. Add UserFilter - Controller & Service layers
-435. Add UserFilter - users.html
-436. Тестирование функционала
+434. [Add UserFilter - Controller & Service layers](#Add UserFilter - Controller & Service layers)
+435. [Add UserFilter - users.html](#Add UserFilter - users.html)
+436. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 90. Pagination. Best practices
-437. HTTP endpoints best practices
-438. 2 options of pagination implementation
-439. offset-based pagination
-440. PageableArgumentResolver
-441. Building PageResponse
-442. Тестирование функционала
+437. [HTTP endpoints best practices](#HTTP endpoints best practices)
+438. [2 options of pagination implementation](#2 options of pagination implementation)
+439. [offset-based pagination](#offset-based pagination)
+440. [PageableArgumentResolver](#PageableArgumentResolver)
+441. [Building PageResponse](#Building PageResponse)
+442. [Тестирование функционала](#Тестирование функционала)
 
 
 # 17. Validation Starter
 
 ## lesson 91. Validation Starter. Введение
-443. Подключение validation starter
-444. Validation annotations
-445. How to use annotations in practice
-446. @Valid & @Validated
-447. BindingResult object
-448. Show validation errors on the page
-449. Тестирование функционала
+443. [Подключение validation starter](#Подключение validation starter)
+444. [Validation annotations](#Validation annotations)
+445. [How to use annotations in practice](#How to use annotations in practice)
+446. [@Valid & @Validated](#@Valid & @Validated)
+447. [BindingResult object](#BindingResult object)
+448. [Show validation errors on the page](#Show validation errors on the page)
+449. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 92. Custom validator
-450. Main parts in JSR 303 annotations
-451. Custom annotation @UserInfo
-452. Тестирование функционала
-453. Configuration properties validation
-454. Validation groups
+450. [Main parts in JSR 303 annotations](#Main parts in JSR 303 annotations)
+451. [Custom annotation @UserInfo](#Custom annotation @UserInfo)
+452. [Тестирование функционала](#Тестирование функционала)
+453. [Configuration properties validation](#Configuration properties validation)
+454. [Validation groups](#Validation groups)
 
 ## lesson 93. @ControllerAdvice & @ExceptionHandler
-455. @ExceptionHandler annotation
-456. Тестирование функционала
-457. @ControllerAdvice annotation
-458. Класс ResponseEntityExceptionHandler
+455. [@ExceptionHandler annotation](#@ExceptionHandler annotation)
+456. [Тестирование функционала](#Тестирование функционала)
+457. [@ControllerAdvice annotation](#@ControllerAdvice annotation)
+458. [Класс ResponseEntityExceptionHandler](#Класс ResponseEntityExceptionHandler)
 
 
 # 18. REST
 
 ## lesson 94. REST. Введение
-459. Проблемы Controller API
-460. REST API
-461. REST API Usages
+459. [Проблемы Controller API](#Проблемы Controller API)
+460. [REST API](#REST API)
+461. [REST API Usages](#REST API Usages)
 
 ## lesson 95. REST. Практика
-462. @ResponseBody & findAll method
-463. findById method
-464. @RequestBody & create method
-465. update method
-466. delete method
-467. @RestController
-468. @RestControllerAdvice
+462. [@ResponseBody & findAll method](#@ResponseBody & findAll method)
+463. [findById method](#findById method)
+464. [@RequestBody & create method](#@RequestBody & create method)
+465. [update method](#update method)
+466. [delete method](#delete method)
+467. [@RestController](#@RestController)
+468. [@RestControllerAdvice](#@RestControllerAdvice)
 
 ## lesson 96. Swagger. API docs
-469. Rest clients
-470. Подключение springdoc
-471. Сгенерированная документация для Rest Controllers
-472. Swagger ui
-473. Swagger annotations
+469. [Rest clients](#Rest clients)
+470. [Подключение springdoc](#Подключение springdoc)
+471. [Сгенерированная документация для Rest Controllers](#Сгенерированная документация для Rest Controllers)
+472. [Swagger ui](#Swagger ui)
+473. [Swagger annotations](#Swagger annotations)
 
 ## lesson 97. Upload image
-474. Добавление новой колонки image в таблице users
-475. Создание ImageService
-476. upload images from html pages. MultipartFile
-477. Тестирование функционала
+474. [Добавление новой колонки image в таблице users](#Добавление новой колонки image в таблице users)
+475. [Создание ImageService](#Создание ImageService)
+476. [upload images from html pages. MultipartFile](#upload images from html pages. MultipartFile)
+477. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 98. Get image
-478. Реализация функционала на уровне service
-479. Отображение картинки на html странице
-480. Реализация функционала на уровне rest controller
-481. Тестирование функционала
-482. Отображение отсутствующей картинки
-483. Класс ResponseEntity
+478. [Реализация функционала на уровне service](#Реализация функционала на уровне service)
+479. [Отображение картинки на html странице](#Отображение картинки на html странице)
+480. [Реализация функционала на уровне rest controller](#Реализация функционала на уровне rest controller)
+481. [Тестирование функционала](#Тестирование функционала)
+482. [Отображение отсутствующей картинки](#Отображение отсутствующей картинки)
+483. [Класс ResponseEntity](#Класс ResponseEntity)
 
 # 19. Security Starter
 
 ## lesson 99. Security Starter. Введение
-484. Понятия Аутентификация и Авторизация
-485. Servlet Filters mechanism
-486. Spring Servlet Filters mechanism
-487. Подключение Spring Security Starter
+484. [Понятия Аутентификация и Авторизация](#Понятия Аутентификация и Авторизация)
+485. [Servlet Filters mechanism](#Servlet Filters mechanism)
+486. [Spring Servlet Filters mechanism](#Spring Servlet Filters mechanism)
+487. [Подключение Spring Security Starter](#Подключение Spring Security Starter)
 
 ## lesson 100. Authentication Architecture
-488. Spring Security Model
-489. Spring Security Authentication Logic
-490. Debug Security filters (default behaviour)
+488. [Spring Security Model](#работа для студентов)
+489. [Spring Security Authentication Logic](#работа для студентов)
+490. [Debug Security filters (default behaviour)](#работа для студентов)
 
 ## lesson 101. DaoAuthenticationProvider
-491. DaoAuthenticationProvider source code
-492. Add column password into users table
-493. Update entity & enum
-494. Implement UserDetailsService
-495. Тестирование функциональности
+491. [DaoAuthenticationProvider source code](#DaoAuthenticationProvider source code)
+492. [Add column password into users table](#Add column password into users table)
+493. [Update entity & enum](#Update entity & enum)
+494. [Implement UserDetailsService](#Implement UserDetailsService)
+495. [Тестирование функциональности](#Тестирование функциональности)
 
 ## lesson 102. Form Login
-496. Default login page source code
-497. Custom login page
-498. Customise SecurityFilterChain
-499. Тестирование функицонала
-500. Class UsernamePasswordAuthenticationFilter
+496. [Default login page source code](#Default login page source code)
+497. [Custom login page](#Custom login page)
+498. [Customise SecurityFilterChain](#Customise SecurityFilterChain)
+499. [Тестирование функицонала](#Тестирование функицонала)
+500. [Class UsernamePasswordAuthenticationFilter](#Class UsernamePasswordAuthenticationFilter)
 
 ## lesson 103. HTTP Basic Authentication
 
-501. HTTP Basic Authentication principle
-502. HTTP Basic encoder & decoder
-503. Customise SecurityFilterChain to support HTTP Basic
-504. BasicAuthenticationFilter source code
+501. [HTTP Basic Authentication principle](#HTTP Basic Authentication principle)
+502. [HTTP Basic encoder & decoder](#HTTP Basic encoder & decoder)
+503. [Customise SecurityFilterChain to support HTTP Basic](#Customise SecurityFilterChain to support HTTP Basic)
+504. [BasicAuthenticationFilter source code](#BasicAuthenticationFilter source code)
 
 ## lesson 104. PasswordEncoder
-505. Зачем шифровать пароли
-506. List of password encoders
-507. Implement password encode/decode in the app
-508. Тестирование функционала
+505. [Зачем шифровать пароли](#Зачем шифровать пароли)
+506. [List of password encoders](#List of password encoders)
+507. [Implement password encode/decode in the app](#Implement password encode/decode in the app)
+508. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 105. Logout
 
-509. LogoutFilter source code
-510. Customise logout in SecurityFilterChain
-511. Add button Logout on pages
-512. Тестирование функционала
+509. [LogoutFilter source code](#LogoutFilter source code)
+510. [Customise logout in SecurityFilterChain](#Customise logout in SecurityFilterChain)
+511. [Add button Logout on pages](#Add button Logout on pages)
+512. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 106. Authorization Architecture
-513. AuthorizationFilter source code and logic
-514. AuthorizationFilter implementations
-515. Customise authorizeHttpRequests in SecurityFilterChain
-516. Тестирование функционала
+513. [AuthorizationFilter source code and logic](#LogoutFilter source code)
+514. [AuthorizationFilter implementations](#Customise logout in SecurityFilterChain)
+515. [Customise authorizeHttpRequests in SecurityFilterChain](#Add button Logout on pages)
+516. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 107. Method Security
 
-517. @PreAuthorize annotation
-518. @PostAuthorize annotation
-519. @EnableMethodSecurity annotation
-520. @Secured annotation
-521. Service layer authentication
-522. @PreFilter & @PostFilter annotations
+517. [@PreAuthorize annotation](#@PreAuthorize annotation)
+518. [@PostAuthorize annotation](#@PostAuthorize annotation)
+519. [@EnableMethodSecurity annotation](#@EnableMethodSecurity annotation)
+520. [@Secured annotation](#@Secured annotation)
+521. [Service layer authentication](#Service layer authentication)
+522. [@PreFilter & @PostFilter annotations](#@PreFilter & @PostFilter annotations)
 
 
 ## lesson 108. Access to authenticated user
 
-523. Get current user via SecurityContextHolder
-524. @CurrentSecutiryContext annotation
-525. @AuthenticationPrincipal annotation
-526. Thymeleaf and Spring Security integration
+523. [Get current user via SecurityContextHolder](#Get current user via SecurityContextHolder)
+524. [@CurrentSecutiryContext annotation](#@CurrentSecutiryContext annotation)
+525. [@AuthenticationPrincipal annotation](#@AuthenticationPrincipal annotation)
+526. [Thymeleaf and Spring Security integration](#Thymeleaf and Spring Security integration)
 
 ## lesson 109. CSRF Filter
-527. Cross-Site Request Forgery
-528. How to solve CSRF problem
-529. Synchronizer Token Pattern
-530. When to use CSRF protection
-531. CsrfFilter source code
-532. How to work with CSRF token
-533. Class CsrfRequestDataValueProcessor
-534. Тестирование функционала
+527. [Cross-Site Request Forgery](#Cross-Site Request Forgery)
+528. [How to solve CSRF problem](#How to solve CSRF problem)
+529. [Synchronizer Token Pattern](#Synchronizer Token Pattern)
+530. [When to use CSRF protection](#When to use CSRF protection)
+531. [CsrfFilter source code](#CsrfFilter source code)
+532. [How to work with CSRF token](#How to work with CSRF token)
+533. [Class CsrfRequestDataValueProcessor](#Class CsrfRequestDataValueProcessor)
+534. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 110. Security Testing
 
-536. Исправление существующих тестов
-537. spring-security-test dependency
-538. 1. Manually define a user in tests
-539. 2. @WithMockUser annotation
-540. 3. SecurityMockMvcRequestPostProcessor
+536. [Исправление существующих тестов](#Исправление существующих тестов)
+537. [spring-security-test dependency](#spring-security-test dependency)
+538. [1. Manually define a user in tests](#1. Manually define a user in tests)
+539. [2. @WithMockUser annotation](#2. @WithMockUser annotation)
+540. [3. SecurityMockMvcRequestPostProcessor](#3. SecurityMockMvcRequestPostProcessor)
 
 ## lesson 111. OAuth 2.0. Теория
 
-541. Текущий Authentication функционал в приложении
-542. Что такое OAuth 2
-543. Как внедрить OAuth 2 в приложении
-544. OAuth 2 flow types
-545. OAuth 2 Authorization Code Flow
-546. OAuth 2 Implicit Flow
-547. OpenID Connect (OIDC)
+541. [Текущий Authentication функционал в приложении](#Текущий Authentication функционал в приложении)
+542. [Что такое OAuth 2](#Что такое OAuth 2)
+543. [Как внедрить OAuth 2 в приложении](#Как внедрить OAuth 2 в приложении)
+544. [OAuth 2 flow types](#OAuth 2 flow types)
+545. [OAuth 2 Authorization Code Flow](#OAuth 2 Authorization Code Flow)
+546. [OAuth 2 Implicit Flow](#OAuth 2 Implicit Flow)
+547. [OpenID Connect (OIDC)](#OpenID Connect (OIDC))
 
 ## lesson 112. OAuth 2.0. Практика
 
-548. Create a new project in GCP
-549. Configure OAuth 2 in the project
-550. Configure Login Page
-551. Тестирование функционала
+548. [Create a new project in GCP](#Create a new project in GCP)
+549. [Configure OAuth 2 in the project](#Configure OAuth 2 in the project)
+550. [Configure Login Page](#Configure Login Page)
+551. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 113. OAuth 2.0. Authentication Principle
 
-552. Add UserInfoEndpoint config in SecurityFilterChain
-553. Create oidcUserService
-554. Тестирование функционала
+552. [Add UserInfoEndpoint config in SecurityFilterChain](#Add UserInfoEndpoint config in SecurityFilterChain)
+553. [Create oidcUserService](#Create oidcUserService)
+554. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 114. JWT. JSON Web Token
 
 
-555. How to extract info from JWT
-556. JWT header
-557. JWT payload
-558. JWT signature
-559. Code Book
+555. [How to extract info from JWT](#How to extract info from JWT)
+556. [JWT header](#JWT header)
+557. [JWT payload](#JWT payload)
+558. [JWT signature](#JWT signature)
+559. [Code Book](#Code Book)
 
 ## lesson 115. Swagger Authorization
-560. 3 options to pass authorization in Swagger
-561. springdoc properties to support OAuth 2
-562. @SecurityScheme configuration
-563. Тестирование функционала
+560. [3 options to pass authorization in Swagger](#3 options to pass authorization in Swagger)
+561. [springdoc properties to support OAuth 2](#springdoc properties to support OAuth 2)
+562. [@SecurityScheme configuration](#@SecurityScheme configuration)
+563. [Тестирование функционала](#Тестирование функционала)
 
 
 
@@ -956,93 +956,93 @@ Spring-starter
 
 ## lesson 116. i18n. MessageSource
 
-564. spring.messages properties
-565. IntelliJ IDEA UTF-8 settings
-566. Creating MessageRestController
-567. Тестирование функционала
+564. [spring.messages properties](#spring.messages properties)
+565. [IntelliJ IDEA UTF-8 settings](#IntelliJ IDEA UTF-8 settings)
+566. [Creating MessageRestController](#Creating MessageRestController)
+567. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 117. i18n. Thymeleaf
 
-568. Login page i18n
-569. How to change the language
-570. LocalChangeInterceptor bean
-571. LocaleResolver bean
-572. Тестирование функционала
+568. [Login page i18n](#Login page i18n)
+569. [How to change the language](#How to change the language)
+570. [LocalChangeInterceptor bean](#LocalChangeInterceptor bean)
+571. [LocaleResolver bean](#LocaleResolver bean)
+572. [Тестирование функционала](#Тестирование функционала)
 
 # 21. AOP Starter
 
 ## lesson 118. AOP Starter. Введение
-573. Усложнение кода второстепенной логикой
-574. Crosscutting concerns
-575. AOP terminology
-576. AOP approaches
+573. [Усложнение кода второстепенной логикой](#Усложнение кода второстепенной логикой)
+574. [Crosscutting concerns](#Crosscutting concerns)
+575. [AOP terminology](#AOP terminology)
+576. [AOP approaches](#AOP approaches)
 
 ## lesson 119. AOP. Pointcut
 
-577. spring-boot-starter-aop dependency
-578. AspectJ annotations
-579. @Pointcut
-580. @within
-581. within
-582. this & target
-583. @annotation
-584. args
-585. @args
-586. bean
-587. execution
+577. [spring-boot-starter-aop dependency](#spring-boot-starter-aop dependency)
+578. [AspectJ annotations](#AspectJ annotations)
+579. [@Pointcut](#@Pointcut)
+580. [@within](#@within)
+581. [within](#within)
+582. [this & target](#this & target)
+583. [@annotation](#@annotation)
+584. [args](#args)
+585. [@args](#@args)
+586. [bean](#bean)
+587. [execution](#execution)
 
 ## lesson 120. AOP. @Before Advice
-588. @Before annotation
-589. Тестирование функционала
-590. CglibAopProxy
-591. Proxy interceptors
-592. Spring AOP diagram
-593. AopAutoConfiguration
+588. [@Before annotation](#@Before annotation)
+589. [Тестирование функционала](#Тестирование функционала)
+590. [CglibAopProxy](#CglibAopProxy)
+591. [Proxy interceptors](#Proxy interceptors)
+592. [Spring AOP diagram](#Spring AOP diagram)
+593. [AopAutoConfiguration](#AopAutoConfiguration)
 
 ## lesson 121. AOP. JoinPoint. Params
 
-594. JoinPoint object
-595. Get access to proxy data from advice method params
-596. Тестирование функционала
-597. argNames
+594. [JoinPoint object](#JoinPoint object)
+595. [Get access to proxy data from advice method params](#Get access to proxy data from advice method params)
+596. [Тестирование функционала](#Тестирование функционала)
+597. [argNames](#argNames)
 
 ## lesson 122. AOP. @After Advices
-598. All types of advice
-599. @AfterReturning annotation
-600. @AfterThrowing annotation
-601. @After annotation
-602. Тестирование функционала
+598. [All types of advice](#All types of advice)
+599. [@AfterReturning annotation](#@AfterReturning annotation)
+600. [@AfterThrowing annotation](#@AfterThrowing annotation)
+601. [@After annotation](#@After annotation)
+602. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 123. AOP. @Around Advice
-603. TransactionInterceptor
-604. @Around annotation
-605. Тестирование функционала
+603. [TransactionInterceptor](#TransactionInterceptor)
+604. [@Around annotation](#@Around annotation)
+605. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 124. AOP. Best Practices
-606. 1. Combine different Pointcut types
-607. 607. Move common Pointcuts to separate Aspect
-608. 3. Don t use @Around advice everywhere
-609. 4. Separate Pointcuts by business logic
-610. Aspects order
+606. [1. Combine different Pointcut types](#1. Combine different Pointcut types)
+607. [2. Move common Pointcuts to separate Aspect](#2. Move common Pointcuts to separate Aspect)
+608. [3. Don t use @Around advice everywhere](#3. Don t use @Around advice everywhere)
+609. [4. Separate Pointcuts by business logic](#4. Separate Pointcuts by business logic)
+610. [Aspects order](#Aspects order)
 
 
 # 22. Заключение
 
 ## lesson 125. Custom Spring Boot Starter
-611. Create a new Gradle module
-612. Define starter properties
-613. Create Autoconfiguration
-614. File META-INF/spring.factories
-615. Move Aspects from the old to the new module
-616. How to use newly created starter
-617. spring-boot-configuration-processor
-618. Тестирование функционала
+611. [Create a new Gradle module](#Create a new Gradle module)
+612. [Define starter properties](#Define starter properties)
+613. [Create Autoconfiguration](#Create Autoconfiguration)
+614. [File META-INF/spring.factories](#File META-INF/spring.factories)
+615. [Move Aspects from the old to the new module](#Move Aspects from the old to the new module)
+616. [How to use newly created starter](#How to use newly created starter)
+617. [spring-boot-configuration-processor](#spring-boot-configuration-processor)
+618. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 126. Заключение. Путь развития
 
-619. Spring Framework Documentation
-620. List of all main Spring Boot Starters
-621. Java Road Map
+619. [Spring Framework Documentation](#Spring Framework Documentation)
+620. [List of all main Spring Boot Starters](#List of all main Spring Boot Starters)
+621. [Java Road Map](#Java Road Map)
 
 
 
