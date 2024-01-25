@@ -464,75 +464,75 @@ Spring-starter
 
 
 ## lesson 52. Manual Transactions
-267. Свойства объекта TransactionTemplate
-268. Функционал TransactionTemplate
-269. Обработка checked exceptions
-270. Взаимодействие TransactionTemplate с другими Proxy
-271. Вынесение @Transactional в @IT
+267. [Свойства объекта TransactionTemplate](#Свойства объекта TransactionTemplate)
+268. [Функционал TransactionTemplate](#Функционал TransactionTemplate)
+269. [Обработка checked exceptions](#Обработка checked exceptions)
+270. [Взаимодействие TransactionTemplate с другими Proxy](#Взаимодействие TransactionTemplate с другими Proxy)
+271. [Вынесение @Transactional в @IT](#Вынесение @Transactional в @IT)
 
 
 # 11. Data JPA Repositories
 
 ## lesson 53. Repository
-272. Интерфейс Repository
-273. Написание теста на удаление Company
-274. Класс JpaRepositoryAutoConfiguration
+272. [Интерфейс Repository](#Интерфейс Repository)
+273. [Написание теста на удаление Company](#Написание теста на удаление Company)
+274. [Класс JpaRepositoryAutoConfiguration](#Класс JpaRepositoryAutoConfiguration)
 
 ## lesson 54. RepositoryQuery
-275. Создание Proxy на классы Repository
-276. Класс QueryExecutorMethodInterceptor
-277. Класс RepositoryQuery
-278. Наследники Repository
+275. [Создание Proxy на классы Repository](#Создание Proxy на классы Repository)
+276. [Класс QueryExecutorMethodInterceptor](#Класс QueryExecutorMethodInterceptor)
+277. [Класс RepositoryQuery](#Класс RepositoryQuery)
+278. [Наследники Repository](#Наследники Repository)
 
 ## lesson 55. PartTreeJpaQuery
-279. Класс PartTreeJpaQuery
-280. Примеры написания запросов
-281. Тестирование запросов
-282. Весь список ключевых слов PartTreeJpaQuery
+279. [Класс PartTreeJpaQuery](#Класс PartTreeJpaQuery)
+280. [Примеры написания запросов](#Примеры написания запросов)
+281. [Тестирование запросов](#Тестирование запросов)
+282. [Весь список ключевых слов PartTreeJpaQuery](#Весь список ключевых слов PartTreeJpaQuery)
 
 
 ## lesson 56. NamedQuery
 
-283. Недостатки PartTreeJpaQuery
-284. Класс NamedQuery
-285. Аннотация @NamedQuery
-286. Тестирование NamedQuery
-287. Аннотация @Param
+283. [Недостатки PartTreeJpaQuery](#Недостатки PartTreeJpaQuery)
+284. [Класс NamedQuery](#Класс NamedQuery)
+285. [Аннотация @NamedQuery](#Аннотация @NamedQuery)
+286. [Тестирование NamedQuery](#Тестирование NamedQuery)
+287. [Аннотация @Param](#Аннотация @Param)
 
 ## lesson 57. @Query
-288. StoredProcedureJpaQuery
-289. Аннотация @Query
-290. Демонстрация работы @Query
-291. Усовершенствованный оператор LIKE
-292. Native Query
+288. [StoredProcedureJpaQuery](#StoredProcedureJpaQuery)
+289. [Аннотация @Query](#Аннотация @Query)
+290. [Демонстрация работы @Query](#Демонстрация работы @Query)
+291. [Усовершенствованный оператор LIKE](#Усовершенствованный оператор LIKE)
+292. [Native Query](#Native Query)
 
 ## lesson 58. @Modifying
 
-293. Запрос на обновление через @Query
-294. Аннотация @Modifying
-295. Hibernate PersistenceContext
-296. Свойства clearAutomatically и flushAutomatically
-297. clearAutomatically и LazyInitializationException
+293. [Запрос на обновление через @Query](#Запрос на обновление через @Query)
+294. [Аннотация @Modifying](#Аннотация @Modifying)
+295. [Hibernate PersistenceContext](#Hibernate PersistenceContext)
+296. [Свойства clearAutomatically и flushAutomatically](#Свойства clearAutomatically и flushAutomatically)
+297. [clearAutomatically и LazyInitializationException](#clearAutomatically и LazyInitializationException)
 
 ## lesson 59. Special parameters
 
-298. Top & First
-299. TopN & FirstN
-300. Класс Sort
-301. Класс Pageable
+298. [Top & First](#Top & First)
+299. [TopN & FirstN](#TopN & FirstN)
+300. [Класс Sort](#Класс Sort)
+301. [Класс Pageable](#Класс Pageable)
 
 ## lesson 60. Page & Slice
-302. Spring классы Streamable, Slice, Page
-303. Демонстрация работы Slice объекта
-304. Почему Slice объекта недостаточно
-305. Демонстрация работы Page объекта
+302. [Spring классы Streamable, Slice, Page](#Spring классы Streamable, Slice, Page)
+303. [Демонстрация работы Slice объекта](#Демонстрация работы Slice объекта)
+304. [Почему Slice объекта недостаточно](#Почему Slice объекта недостаточно)
+305. [Демонстрация работы Page объекта](#Демонстрация работы Page объекта)
 
 ## lesson 61. @EntityGraph
 
-306. Аннотация @EntityGraph
-307. Именованные графы @NamedEntityGraph
-308. Свойство attributePaths в @EntityGraph
-309. Конфликт Pageable при получении EAGER связей
+306. [Аннотация @EntityGraph](#Аннотация @EntityGraph)
+307. [Именованные графы @NamedEntityGraph](#Именованные графы @NamedEntityGraph)
+308. [Свойство attributePaths в @EntityGraph](#Свойство attributePaths в @EntityGraph)
+309. [Конфликт Pageable при получении EAGER связей](#Конфликт Pageable при получении EAGER связей)
 
 ## lesson 62. @Lock & @QueryHints
 
