@@ -641,89 +641,89 @@ Spring-starter
 # 15. Web Starter
 
 ## lesson 74. Web Starter. Введение
-369. MVC и классические web-приложения
-370. web-приложение на Spring Boot
-371. Embedded Tomcat
-372. Настройка spring-web приложения
-373. Класс WebMvcAutoConfiguration
+369. [MVC и классические web-приложения](#MVC и классические web-приложения)
+370. [web-приложение на Spring Boot](#web-приложение на Spring Boot)
+371. [Embedded Tomcat](#Embedded Tomcat)
+372. [Настройка spring-web приложения](#Настройка spring-web приложения)
+373. [Класс WebMvcAutoConfiguration](#Класс WebMvcAutoConfiguration)
 
 
 ## lesson 75. Dispatcher Servlet
-374. Жизненный цикл сервлетов
-375. Псевдокод метода service в DispatcherServlet
-376. Исходный код класса DispatcherServlet
+374. [Жизненный цикл сервлетов](#Жизненный цикл сервлетов)
+375. [Псевдокод метода service в DispatcherServlet](#Псевдокод метода service в DispatcherServlet)
+376. [Исходный код класса DispatcherServlet](#Исходный код класса DispatcherServlet)
 
 
 ## lesson 76. @Controller
-377. Подключение зависимостей и настройка view resolver
-378. Создание контроллера. @Controller
+377. [Подключение зависимостей и настройка view resolver](#Подключение зависимостей и настройка view resolver)
+378. [Создание контроллера. @Controller](#Создание контроллера. @Controller)
 
 
 ## lesson 77. @RequestMapping
-379. Основные составляющие HTTP запроса и HTTP ответа
-380. Основные составляющие URL
-381. Аннотации @RequestMapping
+379. [Основные составляющие HTTP запроса и HTTP ответа](#Основные составляющие HTTP запроса и HTTP ответа)
+380. [Основные составляющие URL](#Основные составляющие URL)
+381. [Аннотации @RequestMapping](#Аннотации @RequestMapping)
 
 
 ## lesson 78. Parameters, Headers, Cookies
-382. Parameters. @RequestParam annotation
-383. Headers. @RequestHeader annotation
-384. Cookies. @CookieValue annotation
-385. Method params naming
-386. DispatcherServlet sources
-387. @PathVariable annotation
+382. [Parameters. @RequestParam annotation](#Parameters. @RequestParam annotation)
+383. [Headers. @RequestHeader annotation](#Headers. @RequestHeader annotation)
+384. [Cookies. @CookieValue annotation](#Cookies. @CookieValue annotation)
+385. [Method params naming](#Method params naming)
+386. [DispatcherServlet sources](#DispatcherServlet sources)
+387. [@PathVariable annotation](#@PathVariable annotation)
 
 
 ## lesson 79. Model
-388. Attributes
-389. Добавление Request атрибутов в Model
-390. Добавление Session атрибутов в Model
-391. DispatcherServlet sources
+388. [Attributes](#Attributes)
+389. [Добавление Request атрибутов в Model](#Добавление Request атрибутов в Model)
+390. [Добавление Session атрибутов в Model](#Добавление Session атрибутов в Model)
+391. [DispatcherServlet sources](#DispatcherServlet sources)
 
 
 ## lesson 80. @ModelAttribute
-392. Упрощение работы с объектом ModelAndView
-393. Динамическое создание атрибутов
-394. Аннотация @ModelAttribute
-395. HTML Form. LoginController
+392. [Упрощение работы с объектом ModelAndView](#Упрощение работы с объектом ModelAndView)
+393. [Динамическое создание атрибутов](#Динамическое создание атрибутов)
+394. [Аннотация @ModelAttribute](#Аннотация @ModelAttribute)
+395. [HTML Form. LoginController](#HTML Form. LoginController)
 
 
 ## lesson 81. Forward, Include, Redirect
-396. 3 вида перенаправления запросов
-397. forward in Spring
-398. redirect in Spring
+396. [3 вида перенаправления запросов](#3 вида перенаправления запросов)
+397. [forward in Spring](#forward in Spring)
+398. [redirect in Spring](#redirect in Spring)
 
 ## lesson 82. CRUD. API Design
-399. API design best practices
-400. CRUD. Method findAll
-401. CRUD. Method findById
-402. CRUD. Method create
-403. CRUD. Method update
-404. CRUD. Method delete
+399. [API design best practices](#API design best practices)
+400. [CRUD. Method findAll](#CRUD. Method findAll)
+401. [CRUD. Method findById](#CRUD. Method findById)
+402. [CRUD. Method create](#CRUD. Method create)
+403. [CRUD. Method update](#CRUD. Method update)
+404. [CRUD. Method delete](#CRUD. Method delete)
 
 
 ## lesson 83. CRUD. Service Layer
-405. UserService. Method findAll
-406. UserService. Method findById
-407. UserService. Method create
-408. @Transactional annotation
-409. UserService. Method update
-410. UserService. Method delete
-411. Test UserService functionality
-412. Tips. Method delete
+405. [UserService. Method findAll](#UserService. Method findAll)
+406. [UserService. Method findById](#UserService. Method findById)
+407. [UserService. Method create](#UserService. Method create)
+408. [@Transactional annotation](#@Transactional annotation)
+409. [UserService. Method update](#UserService. Method update)
+410. [UserService. Method delete](#UserService. Method delete)
+411. [Test UserService functionality](#Test UserService functionality)
+412. [Tips. Method delete](#Tips. Method delete)
 
 ## lesson 84. Spring MVC Testing
 
-413. Аннотация @AutoConfigureMockMvc
-414. Test findAll method
-415. Transactions. spring.jpa.open-in-view property
-416. Test create method
-417. Problem with sending dates in params
+413. [Аннотация @AutoConfigureMockMvc](#Аннотация @AutoConfigureMockMvc)
+414. [Test findAll method](#Test findAll method)
+415. [Transactions. spring.jpa.open-in-view property](#Transactions. spring.jpa.open-in-view property)
+416. [Test create method](#Test create method)
+417. [Problem with sending dates in params](#Problem with sending dates in params)
 
 ## lesson 85. Type Converters
-418. spring.mvc.format properties
-419. Аннотация @DateTimeFormat
-420. Интерфейс WebMvcConfigurer
+418. [spring.mvc.format properties](#spring.mvc.format properties)
+419. [Аннотация @DateTimeFormat](#Аннотация @DateTimeFormat)
+420. [Интерфейс WebMvcConfigurer](#Интерфейс WebMvcConfigurer)
 
 
 # 16. Thymeleaf
