@@ -30,7 +30,7 @@ Spring-starter
   10. [Создание нового проекта](#Создание-нового-проекта)
 
 
-## lesson 3. Inversion of Control. Dependency Injection
+## [lesson 3. Inversion of Control. Dependency Injection](#lesson 3. Inversion of Control. Dependency Injection)
 
 11. [Object Dependencies](#Object-Dependencies)
 12. [Object Dependencies в коде](#Object-Dependencies-в-коде)
@@ -38,7 +38,7 @@ Spring-starter
 14. [Inversion of Control & Dependency Injection в коде](#Inversion-of-Control-&-Dependency-Injection-в-коде)
 15. [3 способа внедрения зависимостей в объекте](#3-способа-внедрения-зависимостей-в-объекте)
 
-## lesson 4. IoC Container
+## [lesson 4. IoC Container](#lesson 4. IoC Container)
 
 16. [Spring IoC Container](#Spring-IoC-Container)
 17. [Bean](#Bean)
@@ -59,188 +59,186 @@ Spring-starter
 
 ## lesson 6. Constructor Injection
 
-27. Внедрение примитивных типов данных
-28. Внедрение коллекций list/set
-29. Внедрение ассоциативного массива map
-30. Поле genericArgumentValues в BeanDefinition
-31. Поле indexedArgumentValues в BeanDefinition
-32. Указание атрибута type в параметрах конструктора
-33. Указание атрибута name в параметрах конструктора
+27. [Внедрение примитивных типов данных](#Внедрение примитивных типов данных)
+28. [Внедрение коллекций list/set](#Внедрение коллекций list/set)
+29. [Внедрение ассоциативного массива map](#Внедрение ассоциативного массива map)
+30. [Поле genericArgumentValues в BeanDefinition](#Поле genericArgumentValues в BeanDefinition)
+31. [Поле indexedArgumentValues в BeanDefinition](#Поле indexedArgumentValues в BeanDefinition)
+32. [Указание атрибута type в параметрах конструктора](#Указание атрибута type в параметрах конструктора)
+33. [Указание атрибута name в параметрах конструктора](#Указание атрибута name в параметрах конструктора)
 
 ## lesson 7. Factory Method Injection
 
-34. Внедрение других бинов через ref*
-35. Создание новое бина CompanyRepository
-36. Внедрение зависимостей через factory method
-37. Атрибут factory-bean (паттерн ServiceLocator)
+34. [Внедрение других бинов через ref*](#Внедрение других бинов через ref*)
+35. [Создание новое бина CompanyRepository](#Создание новое бина CompanyRepository)
+36. [Внедрение зависимостей через factory method](#Внедрение зависимостей через factory method)
+37. [Атрибут factory-bean (паттерн ServiceLocator)](#Атрибут factory-bean (паттерн ServiceLocator))
 
 ## lesson 8. Property Injection
 
-38. Использование set* методов в ConnectionPool
-39. Поле propertyValues в BeanDefinition
-40. Упрощенный жизненный цикл бинов - Bean Lifecycle
-41. Плюсы и минусы Constructor и Property Injections
-42. Циклические зависимости через Property Injection
+38. [Использование set* методов в ConnectionPool](#Использование set* методов в ConnectionPool)
+39. [Поле propertyValues в BeanDefinition](#Поле propertyValues в BeanDefinition)
+40. [Упрощенный жизненный цикл бинов - Bean Lifecycle](#Упрощенный жизненный цикл бинов - Bean Lifecycle)
+41. [Плюсы и минусы Constructor и Property Injections](#Плюсы и минусы Constructor и Property Injections)
+42. [Циклические зависимости через Property Injection](#Циклические зависимости через Property Injection)
 
 ## lesson 9. Bean Scopes
 
-43. Common Bean Scopes
-44. Custom Bean Scopes
-45. Web Bean Scopes
-46. Prototype Bean Scope
+43. [Common Bean Scopes](#Common Bean Scopes)
+44. [Custom Bean Scopes](#Custom Bean Scopes)
+45. [Web Bean Scopes](#Web Bean Scopes)
+46. [Prototype Bean Scope](#Prototype Bean Scope)
 
 ## lesson 10. Lifecycle Callbacks
 
-47. Измененный Bean Lifecycle
-48. Initialization callbacks
-49. Destruction callbacks
+47. [Измененный Bean Lifecycle](#Измененный Bean Lifecycle)
+48. [Initialization callbacks](#Initialization callbacks)
+49. [Destruction callbacks](#Destruction callbacks)
 
 ## lesson 11. Injection from Properties Files
 
-50. Зачем использовать properties files
-51. Создание файла application.properties
-52. PropertySourcesPlaceholderConfigurer bean
-53. Expression Language (EL)
-54. Spring Expression Language (SpEL)
-55. SpEL документация
-56. System properties
+50. [Зачем использовать properties files](#Зачем использовать properties files)
+51. [Создание файла application.properties](#Создание файла application.properties)
+52. [PropertySourcesPlaceholderConfigurer bean](#PropertySourcesPlaceholderConfigurer bean)
+53. [Expression Language (EL)](#Expression Language (EL))
+54. [Spring Expression Language (SpEL)](#Spring Expression Language (SpEL))
+55. [SpEL документация](#SpEL документация)
+56. [System properties](#System properties)
 
 ## lesson 12. BeanFactoryPostProcessor (BFPP)
 
-57. Интерфейс BeanFactoryPostProcessor
-58. Как работает PropertySourcesPlaceholderConfigurer
-59. Измененный Bean Lifecycle
-60. Метод isAssignableFrom
+57. [Интерфейс BeanFactoryPostProcessor](#Интерфейс BeanFactoryPostProcessor)
+58. [Как работает PropertySourcesPlaceholderConfigurer](#Как работает PropertySourcesPlaceholderConfigurer)
+59. [Измененный Bean Lifecycle](#Измененный Bean Lifecycle)
+60. [Метод isAssignableFrom](#Метод isAssignableFrom)
 
 ## lesson 13. Custom BeanFactoryPostProcessor
 
-61. Создание собственных BeanFactoryPostProcessor
-62. Интерфейс Ordered
-63. Интерфейс PriorityOrdered
+61. [Создание собственных BeanFactoryPostProcessor](#Создание собственных BeanFactoryPostProcessor)
+62. [Интерфейс Ordered](#Интерфейс Ordered)
+63. [Интерфейс PriorityOrdered](#Интерфейс PriorityOrdered)
 
 
 # 3. Annotation-based Configuration
 
 ## lesson 14. Annotation-based Configuration
 
-64. Подключение зависимости jakarta annotation api
-65. Аннотации @PostConstruct и @PreDestroy
-66. Класс CommonAnnotationBeanPostProcessor
-67. context:annotation-config xml element
+64. [Подключение зависимости jakarta annotation api](#Подключение зависимости jakarta annotation api)
+65. [Аннотации @PostConstruct и @PreDestroy](#Аннотации @PostConstruct и @PreDestroy)
+66. [Класс CommonAnnotationBeanPostProcessor](#Класс CommonAnnotationBeanPostProcessor)
+67. [context:annotation-config xml element](#context:annotation-config xml element)
 
 
 
 
 ## lesson 15. BeanPostProcessor (BPP)
 
-68. Интерфейс BeanPostProcessor
-69. Bean Lifecycle (final version)
-70. Интерфейс Aware
-71. Класс ApplicationContextAwareProcessor
+68. [Интерфейс BeanPostProcessor](#Интерфейс BeanPostProcessor)
+69. [Bean Lifecycle (final version)](#Bean Lifecycle (final version))
+70. [Интерфейс Aware](#Интерфейс Aware)
+71. [Класс ApplicationContextAwareProcessor](#Класс ApplicationContextAwareProcessor)
 
 
 ## lesson 16. Custom BeanPostProcessor. Часть 1
 
-72. Создание своей аннотации @InjectBean
-73. Создание InjectBeanPostProcessor
-74. Утилитный класс ReflectionUtils
-75. Тестирование InjectBeanPostProcessor
+72. [Создание своей аннотации @InjectBean](#Создание своей аннотации @InjectBean)
+73. [Создание InjectBeanPostProcessor](#Создание InjectBeanPostProcessor)
+74. [Утилитный класс ReflectionUtils](#Утилитный класс ReflectionUtils)
+75. [Тестирование InjectBeanPostProcessor](#Тестирование InjectBeanPostProcessor)
 
 ## lesson 17. Custom BeanPostProcessor. Часть 2
-76. Создание аннотации @Transaction
-77. Создание CrudRepository
-78. Создание TransactionBeanPostProcessor
-79. Тестирование TransactionBeanPostProcessor
-80. Корректируем TransactionBeanPostProcessor
-81. Создание AuditingBeanPostProcessor
+76. [Создание аннотации @Transaction](#Создание аннотации @Transaction)
+77. [Создание CrudRepository](#Создание CrudRepository)
+78. [Создание TransactionBeanPostProcessor](#Создание TransactionBeanPostProcessor)
+79. [Тестирование TransactionBeanPostProcessor](#Тестирование TransactionBeanPostProcessor)
+80. [Корректируем TransactionBeanPostProcessor](#Корректируем TransactionBeanPostProcessor)
+81. [Создание AuditingBeanPostProcessor](#Создание AuditingBeanPostProcessor)
 
 
 ## lesson 18. @Autowired & @Value
 
-82. Аннотация @Autowired
-83. Аннотация @Resource
-84. Решение конлифкта бинов. @Qualifier
-85. Collection injection
-86. Properties injection. @Value
+82. [Аннотация @Autowired](#Аннотация @Autowired)
+83. [Аннотация @Resource](#Аннотация @Resource)
+84. [Решение конлифкта бинов. @Qualifier](#Решение конлифкта бинов. @Qualifier)
+85. [Collection injection](#Collection injection)
+86. [Properties injection. @Value](#Properties injection. @Value)
 
 
 ## lesson 19. Classpath Scanning
-87. context:component-scan. Аннотации @Component
-88. Замена бинов из xml на @Component
-89. Тестирование функционала
+87. [context:component-scan. Аннотации @Component](#context:component-scan. Аннотации @Component)
+88. [Замена бинов из xml на @Component](#Замена бинов из xml на @Component)
+89. [Тестирование функционала](#Тестирование функционала)
 
 ## lesson 20. Bean Definition Readers
 
-90. Component Scan classes
-91. Bean Definition Readers
-92. Класс ComponentScanBeanDefinitionParser
-93. Класс AnnotatedBeanDefinitionReader
+90. [Component Scan classes](#Component Scan classes)
+91. [Bean Definition Readers](#Bean Definition Readers)
+92. [Класс ComponentScanBeanDefinitionParser](#Класс ComponentScanBeanDefinitionParser)
+93. [Класс AnnotatedBeanDefinitionReader](#Класс AnnotatedBeanDefinitionReader)
 
 ## lesson 21. Type Filters
 
-94. Атрибут annotation-config
-95. Атрибут name-generator
-96. Атрибут resource-pattern
-97. Атрибут scoped-proxy
-98. Атрибут scope-resolver
-99. Атрибут use-default-filters
-100. 5 type filters
-101. Custom filters
+94. [Атрибут annotation-config](#Атрибут annotation-config)
+95. [Атрибут name-generator](#Атрибут name-generator)
+96. [Атрибут resource-pattern](#Атрибут resource-pattern)
+97. [Атрибут scoped-proxy](#Атрибут scoped-proxy)
+98. [Атрибут scope-resolver](#Атрибут scope-resolver)
+99. [Атрибут use-default-filters](#Атрибут use-default-filters)
+100.[ 5 type filters](# 5 type filters)
+101.[ Custom filters](# Custom filters)
 
 
 ## lesson 22. @Scope
-102. Атрибут scope-resolver
-103. Класс AnnotationScopeMetadataResolver
-104. Аннотация @Scope
+102. [Атрибут scope-resolver](#Атрибут scope-resolver)
+103. [Класс AnnotationScopeMetadataResolver](#Класс AnnotationScopeMetadataResolver)
+104. [Аннотация @Scope](#Аннотация @Scope)
 
 
 ## lesson 23. JSR 250, JSR 330
 
-105. Аббревиатура JSR
-106. JSR 250
-107. JSR 330
-108. Класс Jsr330ScopeMetadataResolver
+105. [Аббревиатура JSR](#Аббревиатура JSR)
+106. [JSR 250](#JSR 250)
+107. [JSR 330](#JSR 330)
+108. [Класс Jsr330ScopeMetadataResolver](#Класс Jsr330ScopeMetadataResolver)
 
 
 
 # 4. Java-based Configuration
 
 ## lesson 24. Java-based Configuration
-109. Класс ConfigurationClassBeanDefinitionReader
-110. Создание ApplicationConfiguration. @Configuration
-111. Аннотация @PropertySource
-112. Аннотация @ComponentScan
-113. Класс AnnotationConfigApplicationContext
+109. [Класс ConfigurationClassBeanDefinitionReader](#Класс ConfigurationClassBeanDefinitionReader)
+110. [Создание ApplicationConfiguration. @Configuration](#Создание ApplicationConfiguration. @Configuration)
+111. [Аннотация @PropertySource](#Аннотация @PropertySource)
+112. [Аннотация @ComponentScan](#Аннотация @ComponentScan)
+113. [Класс AnnotationConfigApplicationContext](#Класс AnnotationConfigApplicationContext)
 
 
 ## lesson 25. @Import & @ImportResource
-114. Класс AnnotationConfigApplicationContext
-115. Аннотация @ImportResource
-116. Аннотация @Import
+114. [Класс AnnotationConfigApplicationContext](#Класс AnnotationConfigApplicationContext)
+115. [Аннотация @ImportResource](#Аннотация @ImportResource)
+116. [Аннотация @Import](#Аннотация @Import)
 
 ## lesson 26. @Bean. Часть 1
 
-117. Аннотация @Bean
-118. Тестирование Java конфигурации
-119. Свойства аннотации @Bean
-120. Аннотация @Scope с @Bean
-121. Внедрение зависимостей с @Bean
-122. Конфликт имен @Bean и @Component
+117. [Аннотация @Bean](#Аннотация @Bean)
+118. [Тестирование Java конфигурации](#Тестирование Java конфигурации)
+119. [Свойства аннотации @Bean](#Свойства аннотации @Bean)
+120. [Аннотация @Scope с @Bean](#Аннотация @Scope с @Bean)
+121. [Внедрение зависимостей с @Bean](#Внедрение зависимостей с @Bean)
+122. [Конфликт имен @Bean и @Component](#Конфликт имен @Bean и @Component)
 
 ## lesson 27. @Bean. Часть 2
 
-123. 3-ий вариант внедрения зависимостей в @Bean
-124. Cglib proxy в @Configuration
-125. Свойство proxyBeanMethods в @Configuration
-126. @Bean создаются через паттерн Service Locator
+123. [3-ий вариант внедрения зависимостей в @Bean](#3-ий вариант внедрения зависимостей в @Bean)
+124. [Cglib proxy в @Configuration](#Cglib proxy в @Configuration)
+125. [Свойство proxyBeanMethods в @Configuration](#Свойство proxyBeanMethods в @Configuration)
+126. [@Bean создаются через паттерн Service Locator](#@Bean создаются через паттерн Service Locator)
 
 ## lesson 28. Profiles
-127. Environment Bean
-128. Аннотация @Profile
-129. Активация profiles через properties
-130. Активация profiles через ApplicationContext
-
-
+127. [Environment Bean](#Environment Bean)
+128. [Аннотация @Profile](#Аннотация @Profile)
+129. [Активация profiles через properties](#Активация profiles через properties)
+130. [Активация profiles через ApplicationContext](#Активация profiles через ApplicationContext)
 
 
 
@@ -248,17 +246,17 @@ Spring-starter
 
 
 ## lesson 29. Event Listeners. Часть 1
-131. Шаблон проектирования Listener
-132. Создание события (Event)
-133. Создание слушателя событий (Listener). @EventListener
-134. Реализация логики для отправки события
+131. [Шаблон проектирования Listener](#Шаблон проектирования Listener)
+132. [Создание события (Event)](#Создание события (Event))
+133. [Создание слушателя событий (Listener). @EventListener](#Создание слушателя событий (Listener). @EventListener)
+134. [Реализация логики для отправки события](#Реализация логики для отправки события)
 
 ## lesson 30. Event Listeners. Часть 2
 
-135. Bean ApplicationEventPublisher
-136. Тестирование слушателей событий
-137. Listeners order
-138. Listeners conditions
+135. [Bean ApplicationEventPublisher](#Bean ApplicationEventPublisher)
+136. [Тестирование слушателей событий](#Тестирование слушателей событий)
+137. [Listeners order](#Listeners order)
+138. [Listeners conditions](#Listeners conditions)
 
 
 # 6. Spring Boot
@@ -266,77 +264,77 @@ Spring-starter
 
 ## lesson 31. Spring Boot. Введение
 
-139. Spring modules
-140. Spring Data Configuration
-141. Modules Auto Configuration
-142. Conditions
-143. Spring Boot Starters
-144. Dependency Management
-145. How to build Spring Boot Application
+139. [Spring modules](#Spring modules)
+140. [Spring Data Configuration](#Spring Data Configuration)
+141. [Modules Auto Configuration](#Modules Auto Configuration)
+142. [Conditions](#Conditions)
+143. [Spring Boot Starters](#Spring Boot Starters)
+144. [Dependency Management](#Dependency Management)
+145. [How to build Spring Boot Application](#How to build Spring Boot Application)
 
 ## lesson 32. @Conditional
 
-146. Аннотация @Conditional
-147. Класс Condition
-148. Custom JpaCondition
-149. Тестирование JpaCondition
-150. Аннотация @Profile
-151. Другие @Condition аннотации
+146. [Аннотация @Conditional](#Аннотация @Conditional)
+147. [Класс Condition](#Класс Condition)
+148. [Custom JpaCondition](#Custom JpaCondition)
+149. [Тестирование JpaCondition](#Тестирование JpaCondition)
+150. [Аннотация @Profile](#Аннотация @Profile)
+151. [Другие @Condition аннотации](#Другие @Condition аннотации)
 
 ## lesson 33. Spring Boot. Настройка проекта
 
-152. Spring Boot Gradle Plugin
-153. Spring Dependency Management Plugin
-154. spring-boot-starter
-155. Run Spring Boot Application
-156. Autogenerated Spring Boot Project
-157. Maven spring-boot-starter-parent pom
+152. [Spring Boot Gradle Plugin](#Spring Boot Gradle Plugin)
+153. [Spring Dependency Management Plugin](#Spring Dependency Management Plugin)
+154. [spring-boot-starter](#spring-boot-starter)
+155. [Run Spring Boot Application](#Run Spring Boot Application)
+156. [Autogenerated Spring Boot Project](#Autogenerated Spring Boot Project)
+157. [Maven spring-boot-starter-parent pom](#Maven spring-boot-starter-parent pom)
 
 ## lesson 34. @SpringBootApplication
 
-158. Структура Spring Boot приложения
-159. Что делает метод SpringApplication.run
-160. Аннотация @SpringBootApplication
-161. Аннотация @SpringBootConfiguration
-162. Аннотация @ComponentScan
-163. Аннотация @PropertySource
-164. Аннотация @EnableAutoConfiguration
+158. [Структура Spring Boot приложения](#Структура Spring Boot приложения)
+159. [Что делает метод SpringApplication.run](#Что делает метод SpringApplication.run)
+160. [Аннотация @SpringBootApplication](#Аннотация @SpringBootApplication)
+161. [Аннотация @SpringBootConfiguration](#Аннотация @SpringBootConfiguration)
+162. [Аннотация @ComponentScan](#Аннотация @ComponentScan)
+163. [Аннотация @PropertySource](#Аннотация @PropertySource)
+164. [Аннотация @EnableAutoConfiguration](#Аннотация @EnableAutoConfiguration)
 
 
 ## lesson 35. Lombok
 
-165. Подключение Lombok
-166. Gradle Lombok Plugin
-167. IntelliJ IDEA Lombok Plugin
-168. Аннотации Lombok
-169. Файл lombok.config
+165. [Подключение Lombok](#Подключение Lombok)
+166. [Gradle Lombok Plugin](#Gradle Lombok Plugin)
+167. [IntelliJ IDEA Lombok Plugin](#IntelliJ IDEA Lombok Plugin)
+168. [Аннотации Lombok](#Аннотации Lombok)
+169. [Файл lombok.config](#Файл lombok.config)
 
 ## lesson 36. Properties
 
-170. Файл spring.properties
-171. Externalized Configuration
-172. Profile-specific properties
-173. Spring program arguments & VM options
-174. Property Placeholders & Default values
-175. spring.config.location
+170. [Файл spring.properties](#Файл spring.properties)
+171. [Externalized Configuration](#Externalized Configuration)
+172. [Profile-specific properties](#Profile-specific properties)
+173. [Spring program arguments & VM options](#Spring program arguments & VM options)
+174. [Property Placeholders & Default values](#Property Placeholders & Default values)
+175. [spring.config.location](#spring.config.location)
 
 ## lesson 37. Yaml format
 
-176. YAML - Yet Another Markup Language
-177. Класс YamlPropertiesFactoryBean
-178. Приоритет properties vs yaml
-179. Переписывание application.properties на yaml
+176. [YAML - Yet Another Markup Language](#YAML - Yet Another Markup Language)
+177. [Класс YamlPropertiesFactoryBean](#Класс YamlPropertiesFactoryBean)
+178. [Приоритет properties vs yaml](#Приоритет properties vs yaml)
+179. [Переписывание application.properties на yaml](#Переписывание application.properties на yaml)
 
 
 ## lesson 38. @ConfigurationProperties
 
-180. Класс JpaProperties
-181. Класс DatabaseProperties
-182. Аннотация @ConfigurationProperties
-183. Аннотация @ConfigurationPropertiesScan
-184. Immutable DatabaseProperties
-185. DatabaseProperties as record
-186. Property key names
+180. [Класс JpaProperties](#Класс JpaProperties)
+181. [Класс DatabaseProperties](#Класс DatabaseProperties)
+182. [Аннотация @ConfigurationProperties](#Аннотация @ConfigurationProperties)
+183. [Аннотация @ConfigurationPropertiesScan](#Аннотация @ConfigurationPropertiesScan)
+184. [Immutable DatabaseProperties](#Immutable DatabaseProperties)
+185. [DatabaseProperties as record](#DatabaseProperties as record)
+186. [Property key names](#Property key names)
 
 
 
@@ -345,263 +343,262 @@ Spring-starter
 
 ## lesson 39. Logging Starter
 
-190. Application as a Black Box
-191. Logging libraries
-192. Log Levels
-193. spring-boot-starter-logging dependency
-194. Аннотация @Slf4j
-195. Delombok annotations
-196. Формат логов по умолчанию
-197. logging.* properties
+190. [Application as a Black Box](#Application as a Black Box)
+191. [Logging libraries](#Logging libraries)
+192. [Log Levels](#Log Levels)
+193. [spring-boot-starter-logging dependency](#spring-boot-starter-logging dependency)
+194. [Аннотация @Slf4j](#Аннотация @Slf4j)
+195. [Delombok annotations](#Delombok annotations)
+196. [Формат логов по умолчанию](#Формат логов по умолчанию)
+197. [logging.* properties](#logging.* properties)
 
 ## lesson 40. Logback Configuration
 
-198. Logback default xml configs
-199. File Output
-200. Custom log configuration
+198. [Logback default xml configs](#Logback default xml configs)
+199. [File Output](#File Output)
+200. [Custom log configuration](#Custom log configuration)
 
 
 # 8. Test Starter
 
 ## lesson 41. Test Starter
 
-201. Подключение spring-boot-starter-test
-202. Транзитивные зависимости spring-boot-starter-test
-203. Зависимость spring-test
-204. Зависимость spring-boot-test
-205. Зависимость spring-boot-test-autoconfigure
-206. Пример написания Unit тестов
-207. Java Gradle Plugin tasks relationship
+201. [Подключение spring-boot-starter-test](#Подключение spring-boot-starter-test)
+202. [Транзитивные зависимости spring-boot-starter-test](#Транзитивные зависимости spring-boot-starter-test)
+203. [Зависимость spring-test](#Зависимость spring-test)
+204. [Зависимость spring-boot-test](#Зависимость spring-boot-test)
+205. [Зависимость spring-boot-test-autoconfigure](#Зависимость spring-boot-test-autoconfigure)
+206. [Пример написания Unit тестов](#Пример написания Unit тестов)
+207. [Java Gradle Plugin tasks relationship](#Java Gradle Plugin tasks relationship)
 
 ## lesson 42. Integration Testing. Part 1
 
-208. Основные цели Spring Integration Testing
-209. Жизненный цикл тестов
-210. JUnit 5 Extension Model
-211. TestContext Framework
-212. SpringExtension source code
+208. [Основные цели Spring Integration Testing](#Основные цели Spring Integration Testing)
+209. [Жизненный цикл тестов](#Жизненный цикл тестов)
+210. [JUnit 5 Extension Model](#JUnit 5 Extension Model)
+211. [TestContext Framework](#TestContext Framework)
+212. [SpringExtension source code](#SpringExtension source code)
 
 ## lesson 43. Integration Testing. Part 2
 
-213. Создание CompanyServiceIT
-214. SpringExtension via @ExtendWith
-215. Аннотация @ContextConfiguration
-216. Аннотация @TestPropertySource
-217. Класс ApplicationContextInitializer
-218. Аннотация @SpringBootTest
-219. Написание первого интеграционного теста
-220. Класс DependencyInjectionTestExecutionListener
+213. [Создание CompanyServiceIT](#Создание CompanyServiceIT)
+214. [SpringExtension via @ExtendWith](#SpringExtension via @ExtendWith)
+215. [Аннотация @ContextConfiguration](#Аннотация @ContextConfiguration)
+216. [Аннотация @TestPropertySource](#Аннотация @TestPropertySource)
+217. [Класс ApplicationContextInitializer](#Класс ApplicationContextInitializer)
+218. [Аннотация @SpringBootTest](#Аннотация @SpringBootTest)
+219. [Написание первого интеграционного теста](#Написание первого интеграционного теста)
+220. [Класс DependencyInjectionTestExecutionListener](#Класс DependencyInjectionTestExecutionListener)
 
 ## lesson 44. Integration Testing. Part 3
 
-221. Аннотация @ActiveProfiles
-222. Custom Test Annotations
-223. Аннотация @TestConstructor
-224. Замена @TestConstructor на spring.properties
+221. [Аннотация @ActiveProfiles](#Аннотация @ActiveProfiles)
+222. [Custom Test Annotations](#Custom Test Annotations)
+223. [Аннотация @TestConstructor](#Аннотация @TestConstructor)
+224. [Замена @TestConstructor на spring.properties](#Замена @TestConstructor на spring.properties)
 
 ## lesson 45. Context Caching
 
-225. Создание нескольких ApplicationContext в тестах
-226. Аннотации @MockBean и @SpyBean
-227. Класс MockitoTestExecutionListener
-228. Аннотация @TestConfiguration
-229. Аннотация @DirtiesContext
+225. [Создание нескольких ApplicationContext в тестах](#Создание нескольких ApplicationContext в тестах)
+226. [Аннотации @MockBean и @SpyBean](#Аннотации @MockBean и @SpyBean)
+227. [Класс MockitoTestExecutionListener](#Класс MockitoTestExecutionListener)
+228. [Аннотация @TestConfiguration](#Аннотация @TestConfiguration)
+229. [Аннотация @DirtiesContext](#Аннотация @DirtiesContext)
 
 
 # 9. Data JPA Starter
 
 ## lesson 46. Data JPA Starter. Введение
-+ Чего не хватало в Hibernate
-+ Установка PostgreSQL
-+ Установка Docker
-+ Postgres Docker Image
-+ Подключение к postgres из IntelliJ IDEA
+230. [Чего не хватало в Hibernate](#Чего не хватало в Hibernate)
+231. [Установка PostgreSQL](#Установка PostgreSQL)
+232. [Установка Docker](#Установка Docker)
+233. [Postgres Docker Image](#Postgres Docker Image)
+234. [Подключение к postgres из IntelliJ IDEA](#Подключение к postgres из IntelliJ IDEA)
 
 ## lesson 47. Data JPA Starter. Подключение
 
-+ Подключение spring-boot-starter-data-jpa
-+ Зависимости spring-boot-starter-data-jpa
-+ Класс HibernateJpaAutoConfiguration
-+ Настройка spring.datasource и spring.jpa properties
-+ Тестирование приложения
+235. [Подключение spring-boot-starter-data-jpa](#Подключение spring-boot-starter-data-jpa)
+236. [Зависимости spring-boot-starter-data-jpa](#Зависимости spring-boot-starter-data-jpa)
+237. [Класс HibernateJpaAutoConfiguration](#Класс HibernateJpaAutoConfiguration)
+238. [Настройка spring.datasource и spring.jpa properties](#Настройка spring.datasource и spring.jpa properties)
+239. [Тестирование приложения](#Тестирование приложения)
 
 ## lesson 48. Hibernate Entities
 
-+ UML диаграмма выполненных sql скриптов
-+ Создание сущности Company
-+ Создание коллекции locales (ElementCollection)
-+ Создание сущности User
-+ Создание сущности Payment
-+ Создание сущности Chat
-+ Создание сущности UserChat
-+ Проверка маппинга сущностей через hbm2ddl.auto
-+ Аннотация @EntityScan
+240. [UML диаграмма выполненных sql скриптов](#UML диаграмма выполненных sql скриптов)
+241. [Создание сущности Company](#Создание сущности Company)
+242. [Создание коллекции locales (ElementCollection)](#Создание коллекции locales (ElementCollection))
+243. [Создание сущности User](#Создание сущности User)
+244. [Создание сущности Payment](#Создание сущности Payment)
+245. [Создание сущности Chat](#Создание сущности Chat)
+246. [Создание сущности UserChat](#Создание сущности UserChat)
+247. [Проверка маппинга сущностей через hbm2ddl.auto](#Проверка маппинга сущностей через hbm2ddl.auto)
+248. [Аннотация @EntityScan](#Аннотация @EntityScan)
 
 
 # 10. Data JPA Transactions
 
 ## lesson 49. @Transactional. TestContext
-+ Общая структура работы с TransactionManager
-+ Создание CompanyRepository IT
-+ Аннотации @Transactional из Jakarta EE и Spring
-+ Класс TransactionalTestExecutionListener
-+ Аннотации @Commit и @Rollback
+249. [Общая структура работы с TransactionManager](#Общая структура работы с TransactionManager)
+250. [Создание CompanyRepository IT](#Создание CompanyRepository IT)
+251. [Аннотации @Transactional из Jakarta EE и Spring](#Аннотации @Transactional из Jakarta EE и Spring)
+252. [Класс TransactionalTestExecutionListener](#Класс TransactionalTestExecutionListener)
+253. [Аннотации @Commit и @Rollback](#Аннотации @Commit и @Rollback)
 
 ## lesson 50. TransactionAutoConfiguration
-+ Класс TransactionAutoConfiguration
-+ Как происходит обработка транзакций в proxy
-+ Аннотация @Transactional и Cglib proxy
-+ Как работает Cglib proxy с TransactionManager
-+ Как подключить механизм транзакций внутри объекта (не proxy)
-+ Механизм транзакций между несколькими Cglib proxy
-+
+254. [Класс TransactionAutoConfigurationКак происходит обработка транзакций в proxy](#Класс TransactionAutoConfigurationКак происходит обработка транзакций в proxy)
+255. [Аннотация @Transactional и Cglib proxy](#Аннотация @Transactional и Cglib proxy)
+256. [Как работает Cglib proxy с TransactionManager](#Как работает Cglib proxy с TransactionManager)
+257. [Как подключить механизм транзакций внутри объекта (не proxy)](#Как подключить механизм транзакций внутри объекта (не proxy))
+258. [Механизм транзакций между несколькими Cglib proxy](#Механизм транзакций между несколькими Cglib proxy)
+
 ## lesson 51. @Transactional Settings
-+ Свойства @Transactional. transactionManager
-+ Transaction propagation
-+ Transaction propagation резюме
-+ Transaction isolation
-+ Transaction timeout
-+ ReadOnly transaction
-+ Transaction rollbackFor & rollbackForClassName
-+ Transaction noRollbackFor & noRollbackForClassName
+259. [Свойства @Transactional. transactionManager](#Свойства @Transactional. transactionManager)
+260. [Transaction propagation](#Transaction propagation)
+261. [Transaction propagation резюме](#Transaction propagation резюме)
+262. [Transaction isolation](#Transaction isolation)
+263. [Transaction timeout](#Transaction timeout)
+264. [ReadOnly transaction](#ReadOnly transaction)
+265. [Transaction rollbackFor & rollbackForClassName](#Transaction rollbackFor & rollbackForClassName)
+266. [Transaction noRollbackFor & noRollbackForClassName](#Transaction noRollbackFor & noRollbackForClassName)
 
 
 ## lesson 52. Manual Transactions
-+ Свойства объекта TransactionTemplate
-+ Функционал TransactionTemplate
-+ Обработка checked exceptions
-+ Взаимодействие TransactionTemplate с другими Proxy
-+ Вынесение @Transactional в @IT
+267. Свойства объекта TransactionTemplate
+268. Функционал TransactionTemplate
+269. Обработка checked exceptions
+270. Взаимодействие TransactionTemplate с другими Proxy
+271. Вынесение @Transactional в @IT
 
 
 # 11. Data JPA Repositories
 
 ## lesson 53. Repository
-+ Интерфейс Repository
-+ Написание теста на удаление Company
-+ Класс JpaRepositoryAutoConfiguration
+272. Интерфейс Repository
+273. Написание теста на удаление Company
+274. Класс JpaRepositoryAutoConfiguration
 
 ## lesson 54. RepositoryQuery
-+ Создание Proxy на классы Repository
-+ Класс QueryExecutorMethodInterceptor
-+ Класс RepositoryQuery
-+ Наследники Repository
+275. Создание Proxy на классы Repository
+276. Класс QueryExecutorMethodInterceptor
+277. Класс RepositoryQuery
+278. Наследники Repository
 
 ## lesson 55. PartTreeJpaQuery
-+ Класс PartTreeJpaQuery
-+ Примеры написания запросов
-+ Тестирование запросов
-+ Весь список ключевых слов PartTreeJpaQuery
+279. Класс PartTreeJpaQuery
+280. Примеры написания запросов
+281. Тестирование запросов
+282. Весь список ключевых слов PartTreeJpaQuery
 
 
 ## lesson 56. NamedQuery
 
-+ Недостатки PartTreeJpaQuery
-+ Класс NamedQuery
-+ Аннотация @NamedQuery
-+ Тестирование NamedQuery
-+ Аннотация @Param
+283. Недостатки PartTreeJpaQuery
+284. Класс NamedQuery
+285. Аннотация @NamedQuery
+286. Тестирование NamedQuery
+287. Аннотация @Param
 
 ## lesson 57. @Query
-+ StoredProcedureJpaQuery
-+ Аннотация @Query
-+ Демонстрация работы @Query
-+ Усовершенствованный оператор LIKE
-+ Native Query
+288. StoredProcedureJpaQuery
+289. Аннотация @Query
+290. Демонстрация работы @Query
+291. Усовершенствованный оператор LIKE
+292. Native Query
 
 ## lesson 58. @Modifying
 
-+ Запрос на обновление через @Query
-+ Аннотация @Modifying
-+ Hibernate PersistenceContext
-+ Свойства clearAutomatically и flushAutomatically
-+ clearAutomatically и LazyInitializationException
+293. Запрос на обновление через @Query
+294. Аннотация @Modifying
+295. Hibernate PersistenceContext
+296. Свойства clearAutomatically и flushAutomatically
+297. clearAutomatically и LazyInitializationException
 
 ## lesson 59. Special parameters
 
-+ Top & First
-+ TopN & FirstN
-+ Класс Sort
-+ Класс Pageable
+298. Top & First
+299. TopN & FirstN
+300. Класс Sort
+301. Класс Pageable
 
 ## lesson 60. Page & Slice
-+ Spring классы Streamable, Slice, Page
-+ Демонстрация работы Slice объекта
-+ Почему Slice объекта недостаточно
-+ Демонстрация работы Page объекта
+302. Spring классы Streamable, Slice, Page
+303. Демонстрация работы Slice объекта
+304. Почему Slice объекта недостаточно
+305. Демонстрация работы Page объекта
 
 ## lesson 61. @EntityGraph
 
-+ Аннотация @EntityGraph
-+ Именованные графы @NamedEntityGraph
-+ Свойство attributePaths в @EntityGraph
-+ Конфликт Pageable при получении EAGER связей
+306. Аннотация @EntityGraph
+307. Именованные графы @NamedEntityGraph
+308. Свойство attributePaths в @EntityGraph
+309. Конфликт Pageable при получении EAGER связей
 
 ## lesson 62. @Lock & @QueryHints
 
-+ Аннотация @Lock
-+ Демонстрация пессимистических блокировок
-+ Аннотация @QueryHints
+310. Аннотация @Lock
+311. Демонстрация пессимистических блокировок
+312. Аннотация @QueryHints
 
 ## lesson 63. Projection
 
-+ Class-based Projections
-+ Generic Class-based Projections
-+ Interface-based Projections
-+ SpEL in Projections
+313. Class-based Projections
+314. Generic Class-based Projections
+315. Interface-based Projections
+316. SpEL in Projections
 
 ## lesson 64. Custom Repository Implementation
 
-+ Запрос фильтрации через Custom Implementation
-+ Criteria API для запроса фильтрации
-+ Аннотация @EnableJpaRepository
-+ Тестирование запроса фильтрации
+317. Запрос фильтрации через Custom Implementation
+318. Criteria API для запроса фильтрации
+319. Аннотация @EnableJpaRepository
+320. Тестирование запроса фильтрации
 
 ## lesson 65. JPA Auditing
-+ Создание AuditingEntity
-+ Аннотация @EnableJpaAuditing
-+ Тестирование @CreatedDate и @LastModifiedDate
-+ Аннотации @CreatedBy и @LastModifiedBy
-+ Создание AuditorAware Bean
-+ Тестирование @CreatedBy и @LastModifiedBy
+321. Создание AuditingEntity
+322. Аннотация @EnableJpaAuditing
+323. Тестирование @CreatedDate и @LastModifiedDate
+324. Аннотации @CreatedBy и @LastModifiedBy
+325. Создание AuditorAware Bean
+326. Тестирование @CreatedBy и @LastModifiedBy
 
 ## lesson 66. Hibernate Envers
-+ Подключение Hibernate Envers
-+ Создание сущности Revision
-+ Аннотация @Audited
-+ Аннотация @EnableEnversRepositories
-+ ### Тестирование Hibernate Envers
-+ Класс RevisionRepository
+327. Подключение Hibernate Envers
+328. Создание сущности Revision
+329. Аннотация @Audited
+330. Аннотация @EnableEnversRepositories
+331. Тестирование Hibernate Envers
+332. Класс RevisionRepository
 
 
 ## lesson 67. Querydsl
 
-+ Подключение Querydsl
-+ Создание QPredicates
-+ Замена Criteria API на Querydsl
-+ Тестирование Querydsl
-+ Класс QuerydslPredicateExecutor
+333. Подключение Querydsl
+334. Создание QPredicates
+335. Замена Criteria API на Querydsl
+336. Тестирование Querydsl
+337. Класс QuerydslPredicateExecutor
 
 
 # 12. JDBC Starter
 
 
 ## lesson 68. JDBC Starter
-+ Зависимость spring-boot-starter-jdbc
-+ JdbcTemplateAutoConfiguration
-+ Функционал класса JdbcTemplate
-+ Практика JdbcTemplate
-+ Тестирование функционала
-+ Подключение логов для JdbcTemplate
+338. Зависимость spring-boot-starter-jdbc
+339. JdbcTemplateAutoConfiguration
+340. Функционал класса JdbcTemplate
+341. Практика JdbcTemplate
+342. Тестирование функционала
+343. Подключение логов для JdbcTemplate
 
 
 ## lesson 69. Batch size & Fetch size
-+ Batch запросы
-+ Batch запрос через JdbcTemplate
-+ Тестирование Batch запроса через JdbcTemplate
-+ Batch запрос через NamedParameterJdbcTemplate
-+ Установка batch_size в Hibernate
-+ Fetch size
+344. Batch запросы
+345. Batch запрос через JdbcTemplate
+346. Тестирование Batch запроса через JdbcTemplate
+347. Batch запрос через NamedParameterJdbcTemplate
+348. Установка batch_size в Hibernate
+349. Fetch size
 
 
 
@@ -609,348 +606,348 @@ Spring-starter
 # 13. Databases in tests
 
 ## lesson 70. In-Memory databases. H2
-+ Два варианта поднятия тестовой базы данных
-+ Подключение H2 database
-+ Аннотация @Sql
+350. Два варианта поднятия тестовой базы данных
+351. Подключение H2 database
+352. Аннотация @Sql
 
 ## lesson 71. Testcontainers
-+ testcontainers lib
-+ Подключение testcontainers
-+ Создание IntegrationTestBase
-+ Тестирование testcontainers
-+ Тестовые данные (ids)
+353. testcontainers lib
+354. Подключение testcontainers
+355. Создание IntegrationTestBase
+356. Тестирование testcontainers
+357. Тестовые данные (ids)
 
 
 
 # 14. Database Migrations
 
 ## lesson 72. Liquibase. Теория
-+ Устройство migration frameworks
-+ Стуктура Liquibase changelog
-+ Changelog master file
+358. Устройство migration frameworks
+359. Стуктура Liquibase changelog
+360. Changelog master file
 
 ## lesson 73. Liquibase. Практика
 
-+ Подключение зависимости liquibase-core
-+ Класс LiquibaseAutoConfiguration
-+ Создание master changelog
-+ liquibase formatted sql
-+ Тестирование Liquibase
-+ Добавление нового changelog (envers tables)
-+ md5sum
-+ Использование Liquibase в тестах
+361. Подключение зависимости liquibase-core
+362. Класс LiquibaseAutoConfiguration
+363. Создание master changelog
+364. liquibase formatted sql
+365. Тестирование Liquibase
+366. Добавление нового changelog (envers tables)
+367. md5sum
+368. Использование Liquibase в тестах
 
 
 # 15. Web Starter
 
 ## lesson 74. Web Starter. Введение
-+ MVC и классические web-приложения
-+ web-приложение на Spring Boot
-+ Embedded Tomcat
-+ Настройка spring-web приложения
-+ Класс WebMvcAutoConfiguration
+369. MVC и классические web-приложения
+370. web-приложение на Spring Boot
+371. Embedded Tomcat
+372. Настройка spring-web приложения
+373. Класс WebMvcAutoConfiguration
 
 
 ## lesson 75. Dispatcher Servlet
-+ Жизненный цикл сервлетов
-+ Псевдокод метода service в DispatcherServlet
-+ Исходный код класса DispatcherServlet
+374. Жизненный цикл сервлетов
+375. Псевдокод метода service в DispatcherServlet
+376. Исходный код класса DispatcherServlet
 
 
 ## lesson 76. @Controller
-+ Подключение зависимостей и настройка view resolver
-+ Создание контроллера. @Controller
+377. Подключение зависимостей и настройка view resolver
+378. Создание контроллера. @Controller
 
 
 ## lesson 77. @RequestMapping
-+ Основные составляющие HTTP запроса и HTTP ответа
-+ Основные составляющие URL
-+ Аннотации @RequestMapping
+379. Основные составляющие HTTP запроса и HTTP ответа
+380. Основные составляющие URL
+381. Аннотации @RequestMapping
 
 
 ## lesson 78. Parameters, Headers, Cookies
-+ Parameters. @RequestParam annotation
-+ Headers. @RequestHeader annotation
-+ Cookies. @CookieValue annotation
-+ Method params naming
-+ DispatcherServlet sources
-+ @PathVariable annotation
+382. Parameters. @RequestParam annotation
+383. Headers. @RequestHeader annotation
+384. Cookies. @CookieValue annotation
+385. Method params naming
+386. DispatcherServlet sources
+387. @PathVariable annotation
 
 
 ## lesson 79. Model
-+ Attributes
-+ Добавление Request атрибутов в Model
-+ Добавление Session атрибутов в Model
-+ DispatcherServlet sources
+388. Attributes
+389. Добавление Request атрибутов в Model
+390. Добавление Session атрибутов в Model
+391. DispatcherServlet sources
 
 
 ## lesson 80. @ModelAttribute
-+ Упрощение работы с объектом ModelAndView
-+ Динамическое создание атрибутов
-+ Аннотация @ModelAttribute
-+ HTML Form. LoginController
+392. Упрощение работы с объектом ModelAndView
+393. Динамическое создание атрибутов
+394. Аннотация @ModelAttribute
+395. HTML Form. LoginController
 
 
 ## lesson 81. Forward, Include, Redirect
-+ 3 вида перенаправления запросов
-+ forward in Spring
-+ redirect in Spring
+396. 3 вида перенаправления запросов
+397. forward in Spring
+398. redirect in Spring
 
 ## lesson 82. CRUD. API Design
-+ API design best practices
-+ CRUD. Method findAll
-+ CRUD. Method findById
-+ CRUD. Method create
-+ CRUD. Method update
-+ CRUD. Method delete
+399. API design best practices
+400. CRUD. Method findAll
+401. CRUD. Method findById
+402. CRUD. Method create
+403. CRUD. Method update
+404. CRUD. Method delete
 
 
 ## lesson 83. CRUD. Service Layer
-+ UserService. Method findAll
-+ UserService. Method findById
-+ UserService. Method create
-+ @Transactional annotation
-+ UserService. Method update
-+ UserService. Method delete
-+ Test UserService functionality
-+ Tips. Method delete
+405. UserService. Method findAll
+406. UserService. Method findById
+407. UserService. Method create
+408. @Transactional annotation
+409. UserService. Method update
+410. UserService. Method delete
+411. Test UserService functionality
+412. Tips. Method delete
 
 ## lesson 84. Spring MVC Testing
 
-+ Аннотация @AutoConfigureMockMvc
-+ Test findAll method
-+ Transactions. spring.jpa.open-in-view property
-+ Test create method
-+ Problem with sending dates in params
+413. Аннотация @AutoConfigureMockMvc
+414. Test findAll method
+415. Transactions. spring.jpa.open-in-view property
+416. Test create method
+417. Problem with sending dates in params
 
 ## lesson 85. Type Converters
-+ 1. spring.mvc.format properties
-+ 2. Аннотация @DateTimeFormat
-+ 3. Интерфейс WebMvcConfigurer
+418. spring.mvc.format properties
+419. Аннотация @DateTimeFormat
+420. Интерфейс WebMvcConfigurer
 
 
 # 16. Thymeleaf
 
 ## lesson 86. Thymeleaf Starter. Введение
-+ View Resolvers
-+ Thymeleaf Template Engine Intro
-+ Настройка Thymeleaf в проекте
-+ Использование Thymeleaf
-+ Тестирование функционала
+421. View Resolvers
+422. Thymeleaf Template Engine Intro
+423. Настройка Thymeleaf в проекте
+424. Использование Thymeleaf
+425. Тестирование функционала
 
 ## lesson 87. CRUD. View Layer. Часть 1
-+ Создание users.html для метода findAll
-+ Создание user.html для метода findById
-+ Тестирование функционала
-+ Добавление кнопки для метода delete
+426. Создание users.html для метода findAll
+427. Создание user.html для метода findById
+428. Тестирование функционала
+429. Добавление кнопки для метода delete
 
 ## lesson 88. CRUD. View Layer. Часть 2
-+ Создание registration endpoint
-+ Создание registration.html
-+ Тестирование функционала registration
-+ redirect с сохранением введенных параметров
+430. Создание registration endpoint
+431. Создание registration.html
+432. Тестирование функционала registration
+433. redirect с сохранением введенных параметров
 
 ## lesson 89. Filter Query
-+ Add UserFilter - Controller & Service layers
-+ Add UserFilter - users.html
-+ Тестирование функционала
+434. Add UserFilter - Controller & Service layers
+435. Add UserFilter - users.html
+436. Тестирование функционала
 
 ## lesson 90. Pagination. Best practices
-+ HTTP endpoints best practices
-+ 2 options of pagination implementation
-+ offset-based pagination
-+ PageableArgumentResolver
-+ Building PageResponse
-+ Тестирование функционала
+437. HTTP endpoints best practices
+438. 2 options of pagination implementation
+439. offset-based pagination
+440. PageableArgumentResolver
+441. Building PageResponse
+442. Тестирование функционала
 
 
 # 17. Validation Starter
 
 ## lesson 91. Validation Starter. Введение
-+ Подключение validation starter
-+ Validation annotations
-+ How to use annotations in practice
-+ @Valid & @Validated
-+ BindingResult object
-+ Show validation errors on the page
-+ Тестирование функционала
+443. Подключение validation starter
+444. Validation annotations
+445. How to use annotations in practice
+446. @Valid & @Validated
+447. BindingResult object
+448. Show validation errors on the page
+449. Тестирование функционала
 
 ## lesson 92. Custom validator
-+ Main parts in JSR 303 annotations
-+ Custom annotation @UserInfo
-+ Тестирование функционала
-+ Configuration properties validation
-+ Validation groups
+450. Main parts in JSR 303 annotations
+451. Custom annotation @UserInfo
+452. Тестирование функционала
+453. Configuration properties validation
+454. Validation groups
 
 ## lesson 93. @ControllerAdvice & @ExceptionHandler
-+ @ExceptionHandler annotation
-+ Тестирование функционала
-+ @ControllerAdvice annotation
-+ Класс ResponseEntityExceptionHandler
+455. @ExceptionHandler annotation
+456. Тестирование функционала
+457. @ControllerAdvice annotation
+458. Класс ResponseEntityExceptionHandler
 
 
 # 18. REST
 
 ## lesson 94. REST. Введение
-+ Проблемы Controller API
-+ REST API
-+ REST API Usages
+459. Проблемы Controller API
+460. REST API
+461. REST API Usages
 
 ## lesson 95. REST. Практика
-+ @ResponseBody & findAll method
-+ findById method
-+ @RequestBody & create method
-+ update method
-+ delete method
-+ @RestController
-+ @RestControllerAdvice
+462. @ResponseBody & findAll method
+463. findById method
+464. @RequestBody & create method
+465. update method
+466. delete method
+467. @RestController
+468. @RestControllerAdvice
 
 ## lesson 96. Swagger. API docs
-+ Rest clients
-+ Подключение springdoc
-+ Сгенерированная документация для Rest Controllers
-+ Swagger ui
-+ Swagger annotations
+469. Rest clients
+470. Подключение springdoc
+471. Сгенерированная документация для Rest Controllers
+472. Swagger ui
+473. Swagger annotations
 
 ## lesson 97. Upload image
-+ Добавление новой колонки image в таблице users
-+ Создание ImageService
-+ upload images from html pages. MultipartFile
-+ Тестирование функционала
+474. Добавление новой колонки image в таблице users
+475. Создание ImageService
+476. upload images from html pages. MultipartFile
+477. Тестирование функционала
 
 ## lesson 98. Get image
-+ Реализация функционала на уровне service
-+ Отображение картинки на html странице
-+ Реализация функционала на уровне rest controller
-+ Тестирование функционала
-+ Отображение отсутствующей картинки
-+ Класс ResponseEntity
+478. Реализация функционала на уровне service
+479. Отображение картинки на html странице
+480. Реализация функционала на уровне rest controller
+481. Тестирование функционала
+482. Отображение отсутствующей картинки
+483. Класс ResponseEntity
 
 # 19. Security Starter
 
 ## lesson 99. Security Starter. Введение
-+ Понятия Аутентификация и Авторизация
-+ Servlet Filters mechanism
-+ Spring Servlet Filters mechanism
-+ Подключение Spring Security Starter
+484. Понятия Аутентификация и Авторизация
+485. Servlet Filters mechanism
+486. Spring Servlet Filters mechanism
+487. Подключение Spring Security Starter
 
 ## lesson 100. Authentication Architecture
-+ Spring Security Model
-+ Spring Security Authentication Logic
-+ Debug Security filters (default behaviour)
+488. Spring Security Model
+489. Spring Security Authentication Logic
+490. Debug Security filters (default behaviour)
 
 ## lesson 101. DaoAuthenticationProvider
-+ DaoAuthenticationProvider source code
-+ Add column password into users table
-+ Update entity & enum
-+ Implement UserDetailsService
-+ Тестирование функциональности
+491. DaoAuthenticationProvider source code
+492. Add column password into users table
+493. Update entity & enum
+494. Implement UserDetailsService
+495. Тестирование функциональности
 
 ## lesson 102. Form Login
-+ Default login page source code
-+ Custom login page
-+ Customise SecurityFilterChain
-+ Тестирование функицонала
-+ Class UsernamePasswordAuthenticationFilter
+496. Default login page source code
+497. Custom login page
+498. Customise SecurityFilterChain
+499. Тестирование функицонала
+500. Class UsernamePasswordAuthenticationFilter
 
 ## lesson 103. HTTP Basic Authentication
 
-+ HTTP Basic Authentication principle
-+ HTTP Basic encoder & decoder
-+ Customise SecurityFilterChain to support HTTP Basic
-+ BasicAuthenticationFilter source code
+501. HTTP Basic Authentication principle
+502. HTTP Basic encoder & decoder
+503. Customise SecurityFilterChain to support HTTP Basic
+504. BasicAuthenticationFilter source code
 
 ## lesson 104. PasswordEncoder
-+ Зачем шифровать пароли
-+ List of password encoders
-+ Implement password encode/decode in the app
-+ Тестирование функционала
+505. Зачем шифровать пароли
+506. List of password encoders
+507. Implement password encode/decode in the app
+508. Тестирование функционала
 
 ## lesson 105. Logout
 
-+ LogoutFilter source code
-+ Customise logout in SecurityFilterChain
-+ Add button Logout on pages
-+ Тестирование функционала
+509. LogoutFilter source code
+510. Customise logout in SecurityFilterChain
+511. Add button Logout on pages
+512. Тестирование функционала
 
 ## lesson 106. Authorization Architecture
-+ AuthorizationFilter source code and logic
-+ AuthorizationFilter implementations
-+ Customise authorizeHttpRequests in SecurityFilterChain
-+ Тестирование функционала
+513. AuthorizationFilter source code and logic
+514. AuthorizationFilter implementations
+515. Customise authorizeHttpRequests in SecurityFilterChain
+516. Тестирование функционала
 
 ## lesson 107. Method Security
 
-+ @PreAuthorize annotation
-+ @PostAuthorize annotation
-+ @EnableMethodSecurity annotation
-+ @Secured annotation
-+ Service layer authentication
-+ @PreFilter & @PostFilter annotations
+517. @PreAuthorize annotation
+518. @PostAuthorize annotation
+519. @EnableMethodSecurity annotation
+520. @Secured annotation
+521. Service layer authentication
+522. @PreFilter & @PostFilter annotations
 
 
 ## lesson 108. Access to authenticated user
 
-+ Get current user via SecurityContextHolder
-+ @CurrentSecutiryContext annotation
-+ @AuthenticationPrincipal annotation
-+ Thymeleaf and Spring Security integration
+523. Get current user via SecurityContextHolder
+524. @CurrentSecutiryContext annotation
+525. @AuthenticationPrincipal annotation
+526. Thymeleaf and Spring Security integration
 
 ## lesson 109. CSRF Filter
-+ Cross-Site Request Forgery
-+ How to solve CSRF problem
-+ Synchronizer Token Pattern
-+ When to use CSRF protection
-+ CsrfFilter source code
-+ How to work with CSRF token
-+ Class CsrfRequestDataValueProcessor
-+ Тестирование функционала
+527. Cross-Site Request Forgery
+528. How to solve CSRF problem
+529. Synchronizer Token Pattern
+530. When to use CSRF protection
+531. CsrfFilter source code
+532. How to work with CSRF token
+533. Class CsrfRequestDataValueProcessor
+534. Тестирование функционала
 
 ## lesson 110. Security Testing
 
-+ Исправление существующих тестов
-+ spring-security-test dependency
-+ 1. Manually define a user in tests
-+ 2. @WithMockUser annotation
-+ 3. SecurityMockMvcRequestPostProcessor
+536. Исправление существующих тестов
+537. spring-security-test dependency
+538. 1. Manually define a user in tests
+539. 2. @WithMockUser annotation
+540. 3. SecurityMockMvcRequestPostProcessor
 
 ## lesson 111. OAuth 2.0. Теория
 
-+ Текущий Authentication функционал в приложении
-+ Что такое OAuth 2
-+ Как внедрить OAuth 2 в приложении
-+ OAuth 2 flow types
-+ OAuth 2 Authorization Code Flow
-+ OAuth 2 Implicit Flow
-+ OpenID Connect (OIDC)
+541. Текущий Authentication функционал в приложении
+542. Что такое OAuth 2
+543. Как внедрить OAuth 2 в приложении
+544. OAuth 2 flow types
+545. OAuth 2 Authorization Code Flow
+546. OAuth 2 Implicit Flow
+547. OpenID Connect (OIDC)
 
 ## lesson 112. OAuth 2.0. Практика
 
-+ Create a new project in GCP
-+ Configure OAuth 2 in the project
-+ Configure Login Page
-+ Тестирование функционала
+548. Create a new project in GCP
+549. Configure OAuth 2 in the project
+550. Configure Login Page
+551. Тестирование функционала
 
 ## lesson 113. OAuth 2.0. Authentication Principle
 
-+ Add UserInfoEndpoint config in SecurityFilterChain
-+ Create oidcUserService
-+ Тестирование функционала
+552. Add UserInfoEndpoint config in SecurityFilterChain
+553. Create oidcUserService
+554. Тестирование функционала
 
 ## lesson 114. JWT. JSON Web Token
 
 
-+ How to extract info from JWT
-+ JWT header
-+ JWT payload
-+ JWT signature
-+ Code Book
+555. How to extract info from JWT
+556. JWT header
+557. JWT payload
+558. JWT signature
+559. Code Book
 
 ## lesson 115. Swagger Authorization
-+ 3 options to pass authorization in Swagger
-+ springdoc properties to support OAuth 2
-+ @SecurityScheme configuration
-+ Тестирование функционала
+560. 3 options to pass authorization in Swagger
+561. springdoc properties to support OAuth 2
+562. @SecurityScheme configuration
+563. Тестирование функционала
 
 
 
@@ -959,93 +956,93 @@ Spring-starter
 
 ## lesson 116. i18n. MessageSource
 
-+ spring.messages properties
-+ IntelliJ IDEA UTF-8 settings
-+ Creating MessageRestController
-+ Тестирование функционала
+564. spring.messages properties
+565. IntelliJ IDEA UTF-8 settings
+566. Creating MessageRestController
+567. Тестирование функционала
 
 ## lesson 117. i18n. Thymeleaf
 
-+ Login page i18n
-+ How to change the language
-+ LocalChangeInterceptor bean
-+ LocaleResolver bean
-+ Тестирование функционала
+568. Login page i18n
+569. How to change the language
+570. LocalChangeInterceptor bean
+571. LocaleResolver bean
+572. Тестирование функционала
 
 # 21. AOP Starter
 
 ## lesson 118. AOP Starter. Введение
-+ Усложнение кода второстепенной логикой
-+ Crosscutting concerns
-+ AOP terminology
-+ AOP approaches
+573. Усложнение кода второстепенной логикой
+574. Crosscutting concerns
+575. AOP terminology
+576. AOP approaches
 
 ## lesson 119. AOP. Pointcut
 
-+ spring-boot-starter-aop dependency
-+ AspectJ annotations
-+ @Pointcut
-+ @within
-+ within
-+ this & target
-+ @annotation
-+ args
-+ @args
-+ bean
-+ execution
+577. spring-boot-starter-aop dependency
+578. AspectJ annotations
+579. @Pointcut
+580. @within
+581. within
+582. this & target
+583. @annotation
+584. args
+585. @args
+586. bean
+587. execution
 
 ## lesson 120. AOP. @Before Advice
-+ @Before annotation
-+ Тестирование функционала
-+ CglibAopProxy
-+ Proxy interceptors
-+ Spring AOP diagram
-+ AopAutoConfiguration
+588. @Before annotation
+589. Тестирование функционала
+590. CglibAopProxy
+591. Proxy interceptors
+592. Spring AOP diagram
+593. AopAutoConfiguration
 
 ## lesson 121. AOP. JoinPoint. Params
 
-+ JoinPoint object
-+ Get access to proxy data from advice method params
-+ Тестирование функционала
-+ argNames
+594. JoinPoint object
+595. Get access to proxy data from advice method params
+596. Тестирование функционала
+597. argNames
 
 ## lesson 122. AOP. @After Advices
-+ All types of advice
-+ @AfterReturning annotation
-+ @AfterThrowing annotation
-+ @After annotation
-+ Тестирование функционала
+598. All types of advice
+599. @AfterReturning annotation
+600. @AfterThrowing annotation
+601. @After annotation
+602. Тестирование функционала
 
 ## lesson 123. AOP. @Around Advice
-+ TransactionInterceptor
-+ @Around annotation
-+ Тестирование функционала
+603. TransactionInterceptor
+604. @Around annotation
+605. Тестирование функционала
 
 ## lesson 124. AOP. Best Practices
-+ 1. Combine different Pointcut types
-+ 2. Move common Pointcuts to separate Aspect
-+ 3. Don t use @Around advice everywhere
-+ 4. Separate Pointcuts by business logic
-+ Aspects order
+606. 1. Combine different Pointcut types
+607. 607. Move common Pointcuts to separate Aspect
+608. 3. Don t use @Around advice everywhere
+609. 4. Separate Pointcuts by business logic
+610. Aspects order
 
 
 # 22. Заключение
 
 ## lesson 125. Custom Spring Boot Starter
-+ Create a new Gradle module
-+ Define starter properties
-+ Create Autoconfiguration
-+ File META-INF/spring.factories
-+ Move Aspects from the old to the new module
-+ How to use newly created starter
-+ spring-boot-configuration-processor
-+ Тестирование функционала
+611. Create a new Gradle module
+612. Define starter properties
+613. Create Autoconfiguration
+614. File META-INF/spring.factories
+615. Move Aspects from the old to the new module
+616. How to use newly created starter
+617. spring-boot-configuration-processor
+618. Тестирование функционала
 
 ## lesson 126. Заключение. Путь развития
 
-+ Spring Framework Documentation
-+ List of all main Spring Boot Starters
-+ Java Road Map
+619. Spring Framework Documentation
+620. List of all main Spring Boot Starters
+621. Java Road Map
 
 
 
