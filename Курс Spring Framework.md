@@ -126,7 +126,7 @@ Spring-starter
 64. [Подключение зависимости jakarta annotation api ](#Подключение-зависимости-jakarta-annotation-api)
 65. [Аннотации @PostConstruct и @PreDestroy ](#Аннотации-@PostConstruct-и-@PreDestroy)
 66. [Класс CommonAnnotationBeanPostProcessor ](#Класс-CommonAnnotationBeanPostProcessor)
-67. [context:annotation-config xml element ](#context:annotation-config-xml-element)
+67. [context:annotation-config xml element ](#context:-annotation-config-xml-element)
 
 
 
@@ -165,7 +165,7 @@ Spring-starter
 
 
 ## [lesson 19. Classpath Scanning ](#lesson-19.-Classpath-Scanning)
-87. [context:component-scan. Аннотации @Component ](#context:component-scan.-Аннотации-@Component)
+87. [context:component-scan. Аннотации @Component ](#context:-component-scan.-Аннотации-@Component)
 88. [Замена бинов из xml на @Component ](#Замена-бинов-из-xml-на-@Component)
 89. [Тестирование функционала ](#Тестирование-функционала)
 
@@ -184,8 +184,8 @@ Spring-starter
 97. [Атрибут scoped-proxy ](#Атрибут-scoped-proxy)
 98. [Атрибут scope-resolver ](#Атрибут-scope-resolver)
 99. [Атрибут use-default-filters ](#Атрибут-use-default-filters)
-100.[ 5 type filters ](#-5-type-filters)
-101.[ Custom filters ](#-Custom-filters)
+100. [ 5 type filters ](#-5-type-filters)
+101. [ Custom filters ](#-Custom-filters)
 
 
 ## [lesson 22. @Scope ](#lesson-22.-@Scope)
