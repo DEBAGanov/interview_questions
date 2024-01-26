@@ -1051,21 +1051,31 @@ Spring-starter
 
 ##`lesson 1. Введение`
 
-1.`Модули Spring (out of the box)`
-2.`Удобство и простота использования`
-3.`Микросервисная архитектура`
-4.`Support & Community`
-5.`Что нужно знать для изучения курса Spring`
+
+### 1.`Модули Spring (out of the box)`
+
+### 2.`Удобство и простота использования`
+
+### 3.`Микросервисная архитектура`
+
+### 4.`Support & Community`
+
+### 5.`Что нужно знать для изучения курса Spring`
 
 
 ##`lesson 2. Установка программного обеспечения`
 
 
-6.`Установка Java 17`
-7.`Установка IntelliJ IDEA Ultimate Edition`
-8.`Установка PostgreSQL`
-9.`Установка Docker`
-10.`Создание нового проекта`
+
+### 6.`Установка Java 17`
+
+### 7.`Установка IntelliJ IDEA Ultimate Edition`
+
+### 8.`Установка PostgreSQL`
+
+### 9.`Установка Docker`
+
+### 10.`Создание нового проекта`
 
 
 ##`lesson 3. Inversion of Control. Dependency Injection`
