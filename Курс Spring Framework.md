@@ -67,14 +67,14 @@ Spring-starter
 32. [Указание атрибута type в параметрах конструктора](#Указание атрибута type в параметрах конструктора)
 33. [Указание атрибута name в параметрах конструктора](#Указание атрибута name в параметрах конструктора)
 
-## lesson 7. Factory Method Injection
+## [lesson 7. Factory Method Injection](#lesson 7. Factory Method Injection)
 
 34. [Внедрение других бинов через ref*](#Внедрение других бинов через ref*)
 35. [Создание новое бина CompanyRepository](#Создание новое бина CompanyRepository)
 36. [Внедрение зависимостей через factory method](#Внедрение зависимостей через factory method)
 37. [Атрибут factory-bean (паттерн ServiceLocator)](#Атрибут factory-bean (паттерн ServiceLocator))
 
-## lesson 8. Property Injection
+## [lesson 8. Property Injection](#lesson 8. Property Injection)
 
 38. [Использование set* методов в ConnectionPool](#Использование set* методов в ConnectionPool)
 39. [Поле propertyValues в BeanDefinition](#Поле propertyValues в BeanDefinition)
@@ -82,20 +82,20 @@ Spring-starter
 41. [Плюсы и минусы Constructor и Property Injections](#Плюсы и минусы Constructor и Property Injections)
 42. [Циклические зависимости через Property Injection](#Циклические зависимости через Property Injection)
 
-## lesson 9. Bean Scopes
+## [lesson 9. Bean Scopes](#lesson 9. Bean Scopes)
 
 43. [Common Bean Scopes](#Common Bean Scopes)
 44. [Custom Bean Scopes](#Custom Bean Scopes)
 45. [Web Bean Scopes](#Web Bean Scopes)
 46. [Prototype Bean Scope](#Prototype Bean Scope)
 
-## lesson 10. Lifecycle Callbacks
+## [lesson 10. Lifecycle Callbacks](#lesson 9. Bean Scopes)
 
 47. [Измененный Bean Lifecycle](#Измененный Bean Lifecycle)
 48. [Initialization callbacks](#Initialization callbacks)
 49. [Destruction callbacks](#Destruction callbacks)
 
-## lesson 11. Injection from Properties Files
+## [lesson 11. Injection from Properties Files](#lesson 11. Injection from Properties Files)
 
 50. [Зачем использовать properties files](#Зачем использовать properties files)
 51. [Создание файла application.properties](#Создание файла application.properties)
@@ -105,23 +105,23 @@ Spring-starter
 55. [SpEL документация](#SpEL документация)
 56. [System properties](#System properties)
 
-## lesson 12. BeanFactoryPostProcessor (BFPP)
+## [lesson 12. BeanFactoryPostProcessor (BFPP)](#lesson 12. BeanFactoryPostProcessor (BFPP))
 
 57. [Интерфейс BeanFactoryPostProcessor](#Интерфейс BeanFactoryPostProcessor)
 58. [Как работает PropertySourcesPlaceholderConfigurer](#Как работает PropertySourcesPlaceholderConfigurer)
 59. [Измененный Bean Lifecycle](#Измененный Bean Lifecycle)
 60. [Метод isAssignableFrom](#Метод isAssignableFrom)
 
-## lesson 13. Custom BeanFactoryPostProcessor
+## [lesson 13. Custom BeanFactoryPostProcessor](#lesson 13. Custom BeanFactoryPostProcessor)
 
 61. [Создание собственных BeanFactoryPostProcessor](#Создание собственных BeanFactoryPostProcessor)
 62. [Интерфейс Ordered](#Интерфейс Ordered)
 63. [Интерфейс PriorityOrdered](#Интерфейс PriorityOrdered)
 
 
-# 3. Annotation-based Configuration
+# 3. [Annotation-based Configuration](#Annotation-based Configuration)
 
-## lesson 14. Annotation-based Configuration
+## [lesson 14. Annotation-based Configuration](#lesson 14. Annotation-based Configuration)
 
 64. [Подключение зависимости jakarta annotation api](#Подключение зависимости jakarta annotation api)
 65. [Аннотации @PostConstruct и @PreDestroy](#Аннотации @PostConstruct и @PreDestroy)
@@ -131,7 +131,7 @@ Spring-starter
 
 
 
-## lesson 15. BeanPostProcessor (BPP)
+## [lesson 15. BeanPostProcessor (BPP)](#lesson 15. BeanPostProcessor (BPP))
 
 68. [Интерфейс BeanPostProcessor](#Интерфейс BeanPostProcessor)
 69. [Bean Lifecycle (final version)](#Bean Lifecycle (final version))
@@ -139,14 +139,14 @@ Spring-starter
 71. [Класс ApplicationContextAwareProcessor](#Класс ApplicationContextAwareProcessor)
 
 
-## lesson 16. Custom BeanPostProcessor. Часть 1
+## [lesson 16. Custom BeanPostProcessor. Часть 1](#lesson 16. Custom BeanPostProcessor. Часть 1)
 
 72. [Создание своей аннотации @InjectBean](#Создание своей аннотации @InjectBean)
 73. [Создание InjectBeanPostProcessor](#Создание InjectBeanPostProcessor)
 74. [Утилитный класс ReflectionUtils](#Утилитный класс ReflectionUtils)
 75. [Тестирование InjectBeanPostProcessor](#Тестирование InjectBeanPostProcessor)
 
-## lesson 17. Custom BeanPostProcessor. Часть 2
+## [lesson 17. Custom BeanPostProcessor. Часть 2](#lesson 17. Custom BeanPostProcessor. Часть 2)
 76. [Создание аннотации @Transaction](#Создание аннотации @Transaction)
 77. [Создание CrudRepository](#Создание CrudRepository)
 78. [Создание TransactionBeanPostProcessor](#Создание TransactionBeanPostProcessor)
@@ -155,7 +155,7 @@ Spring-starter
 81. [Создание AuditingBeanPostProcessor](#Создание AuditingBeanPostProcessor)
 
 
-## lesson 18. @Autowired & @Value
+## [lesson 18. @Autowired & @Value](#lesson 18. @Autowired & @Value)
 
 82. [Аннотация @Autowired](#Аннотация @Autowired)
 83. [Аннотация @Resource](#Аннотация @Resource)
@@ -164,19 +164,19 @@ Spring-starter
 86. [Properties injection. @Value](#Properties injection. @Value)
 
 
-## lesson 19. Classpath Scanning
+## [lesson 19. Classpath Scanning](#lesson 19. Classpath Scanning)
 87. [context:component-scan. Аннотации @Component](#context:component-scan. Аннотации @Component)
 88. [Замена бинов из xml на @Component](#Замена бинов из xml на @Component)
 89. [Тестирование функционала](#Тестирование функционала)
 
-## lesson 20. Bean Definition Readers
+## [lesson 20. Bean Definition Readers](#lesson 20. Bean Definition Readers)
 
 90. [Component Scan classes](#Component Scan classes)
 91. [Bean Definition Readers](#Bean Definition Readers)
 92. [Класс ComponentScanBeanDefinitionParser](#Класс ComponentScanBeanDefinitionParser)
 93. [Класс AnnotatedBeanDefinitionReader](#Класс AnnotatedBeanDefinitionReader)
 
-## lesson 21. Type Filters
+## [lesson 21. Type Filters](#lesson 21. Type Filters)
 
 94. [Атрибут annotation-config](#Атрибут annotation-config)
 95. [Атрибут name-generator](#Атрибут name-generator)
@@ -188,13 +188,13 @@ Spring-starter
 101.[ Custom filters](# Custom filters)
 
 
-## lesson 22. @Scope
+## [lesson 22. @Scope](#lesson 22. @Scope)
 102. [Атрибут scope-resolver](#Атрибут scope-resolver)
 103. [Класс AnnotationScopeMetadataResolver](#Класс AnnotationScopeMetadataResolver)
 104. [Аннотация @Scope](#Аннотация @Scope)
 
 
-## lesson 23. JSR 250, JSR 330
+## [lesson 23. JSR 250, JSR 330](#lesson 23. JSR 250, JSR 330)
 
 105. [Аббревиатура JSR](#Аббревиатура JSR)
 106. [JSR 250](#JSR 250)
@@ -203,9 +203,9 @@ Spring-starter
 
 
 
-# 4. Java-based Configuration
+# 4. [Java-based Configuration](#Java-based Configuration)
 
-## lesson 24. Java-based Configuration
+## [lesson 24. Java-based Configuration](#lesson 24. Java-based Configuration)
 109. [Класс ConfigurationClassBeanDefinitionReader](#Класс ConfigurationClassBeanDefinitionReader)
 110. [Создание ApplicationConfiguration. @Configuration](#Создание ApplicationConfiguration. @Configuration)
 111. [Аннотация @PropertySource](#Аннотация @PropertySource)
@@ -213,12 +213,12 @@ Spring-starter
 113. [Класс AnnotationConfigApplicationContext](#Класс AnnotationConfigApplicationContext)
 
 
-## lesson 25. @Import & @ImportResource
+## [lesson 25. @Import & @ImportResource](#lesson 25. @Import & @ImportResource)
 114. [Класс AnnotationConfigApplicationContext](#Класс AnnotationConfigApplicationContext)
 115. [Аннотация @ImportResource](#Аннотация @ImportResource)
 116. [Аннотация @Import](#Аннотация @Import)
 
-## lesson 26. @Bean. Часть 1
+## [lesson 26. @Bean. Часть 1](#lesson 26. @Bean. Часть 1)
 
 117. [Аннотация @Bean](#Аннотация @Bean)
 118. [Тестирование Java конфигурации](#Тестирование Java конфигурации)
@@ -227,14 +227,14 @@ Spring-starter
 121. [Внедрение зависимостей с @Bean](#Внедрение зависимостей с @Bean)
 122. [Конфликт имен @Bean и @Component](#Конфликт имен @Bean и @Component)
 
-## lesson 27. @Bean. Часть 2
+## [lesson 27. @Bean. Часть 2](#lesson 27. @Bean. Часть 2)
 
 123. [3-ий вариант внедрения зависимостей в @Bean](#3-ий вариант внедрения зависимостей в @Bean)
 124. [Cglib proxy в @Configuration](#Cglib proxy в @Configuration)
 125. [Свойство proxyBeanMethods в @Configuration](#Свойство proxyBeanMethods в @Configuration)
 126. [@Bean создаются через паттерн Service Locator](#@Bean создаются через паттерн Service Locator)
 
-## lesson 28. Profiles
+## [lesson 28. Profiles](#lesson 28. Profiles)
 127. [Environment Bean](#Environment Bean)
 128. [Аннотация @Profile](#Аннотация @Profile)
 129. [Активация profiles через properties](#Активация profiles через properties)
@@ -242,16 +242,16 @@ Spring-starter
 
 
 
-# 5. Event Listeners
+# 5. [Event Listeners](# Event Listeners)
 
 
-## lesson 29. Event Listeners. Часть 1
+## [lesson 29. Event Listeners. Часть 1](#lesson 29. Event Listeners. Часть 1)
 131. [Шаблон проектирования Listener](#Шаблон проектирования Listener)
 132. [Создание события (Event)](#Создание события (Event))
 133. [Создание слушателя событий (Listener). @EventListener](#Создание слушателя событий (Listener). @EventListener)
 134. [Реализация логики для отправки события](#Реализация логики для отправки события)
 
-## lesson 30. Event Listeners. Часть 2
+## [lesson 30. Event Listeners. Часть 2](#lesson 30. Event Listeners. Часть 2)
 
 135. [Bean ApplicationEventPublisher](#Bean ApplicationEventPublisher)
 136. [Тестирование слушателей событий](#Тестирование слушателей событий)
@@ -259,10 +259,10 @@ Spring-starter
 138. [Listeners conditions](#Listeners conditions)
 
 
-# 6. Spring Boot
+# 6. [Spring Boot](#Spring Boot)
 
 
-## lesson 31. Spring Boot. Введение
+## [lesson 31. Spring Boot. Введение](#lesson 31. Spring Boot. Введение)
 
 139. [Spring modules](#Spring modules)
 140. [Spring Data Configuration](#Spring Data Configuration)
@@ -272,7 +272,7 @@ Spring-starter
 144. [Dependency Management](#Dependency Management)
 145. [How to build Spring Boot Application](#How to build Spring Boot Application)
 
-## lesson 32. @Conditional
+## [lesson 32. @Conditional](#lesson 32. @Conditional)
 
 146. [Аннотация @Conditional](#Аннотация @Conditional)
 147. [Класс Condition](#Класс Condition)
@@ -281,7 +281,7 @@ Spring-starter
 150. [Аннотация @Profile](#Аннотация @Profile)
 151. [Другие @Condition аннотации](#Другие @Condition аннотации)
 
-## lesson 33. Spring Boot. Настройка проекта
+## [lesson 33. Spring Boot. Настройка проекта](lesson 33. Spring Boot. Настройка проекта)
 
 152. [Spring Boot Gradle Plugin](#Spring Boot Gradle Plugin)
 153. [Spring Dependency Management Plugin](#Spring Dependency Management Plugin)
@@ -290,7 +290,7 @@ Spring-starter
 156. [Autogenerated Spring Boot Project](#Autogenerated Spring Boot Project)
 157. [Maven spring-boot-starter-parent pom](#Maven spring-boot-starter-parent pom)
 
-## lesson 34. @SpringBootApplication
+## [lesson 34. @SpringBootApplication](#lesson 34. @SpringBootApplication)
 
 158. [Структура Spring Boot приложения](#Структура Spring Boot приложения)
 159. [Что делает метод SpringApplication.run](#Что делает метод SpringApplication.run)
@@ -301,7 +301,7 @@ Spring-starter
 164. [Аннотация @EnableAutoConfiguration](#Аннотация @EnableAutoConfiguration)
 
 
-## lesson 35. Lombok
+## [lesson 35. Lombok](#lesson 35. Lombok)
 
 165. [Подключение Lombok](#Подключение Lombok)
 166. [Gradle Lombok Plugin](#Gradle Lombok Plugin)
@@ -309,7 +309,7 @@ Spring-starter
 168. [Аннотации Lombok](#Аннотации Lombok)
 169. [Файл lombok.config](#Файл lombok.config)
 
-## lesson 36. Properties
+## [lesson 36. Properties](#lesson 36. Properties)
 
 170. [Файл spring.properties](#Файл spring.properties)
 171. [Externalized Configuration](#Externalized Configuration)
