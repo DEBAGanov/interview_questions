@@ -1559,11 +1559,11 @@ XML-конфигурация Spring предоставляет гибкость 
 
 ## `lesson 18. @Autowired & @Value`
 
-82.`Аннотация @Autowired`
-83.`Аннотация @Resource`
-84.`Решение конлифкта бинов. @Qualifier`
-85.`Collection injection`
-86.`Properties injection. @Value`
+### 82.`Аннотация @Autowired`
+### 83.`Аннотация @Resource`
+### 84.`Решение конлифкта бинов. @Qualifier`
+### 85.`Collection injection`
+### 86.`Properties injection. @Value`
 
 
 ## `lesson 19. Classpath Scanning`
