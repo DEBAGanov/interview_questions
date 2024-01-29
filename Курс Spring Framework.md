@@ -1534,10 +1534,10 @@ XML-конфигурация Spring предоставляет гибкость 
 
 ## `lesson 15. BeanPostProcessor (BPP)`
 
-68.`Интерфейс BeanPostProcessor`
-69.`Bean Lifecycle (final version)`
-70.`Интерфейс Aware`
-71.`Класс ApplicationContextAwareProcessor`
+### 68.`Интерфейс BeanPostProcessor`
+### 69.`Bean Lifecycle (final version)`
+### 70.`Интерфейс Aware`
+### 71.`Класс ApplicationContextAwareProcessor`
 
 
 ## `lesson 16. Custom BeanPostProcessor. Часть 1`
