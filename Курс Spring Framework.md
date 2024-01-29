@@ -1548,12 +1548,13 @@ XML-конфигурация Spring предоставляет гибкость 
 ### 75.`Тестирование InjectBeanPostProcessor`
 
 ## `lesson 17. Custom BeanPostProcessor. Часть 2`
-76.`Создание аннотации @Transaction`
-77.`Создание CrudRepository`
-78.`Создание TransactionBeanPostProcessor`
-79.`Тестирование TransactionBeanPostProcessor`
-80.`Корректируем TransactionBeanPostProcessor`
-81.`Создание AuditingBeanPostProcessor`
+
+### 76.`Создание аннотации @Transaction`
+### 77.`Создание CrudRepository`
+### 78.`Создание TransactionBeanPostProcessor`
+### 79.`Тестирование TransactionBeanPostProcessor`
+### 80.`Корректируем TransactionBeanPostProcessor`
+### 81.`Создание AuditingBeanPostProcessor`
 
 
 ## `lesson 18. @Autowired & @Value`
