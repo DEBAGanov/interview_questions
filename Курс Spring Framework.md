@@ -1574,10 +1574,10 @@ XML-конфигурация Spring предоставляет гибкость 
 
 ## `lesson 20. Bean Definition Readers`
 
-90.`Component Scan classes`
-91.`Bean Definition Readers`
-92.`Класс ComponentScanBeanDefinitionParser`
-93.`Класс AnnotatedBeanDefinitionReader`
+### 90.`Component Scan classes`
+### 91.`Bean Definition Readers`
+### 92.`Класс ComponentScanBeanDefinitionParser`
+### 93.`Класс AnnotatedBeanDefinitionReader`
 
 ## `lesson 21. Type Filters`
 
