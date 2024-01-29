@@ -1567,9 +1567,10 @@ XML-конфигурация Spring предоставляет гибкость 
 
 
 ## `lesson 19. Classpath Scanning`
-87.`context:component-scan. Аннотации @Component`
-88.`Замена бинов из xml на @Component`
-89.`Тестирование функционала`
+
+### 87.`context:component-scan. Аннотации @Component`
+### 88.`Замена бинов из xml на @Component`
+### 89.`Тестирование функционала`
 
 ## `lesson 20. Bean Definition Readers`
 
