@@ -1542,10 +1542,10 @@ XML-конфигурация Spring предоставляет гибкость 
 
 ## `lesson 16. Custom BeanPostProcessor. Часть 1`
 
-72.`Создание своей аннотации @InjectBean`
-73.`Создание InjectBeanPostProcessor`
-74.`Утилитный класс ReflectionUtils`
-75.`Тестирование InjectBeanPostProcessor`
+### 72.`Создание своей аннотации @InjectBean`
+### 73.`Создание InjectBeanPostProcessor`
+### 74.`Утилитный класс ReflectionUtils`
+### 75.`Тестирование InjectBeanPostProcessor`
 
 ## `lesson 17. Custom BeanPostProcessor. Часть 2`
 76.`Создание аннотации @Transaction`
