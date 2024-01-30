@@ -1805,10 +1805,10 @@ public class MyBean {
 
 ## `lesson 30. Event Listeners. Часть 2`
 
-135.`Bean ApplicationEventPublisher`
-136.`Тестирование слушателей событий`
-137.`Listeners order`
-138.`Listeners conditions`
+### 135.`Bean ApplicationEventPublisher`
+### 136.`Тестирование слушателей событий`
+### 137.`Listeners order`
+### 138.`Listeners conditions`
 
 
 # 6.`Spring Boot`
