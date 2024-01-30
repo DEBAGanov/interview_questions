@@ -1816,13 +1816,13 @@ public class MyBean {
 
 ## `lesson 31. Spring Boot. Введение`
 
-139.`Spring modules`
-140.`Spring Data Configuration`
-141.`Modules Auto Configuration`
-142.`Conditions`
-143.`Spring Boot Starters`
-144.`Dependency Management`
-145.`How to build Spring Boot Application`
+### 139.`Spring modules`
+### 140.`Spring Data Configuration`
+### 141.`Modules Auto Configuration`
+### 142.`Conditions`
+### 143.`Spring Boot Starters`
+### 144.`Dependency Management`
+### 145.`How to build Spring Boot Application`
 
 ## `lesson 32. @Conditional`
 
