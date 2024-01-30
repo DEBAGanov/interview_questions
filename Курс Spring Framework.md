@@ -1826,12 +1826,12 @@ public class MyBean {
 
 ## `lesson 32. @Conditional`
 
-146.`Аннотация @Conditional`
-147.`Класс Condition`
-148.`Custom JpaCondition`
-149.`Тестирование JpaCondition`
-150.`Аннотация @Profile`
-151.`Другие @Condition аннотации`
+### 146.`Аннотация @Conditional`
+### 147.`Класс Condition`
+### 148.`Custom JpaCondition`
+### 149.`Тестирование JpaCondition`
+### 150.`Аннотация @Profile`
+### 151.`Другие @Condition аннотации`
 
 
 ## `lesson 33. Spring Boot. Настройка проекта`
