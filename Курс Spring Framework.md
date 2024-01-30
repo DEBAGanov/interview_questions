@@ -1503,7 +1503,7 @@ public class MyBean {
 ```java
 public class MyBean {
     private int myNumber;
-    
+
     @Autowired
     public MyBean(@Value("10") int myNumber) {
         this.myNumber = myNumber;
@@ -1726,67 +1726,70 @@ public class MyBean {
 
 ## `lesson 21. Type Filters`
 
-94.`Атрибут annotation-config`
-95.`Атрибут name-generator`
-96.`Атрибут resource-pattern`
-97.`Атрибут scoped-proxy`
-98.`Атрибут scope-resolver`
-99.`Атрибут use-default-filters`
-100.`5 type filters`
-101.`Custom filters`
+### 94.`Атрибут annotation-config`
+### 95.`Атрибут name-generator`
+### 96.`Атрибут resource-pattern`
+### 97.`Атрибут scoped-proxy`
+### 98.`Атрибут scope-resolver`
+### 99.`Атрибут use-default-filters`
+### 100.`5 type filters`
+### 101.`Custom filters`
 
 
 ## `lesson 22. @Scope`
-102.`Атрибут scope-resolver`
-103.`Класс AnnotationScopeMetadataResolver`
-104.`Аннотация @Scope`
+### 102.`Атрибут scope-resolver`
+### 103.`Класс AnnotationScopeMetadataResolver`
+### 104.`Аннотация @Scope`
 
 
 ## `lesson 23. JSR 250, JSR 330`
 
-105.`Аббревиатура JSR`
-106.`JSR 250`
-107.`JSR 330`
-108.`Класс Jsr330ScopeMetadataResolver`
+### 105.`Аббревиатура JSR`
+### 106.`JSR 250`
+### 107.`JSR 330`
+### 108.`Класс Jsr330ScopeMetadataResolver`
 
 
 
 # 4.`Java-based Configuration`
 
 ## `lesson 24. Java-based Configuration`
-109.`Класс ConfigurationClassBeanDefinitionReader`
-110.`Создание ApplicationConfiguration. @Configuration`
-111.`Аннотация @PropertySource`
-112.`Аннотация @ComponentScan`
-113.`Класс AnnotationConfigApplicationContext`
+
+### 109.`Класс ConfigurationClassBeanDefinitionReader`
+### 110.`Создание ApplicationConfiguration. @Configuration`
+### 111.`Аннотация @PropertySource`
+### 112.`Аннотация @ComponentScan`
+### 113.`Класс AnnotationConfigApplicationContext`
 
 
 ## `lesson 25. @Import & @ImportResource`
-114.`Класс AnnotationConfigApplicationContext`
-115.`Аннотация @ImportResource`
-116.`Аннотация @Import`
+
+### 114.`Класс AnnotationConfigApplicationContext`
+### 115.`Аннотация @ImportResource`
+### 116.`Аннотация @Import`
 
 ## `lesson 26. @Bean. Часть 1`
 
-117.`Аннотация @Bean`
-118.`Тестирование Java конфигурации`
-119.`Свойства аннотации @Bean`
-120.`Аннотация @Scope с @Bean`
-121.`Внедрение зависимостей с @Bean`
-122.`Конфликт имен @Bean и @Component`
+### 117.`Аннотация @Bean`
+### 118.`Тестирование Java конфигурации`
+### 119.`Свойства аннотации @Bean`
+### 120.`Аннотация @Scope с @Bean`
+### 121.`Внедрение зависимостей с @Bean`
+### 122.`Конфликт имен @Bean и @Component`
 
 ## `lesson 27. @Bean. Часть 2`
 
-123.`3-ий вариант внедрения зависимостей в @Bean`
-124.`Cglib proxy в @Configuration`
-125.`Свойство proxyBeanMethods в @Configuration`
-126.`@Bean создаются через паттерн Service Locator`
+### 123.`3-ий вариант внедрения зависимостей в @Bean`
+### 124.`Cglib proxy в @Configuration`
+### 125.`Свойство proxyBeanMethods в @Configuration`
+### 126.`@Bean создаются через паттерн Service Locator`
 
 ## `lesson 28. Profiles`
-127.`Environment Bean`
-128.`Аннотация @Profile`
-129.`Активация profiles через properties`
-130.`Активация profiles через ApplicationContext`
+
+### 127.`Environment Bean`
+### 128.`Аннотация @Profile`
+### 129.`Активация profiles через properties`
+### 130.`Активация profiles через ApplicationContext`
 
 
 
@@ -1794,6 +1797,7 @@ public class MyBean {
 
 
 ## `lesson 29. Event Listeners. Часть 1`
+
 131.`Шаблон проектирования Listener`
 132.`Создание события (Event)`
 133.`Создание слушателя событий (Listener). @EventListener`
