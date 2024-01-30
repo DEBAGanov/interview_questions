@@ -1845,13 +1845,13 @@ public class MyBean {
 
 ## `lesson 34. @SpringBootApplication`
 
-158.`Структура Spring Boot приложения`
-159.`Что делает метод SpringApplication.run`
-160.`Аннотация @SpringBootApplication`
-161.`Аннотация @SpringBootConfiguration`
-162.`Аннотация @ComponentScan`
-163.`Аннотация @PropertySource`
-164.`Аннотация @EnableAutoConfiguration`
+### 158.`Структура Spring Boot приложения`
+### 159.`Что делает метод SpringApplication.run`
+### 160.`Аннотация @SpringBootApplication`
+### 161.`Аннотация @SpringBootConfiguration`
+### 162.`Аннотация @ComponentScan`
+### 163.`Аннотация @PropertySource`
+### 164.`Аннотация @EnableAutoConfiguration`
 
 
 ## `lesson 35. Lombok`
