@@ -1993,11 +1993,12 @@ public class MyBean {
 #`10. Data JPA Transactions`
 
 ## `lesson 49. @Transactional. TestContext`
-249.`Общая структура работы с TransactionManager`
-250.`Создание CompanyRepository IT`
-251.`Аннотации @Transactional из Jakarta EE и Spring`
-252.`Класс TransactionalTestExecutionListener`
-253.`Аннотации @Commit и @Rollback`
+
+### 249.`Общая структура работы с TransactionManager`
+### 250.`Создание CompanyRepository IT`
+### 251.`Аннотации @Transactional из Jakarta EE и Spring`
+### 252.`Класс TransactionalTestExecutionListener`
+### 253.`Аннотации @Commit и @Rollback`
 
 ## `lesson 50. TransactionAutoConfiguration`
 254.`Класс TransactionAutoConfigurationКак происходит обработка транзакций в proxy`
