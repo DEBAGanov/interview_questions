@@ -1945,10 +1945,10 @@ public class MyBean {
 
 ## `lesson 44. Integration Testing. Part 3`
 
-221.`Аннотация @ActiveProfiles`
-222.`Custom Test Annotations`
-223.`Аннотация @TestConstructor`
-224.`Замена @TestConstructor на spring.properties`
+### 221.`Аннотация @ActiveProfiles`
+### 222.`Custom Test Annotations`
+### 223.`Аннотация @TestConstructor`
+### 224.`Замена @TestConstructor на spring.properties`
 
 ## `lesson 45. Context Caching`
 
@@ -1962,6 +1962,7 @@ public class MyBean {
 #`9. Data JPA Starter`
 
 ## `lesson 46. Data JPA Starter. Введение`
+
 230.`Чего не хватало в Hibernate`
 231.`Установка PostgreSQL`
 232.`Установка Docker`
