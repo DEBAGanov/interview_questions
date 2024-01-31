@@ -1971,23 +1971,23 @@ public class MyBean {
 
 ## `lesson 47. Data JPA Starter. Подключение`
 
-235.`Подключение spring-boot-starter-data-jpa`
-236.`Зависимости spring-boot-starter-data-jpa`
-237.`Класс HibernateJpaAutoConfiguration`
-238.`Настройка spring.datasource и spring.jpa properties`
-239.`Тестирование приложения`
+### 235.`Подключение spring-boot-starter-data-jpa`
+### 236.`Зависимости spring-boot-starter-data-jpa`
+### 237.`Класс HibernateJpaAutoConfiguration`
+### 238.`Настройка spring.datasource и spring.jpa properties`
+### 239.`Тестирование приложения`
 
 ## `lesson 48. Hibernate Entities`
 
-240.`UML диаграмма выполненных sql скриптов`
-241.`Создание сущности Company`
-242.`Создание коллекции locales (ElementCollection)`
-243.`Создание сущности User`
-244.`Создание сущности Payment`
-245.`Создание сущности Chat`
-246.`Создание сущности UserChat`
-247.`Проверка маппинга сущностей через hbm2ddl.auto`
-248.`Аннотация @EntityScan`
+### 240.`UML диаграмма выполненных sql скриптов`
+### 241.`Создание сущности Company`
+### 242.`Создание коллекции locales (ElementCollection)`
+### 243.`Создание сущности User`
+### 244.`Создание сущности Payment`
+### 245.`Создание сущности Chat`
+### 246.`Создание сущности UserChat`
+### 247.`Проверка маппинга сущностей через hbm2ddl.auto`
+### 248.`Аннотация @EntityScan`
 
 
 #`10. Data JPA Transactions`
