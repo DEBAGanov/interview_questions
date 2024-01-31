@@ -1963,11 +1963,11 @@ public class MyBean {
 
 ## `lesson 46. Data JPA Starter. Введение`
 
-230.`Чего не хватало в Hibernate`
-231.`Установка PostgreSQL`
-232.`Установка Docker`
-233.`Postgres Docker Image`
-234.`Подключение к postgres из IntelliJ IDEA`
+### 230.`Чего не хватало в Hibernate`
+### 231.`Установка PostgreSQL`
+### 232.`Установка Docker`
+### 233.`Postgres Docker Image`
+### 234.`Подключение к postgres из IntelliJ IDEA`
 
 ## `lesson 47. Data JPA Starter. Подключение`
 
