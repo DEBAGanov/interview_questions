@@ -1952,11 +1952,11 @@ public class MyBean {
 
 ## `lesson 45. Context Caching`
 
-225.`Создание нескольких ApplicationContext в тестах`
-226.`Аннотации @MockBean и @SpyBean`
-227.`Класс MockitoTestExecutionListener`
-228.`Аннотация @TestConfiguration`
-229.`Аннотация @DirtiesContext`
+### 225.`Создание нескольких ApplicationContext в тестах`
+### 226.`Аннотации @MockBean и @SpyBean`
+### 227.`Класс MockitoTestExecutionListener`
+### 228.`Аннотация @TestConfiguration`
+### 229.`Аннотация @DirtiesContext`
 
 
 #`9. Data JPA Starter`
