@@ -2009,14 +2009,15 @@ public class MyBean {
 ### 258.`Механизм транзакций между несколькими Cglib proxy`
 
 ## `lesson 51. @Transactional Settings`
-259.`Свойства @Transactional. transactionManager`
-260.`Transaction propagation`
-261.`Transaction propagation резюме`
-262.`Transaction isolation`
-263.`Transaction timeout`
-264.`ReadOnly transaction`
-265.`Transaction rollbackFor & rollbackForClassName`
-266.`Transaction noRollbackFor & noRollbackForClassName`
+
+### 259.`Свойства @Transactional. transactionManager`
+### 260.`Transaction propagation`
+### 261.`Transaction propagation резюме`
+### 262.`Transaction isolation`
+### 263.`Transaction timeout`
+### 264.`ReadOnly transaction`
+### 265.`Transaction rollbackFor & rollbackForClassName`
+### 266.`Transaction noRollbackFor & noRollbackForClassName`
 
 
 ## `lesson 52. Manual Transactions`
