@@ -2032,9 +2032,10 @@ public class MyBean {
 #`11. Data JPA Repositories`
 
 ## `lesson 53. Repository`
-272.`Интерфейс Repository`
-273.`Написание теста на удаление Company`
-274.`Класс JpaRepositoryAutoConfiguration`
+
+### 272.`Интерфейс Repository`
+### 273.`Написание теста на удаление Company`
+### 274.`Класс JpaRepositoryAutoConfiguration`
 
 ## `lesson 54. RepositoryQuery`
 275.`Создание Proxy на классы Repository`
