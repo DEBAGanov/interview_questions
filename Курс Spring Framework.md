@@ -2061,11 +2061,12 @@ public class MyBean {
 ### 287.`Аннотация @Param`
 
 ## `lesson 57. @Query`
-288.`StoredProcedureJpaQuery`
-289.`Аннотация @Query`
-290.`Демонстрация работы @Query`
-291.`Усовершенствованный оператор LIKE`
-292.`Native Query`
+
+### 288.`StoredProcedureJpaQuery`
+### 289.`Аннотация @Query`
+### 290.`Демонстрация работы @Query`
+### 291.`Усовершенствованный оператор LIKE`
+### 292.`Native Query`
 
 ## `lesson 58. @Modifying`
 
