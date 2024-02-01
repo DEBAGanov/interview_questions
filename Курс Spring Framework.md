@@ -2021,11 +2021,12 @@ public class MyBean {
 
 
 ## `lesson 52. Manual Transactions`
-267.`Свойства объекта TransactionTemplate`
-268.`Функционал TransactionTemplate`
-269.`Обработка checked exceptions`
-270.`Взаимодействие TransactionTemplate с другими Proxy`
-271.`Вынесение @Transactional в @IT`
+
+### 267.`Свойства объекта TransactionTemplate`
+### 268.`Функционал TransactionTemplate`
+### 269.`Обработка checked exceptions`
+### 270.`Взаимодействие TransactionTemplate с другими Proxy`
+### 271.`Вынесение @Transactional в @IT`
 
 
 #`11. Data JPA Repositories`
