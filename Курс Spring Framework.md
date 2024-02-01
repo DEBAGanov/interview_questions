@@ -2038,10 +2038,11 @@ public class MyBean {
 ### 274.`Класс JpaRepositoryAutoConfiguration`
 
 ## `lesson 54. RepositoryQuery`
-275.`Создание Proxy на классы Repository`
-276.`Класс QueryExecutorMethodInterceptor`
-277.`Класс RepositoryQuery`
-278.`Наследники Repository`
+
+### 275.`Создание Proxy на классы Repository`
+### 276.`Класс QueryExecutorMethodInterceptor`
+### 277.`Класс RepositoryQuery`
+### 278.`Наследники Repository`
 
 ## `lesson 55. PartTreeJpaQuery`
 279.`Класс PartTreeJpaQuery`
