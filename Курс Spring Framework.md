@@ -2001,11 +2001,12 @@ public class MyBean {
 ### 253.`Аннотации @Commit и @Rollback`
 
 ## `lesson 50. TransactionAutoConfiguration`
-254.`Класс TransactionAutoConfigurationКак происходит обработка транзакций в proxy`
-255.`Аннотация @Transactional и Cglib proxy`
-256.`Как работает Cglib proxy с TransactionManager`
-257.`Как подключить механизм транзакций внутри объекта (не proxy)`
-258.`Механизм транзакций между несколькими Cglib proxy`
+
+### 254.`Класс TransactionAutoConfigurationКак происходит обработка транзакций в proxy`
+### 255.`Аннотация @Transactional и Cglib proxy`
+### 256.`Как работает Cglib proxy с TransactionManager`
+### 257.`Как подключить механизм транзакций внутри объекта (не proxy)`
+### 258.`Механизм транзакций между несколькими Cglib proxy`
 
 ## `lesson 51. @Transactional Settings`
 259.`Свойства @Transactional. transactionManager`
