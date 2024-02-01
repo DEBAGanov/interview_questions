@@ -2045,19 +2045,20 @@ public class MyBean {
 ### 278.`Наследники Repository`
 
 ## `lesson 55. PartTreeJpaQuery`
-279.`Класс PartTreeJpaQuery`
-280.`Примеры написания запросов`
-281.`Тестирование запросов`
-282.`Весь список ключевых слов PartTreeJpaQuery`
+
+### 279.`Класс PartTreeJpaQuery`
+### 280.`Примеры написания запросов`
+### 281.`Тестирование запросов`
+### 282.`Весь список ключевых слов PartTreeJpaQuery`
 
 
 ## `lesson 56. NamedQuery`
 
-283.`Недостатки PartTreeJpaQuery`
-284.`Класс NamedQuery`
-285.`Аннотация @NamedQuery`
-286.`Тестирование NamedQuery`
-287.`Аннотация @Param`
+### 283.`Недостатки PartTreeJpaQuery`
+### 284.`Класс NamedQuery`
+### 285.`Аннотация @NamedQuery`
+### 286.`Тестирование NamedQuery`
+### 287.`Аннотация @Param`
 
 ## `lesson 57. @Query`
 288.`StoredProcedureJpaQuery`
