@@ -2092,10 +2092,10 @@ public class MyBean {
 
 ## `lesson 61. @EntityGraph`
 
-306.`Аннотация @EntityGraph`
-307.`Именованные графы @NamedEntityGraph`
-308.`Свойство attributePaths в @EntityGraph`
-309.`Конфликт Pageable при получении EAGER связей`
+### 306.`Аннотация @EntityGraph`
+### 307.`Именованные графы @NamedEntityGraph`
+### 308.`Свойство attributePaths в @EntityGraph`
+### 309.`Конфликт Pageable при получении EAGER связей`
 
 ## `lesson 62. @Lock & @QueryHints`
 
