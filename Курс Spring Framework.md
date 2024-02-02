@@ -2084,10 +2084,11 @@ public class MyBean {
 ### 301.`Класс Pageable`
 
 ## `lesson 60. Page & Slice`
-302.`Spring классы Streamable, Slice, Page`
-303.`Демонстрация работы Slice объекта`
-304.`Почему Slice объекта недостаточно`
-305.`Демонстрация работы Page объекта`
+
+### 302.`Spring классы Streamable, Slice, Page`
+### 303.`Демонстрация работы Slice объекта`
+### 304.`Почему Slice объекта недостаточно`
+### 305.`Демонстрация работы Page объекта`
 
 ## `lesson 61. @EntityGraph`
 
