@@ -2118,12 +2118,13 @@ public class MyBean {
 ### 320.`Тестирование запроса фильтрации`
 
 ## `lesson 65. JPA Auditing`
-321.`Создание AuditingEntity`
-322.`Аннотация @EnableJpaAuditing`
-323.`Тестирование @CreatedDate и @LastModifiedDate`
-324.`Аннотации @CreatedBy и @LastModifiedBy`
-325.`Создание AuditorAware Bean`
-326.`Тестирование @CreatedBy и @LastModifiedBy`
+
+### 321.`Создание AuditingEntity`
+### 322.`Аннотация @EnableJpaAuditing`
+### 323.`Тестирование @CreatedDate и @LastModifiedDate`
+### 324.`Аннотации @CreatedBy и @LastModifiedBy`
+### 325.`Создание AuditorAware Bean`
+### 326.`Тестирование @CreatedBy и @LastModifiedBy`
 
 ## `lesson 66. Hibernate Envers`
 327.`Подключение Hibernate Envers`
