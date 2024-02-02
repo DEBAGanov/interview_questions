@@ -2078,10 +2078,10 @@ public class MyBean {
 
 ## `lesson 59. Special parameters`
 
-298.`Top & First`
-299.`TopN & FirstN`
-300.`Класс Sort`
-301.`Класс Pageable`
+### 298.`Top & First`
+### 299.`TopN & FirstN`
+### 300.`Класс Sort`
+### 301.`Класс Pageable`
 
 ## `lesson 60. Page & Slice`
 302.`Spring классы Streamable, Slice, Page`
