@@ -2112,10 +2112,10 @@ public class MyBean {
 
 ## `lesson 64. Custom Repository Implementation`
 
-317.`Запрос фильтрации через Custom Implementation`
-318.`Criteria API для запроса фильтрации`
-319.`Аннотация @EnableJpaRepository`
-320.`Тестирование запроса фильтрации`
+### 317.`Запрос фильтрации через Custom Implementation`
+### 318.`Criteria API для запроса фильтрации`
+### 319.`Аннотация @EnableJpaRepository`
+### 320.`Тестирование запроса фильтрации`
 
 ## `lesson 65. JPA Auditing`
 321.`Создание AuditingEntity`
