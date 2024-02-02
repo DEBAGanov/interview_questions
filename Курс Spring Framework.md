@@ -2099,16 +2099,16 @@ public class MyBean {
 
 ## `lesson 62. @Lock & @QueryHints`
 
-310.`Аннотация @Lock`
-311.`Демонстрация пессимистических блокировок`
-312.`Аннотация @QueryHints`
+### 310.`Аннотация @Lock`
+### 311.`Демонстрация пессимистических блокировок`
+### 312.`Аннотация @QueryHints`
 
 ## `lesson 63. Projection`
 
-313.`Class-based Projections`
-314.`Generic Class-based Projections`
-315.`Interface-based Projections`
-316.`SpEL in Projections`
+### 313.`Class-based Projections`
+### 314.`Generic Class-based Projections`
+### 315.`Interface-based Projections`
+### 316.`SpEL in Projections`
 
 ## `lesson 64. Custom Repository Implementation`
 
