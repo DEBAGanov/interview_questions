@@ -2070,11 +2070,11 @@ public class MyBean {
 
 ## `lesson 58. @Modifying`
 
-293.`Запрос на обновление через @Query`
-294.`Аннотация @Modifying`
-295.`Hibernate PersistenceContext`
-296.`Свойства clearAutomatically и flushAutomatically`
-297.`clearAutomatically и LazyInitializationException`
+### 293.`Запрос на обновление через @Query`
+### 294.`Аннотация @Modifying`
+### 295.`Hibernate PersistenceContext`
+### 296.`Свойства clearAutomatically и flushAutomatically`
+### 297.`clearAutomatically и LazyInitializationException`
 
 ## `lesson 59. Special parameters`
 
