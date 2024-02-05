@@ -2127,12 +2127,13 @@ public class MyBean {
 ### 326.`Тестирование @CreatedBy и @LastModifiedBy`
 
 ## `lesson 66. Hibernate Envers`
-327.`Подключение Hibernate Envers`
-328.`Создание сущности Revision`
-329.`Аннотация @Audited`
-330.`Аннотация @EnableEnversRepositories`
-331.`Тестирование Hibernate Envers`
-332.`Класс RevisionRepository`
+
+### 327.`Подключение Hibernate Envers`
+### 328.`Создание сущности Revision`
+### 329.`Аннотация @Audited`
+### 330.`Аннотация @EnableEnversRepositories`
+### 331.`Тестирование Hibernate Envers`
+### 332.`Класс RevisionRepository`
 
 
 ## `lesson 67. Querydsl`
