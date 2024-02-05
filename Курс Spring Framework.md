@@ -2138,17 +2138,18 @@ public class MyBean {
 
 ## `lesson 67. Querydsl`
 
-333.`Подключение Querydsl`
-334.`Создание QPredicates`
-335.`Замена Criteria API на Querydsl`
-336.`Тестирование Querydsl`
-337.`Класс QuerydslPredicateExecutor`
+### 333.`Подключение Querydsl`
+### 334.`Создание QPredicates`
+### 335.`Замена Criteria API на Querydsl`
+### 336.`Тестирование Querydsl`
+### 337.`Класс QuerydslPredicateExecutor`
 
 
-#`12. JDBC Starter`
+# `12. JDBC Starter`
 
 
 ## `lesson 68. JDBC Starter`
+
 338.`Зависимость spring-boot-starter-jdbc`
 339.`JdbcTemplateAutoConfiguration`
 340.`Функционал класса JdbcTemplate`
