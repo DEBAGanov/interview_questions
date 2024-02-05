@@ -2150,15 +2150,16 @@ public class MyBean {
 
 ## `lesson 68. JDBC Starter`
 
-338.`Зависимость spring-boot-starter-jdbc`
-339.`JdbcTemplateAutoConfiguration`
-340.`Функционал класса JdbcTemplate`
-341.`Практика JdbcTemplate`
-342.`Тестирование функционала`
-343.`Подключение логов для JdbcTemplate`
+### 338.`Зависимость spring-boot-starter-jdbc`
+### 339.`JdbcTemplateAutoConfiguration`
+### 340.`Функционал класса JdbcTemplate`
+### 341.`Практика JdbcTemplate`
+### 342.`Тестирование функционала`
+### 343.`Подключение логов для JdbcTemplate`
 
 
 ## `lesson 69. Batch size & Fetch size`
+
 344.`Batch запросы`
 345.`Batch запрос через JdbcTemplate`
 346.`Тестирование Batch запроса через JdbcTemplate`
