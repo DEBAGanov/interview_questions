@@ -2160,12 +2160,12 @@ public class MyBean {
 
 ## `lesson 69. Batch size & Fetch size`
 
-344.`Batch запросы`
-345.`Batch запрос через JdbcTemplate`
-346.`Тестирование Batch запроса через JdbcTemplate`
-347.`Batch запрос через NamedParameterJdbcTemplate`
-348.`Установка batch_size в Hibernate`
-349.`Fetch size`
+### 344.`Batch запросы`
+### 345.`Batch запрос через JdbcTemplate`
+### 346.`Тестирование Batch запроса через JdbcTemplate`
+### 347.`Batch запрос через NamedParameterJdbcTemplate`
+### 348.`Установка batch_size в Hibernate`
+### 349.`Fetch size`
 
 
 
