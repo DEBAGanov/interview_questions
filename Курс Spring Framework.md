@@ -2179,11 +2179,11 @@ public class MyBean {
 ### 352.`Аннотация @Sql`
 
 ## `lesson 71. Testcontainers`
-353.`testcontainers lib`
-354.`Подключение testcontainers`
-355.`Создание IntegrationTestBase`
-356.`Тестирование testcontainers`
-357.`Тестовые данные (ids)`
+### 353.`testcontainers lib`
+### 354.`Подключение testcontainers`
+### 355.`Создание IntegrationTestBase`
+### 356.`Тестирование testcontainers`
+### 357.`Тестовые данные (ids)`
 
 
 
