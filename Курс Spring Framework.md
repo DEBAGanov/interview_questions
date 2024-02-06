@@ -2173,9 +2173,10 @@ public class MyBean {
 # `13. Databases in tests`
 
 ## `lesson 70. In-Memory databases. H2`
-350.`Два варианта поднятия тестовой базы данных`
-351.`Подключение H2 database`
-352.`Аннотация @Sql`
+
+### 350.`Два варианта поднятия тестовой базы данных`
+### 351.`Подключение H2 database`
+### 352.`Аннотация @Sql`
 
 ## `lesson 71. Testcontainers`
 353.`testcontainers lib`
