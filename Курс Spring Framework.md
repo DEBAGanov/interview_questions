@@ -2207,20 +2207,22 @@ public class MyBean {
 ### 368.`Использование Liquibase в тестах`
 
 
-#`15. Web Starter`
+# `15. Web Starter`
 
 ## `lesson 74. Web Starter. Введение`
-369.`MVC и классические web-приложения`
-370.`web-приложение на Spring Boot`
-371.`Embedded Tomcat`
-372.`Настройка spring-web приложения`
-373.`Класс WebMvcAutoConfiguration`
+
+### 369.`MVC и классические web-приложения`
+### 370.`web-приложение на Spring Boot`
+### 371.`Embedded Tomcat`
+### 372.`Настройка spring-web приложения`
+### 373.`Класс WebMvcAutoConfiguration`
 
 
 ## `lesson 75. Dispatcher Servlet`
-374.`Жизненный цикл сервлетов`
-375.`Псевдокод метода service в DispatcherServlet`
-376.`Исходный код класса DispatcherServlet`
+
+### 374.`Жизненный цикл сервлетов`
+### 375.`Псевдокод метода service в DispatcherServlet`
+### 376.`Исходный код класса DispatcherServlet`
 
 
 ## `lesson 76. @Controller`
