@@ -2197,14 +2197,14 @@ public class MyBean {
 
 ## `lesson 73. Liquibase. Практика`
 
-361.`Подключение зависимости liquibase-core`
-362.`Класс LiquibaseAutoConfiguration`
-363.`Создание master changelog`
-364.`liquibase formatted sql`
-365.`Тестирование Liquibase`
-366.`Добавление нового changelog (envers tables)`
-367.`md5sum`
-368.`Использование Liquibase в тестах`
+### 361.`Подключение зависимости liquibase-core`
+### 362.`Класс LiquibaseAutoConfiguration`
+### 363.`Создание master changelog`
+### 364.`liquibase formatted sql`
+### 365.`Тестирование Liquibase`
+### 366.`Добавление нового changelog (envers tables)`
+### 367.`md5sum`
+### 368.`Использование Liquibase в тестах`
 
 
 #`15. Web Starter`
