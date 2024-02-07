@@ -2187,12 +2187,13 @@ public class MyBean {
 
 
 
-#`14. Database Migrations`
+# `14. Database Migrations`
 
 ## `lesson 72. Liquibase. Теория`
-358.`Устройство migration frameworks`
-359.`Стуктура Liquibase changelog`
-360.`Changelog master file`
+
+### 358.`Устройство migration frameworks`
+### 359.`Стуктура Liquibase changelog`
+### 360.`Changelog master file`
 
 ## `lesson 73. Liquibase. Практика`
 
