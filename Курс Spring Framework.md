@@ -2239,12 +2239,13 @@ public class MyBean {
 
 
 ## `lesson 78. Parameters, Headers, Cookies`
-382.`Parameters. @RequestParam annotation`
-383.`Headers. @RequestHeader annotation`
-384.`Cookies. @CookieValue annotation`
-385.`Method params naming`
-386.`DispatcherServlet sources`
-387.`@PathVariable annotation`
+
+### 382.`Parameters. @RequestParam annotation`
+### 383.`Headers. @RequestHeader annotation`
+### 384.`Cookies. @CookieValue annotation`
+### 385.`Method params naming`
+### 386.`DispatcherServlet sources`
+### 387.`@PathVariable annotation`
 
 
 ## `lesson 79. Model`
