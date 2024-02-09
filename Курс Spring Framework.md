@@ -2281,14 +2281,15 @@ public class MyBean {
 
 
 ## `lesson 83. CRUD. Service Layer`
-405.`UserService. Method findAll`
-406.`UserService. Method findById`
-407.`UserService. Method create`
-408.`@Transactional annotation`
-409.`UserService. Method update`
-410.`UserService. Method delete`
-411.`Test UserService functionality`
-412.`Tips. Method delete`
+
+### 405.`UserService. Method findAll`
+### 406.`UserService. Method findById`
+### 407.`UserService. Method create`
+### 408.`@Transactional annotation`
+### 409.`UserService. Method update`
+### 410.`UserService. Method delete`
+### 411.`Test UserService functionality`
+### 412.`Tips. Method delete`
 
 ## `lesson 84. Spring MVC Testing`
 
