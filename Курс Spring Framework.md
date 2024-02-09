@@ -2226,8 +2226,9 @@ public class MyBean {
 
 
 ## `lesson 76. @Controller`
-377.`Подключение зависимостей и настройка view resolver`
-378.`Создание контроллера. @Controller`
+
+### 377.`Подключение зависимостей и настройка view resolver`
+### 378.`Создание контроллера. @Controller`
 
 
 ## `lesson 77. @RequestMapping`
