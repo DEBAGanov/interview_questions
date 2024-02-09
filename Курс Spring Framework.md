@@ -2293,11 +2293,11 @@ public class MyBean {
 
 ## `lesson 84. Spring MVC Testing`
 
-413.`Аннотация @AutoConfigureMockMvc`
-414.`Test findAll method`
-415.`Transactions. spring.jpa.open-in-view property`
-416.`Test create method`
-417.`Problem with sending dates in params`
+### 413.`Аннотация @AutoConfigureMockMvc`
+### 414.`Test findAll method`
+### 415.`Transactions. spring.jpa.open-in-view property`
+### 416.`Test create method`
+### 417.`Problem with sending dates in params`
 
 ## `lesson 85. Type Converters`
 418.`spring.mvc.format properties`
