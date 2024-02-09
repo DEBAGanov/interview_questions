@@ -2271,12 +2271,13 @@ public class MyBean {
 ### 398.`redirect in Spring`
 
 ## `lesson 82. CRUD. API Design`
-399.`API design best practices`
-400.`CRUD. Method findAll`
-401.`CRUD. Method findById`
-402.`CRUD. Method create`
-403.`CRUD. Method update`
-404.`CRUD. Method delete`
+
+### 399.`API design best practices`
+### 400.`CRUD. Method findAll`
+### 401.`CRUD. Method findById`
+### 402.`CRUD. Method create`
+### 403.`CRUD. Method update`
+### 404.`CRUD. Method delete`
 
 
 ## `lesson 83. CRUD. Service Layer`
