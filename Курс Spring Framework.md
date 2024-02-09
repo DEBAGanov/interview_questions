@@ -2257,10 +2257,11 @@ public class MyBean {
 
 
 ## `lesson 80. @ModelAttribute`
-392.`Упрощение работы с объектом ModelAndView`
-393.`Динамическое создание атрибутов`
-394.`Аннотация @ModelAttribute`
-395.`HTML Form. LoginController`
+
+### 392.`Упрощение работы с объектом ModelAndView`
+### 393.`Динамическое создание атрибутов`
+### 394.`Аннотация @ModelAttribute`
+### 395.`HTML Form. LoginController`
 
 
 ## `lesson 81. Forward, Include, Redirect`
