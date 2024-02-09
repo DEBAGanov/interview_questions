@@ -2249,10 +2249,11 @@ public class MyBean {
 
 
 ## `lesson 79. Model`
-388.`Attributes`
-389.`Добавление Request атрибутов в Model`
-390.`Добавление Session атрибутов в Model`
-391.`DispatcherServlet sources`
+
+### 388.`Attributes`
+### 389.`Добавление Request атрибутов в Model`
+### 390.`Добавление Session атрибутов в Model`
+### 391.`DispatcherServlet sources`
 
 
 ## `lesson 80. @ModelAttribute`
