@@ -2265,9 +2265,10 @@ public class MyBean {
 
 
 ## `lesson 81. Forward, Include, Redirect`
-396.`3 вида перенаправления запросов`
-397.`forward in Spring`
-398.`redirect in Spring`
+
+### 396.`3 вида перенаправления запросов`
+### 397.`forward in Spring`
+### 398.`redirect in Spring`
 
 ## `lesson 82. CRUD. API Design`
 399.`API design best practices`
