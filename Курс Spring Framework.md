@@ -2232,9 +2232,10 @@ public class MyBean {
 
 
 ## `lesson 77. @RequestMapping`
-379.`Основные составляющие HTTP запроса и HTTP ответа`
-380.`Основные составляющие URL`
-381.`Аннотации @RequestMapping`
+
+### 379.`Основные составляющие HTTP запроса и HTTP ответа`
+### 380.`Основные составляющие URL`
+### 381.`Аннотации @RequestMapping`
 
 
 ## `lesson 78. Parameters, Headers, Cookies`
