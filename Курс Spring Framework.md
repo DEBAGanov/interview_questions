@@ -2317,10 +2317,11 @@ public class MyBean {
 ### 425.`Тестирование функционала`
 
 ## `lesson 87. CRUD. View Layer. Часть 1`
-426.`Создание users.html для метода findAll`
-427.`Создание user.html для метода findById`
-428.`Тестирование функционала`
-429.`Добавление кнопки для метода delete`
+
+### 426.`Создание users.html для метода findAll`
+### 427.`Создание user.html для метода findById`
+### 428.`Тестирование функционала`
+### 429.`Добавление кнопки для метода delete`
 
 ## `lesson 88. CRUD. View Layer. Часть 2`
 430.`Создание registration endpoint`
