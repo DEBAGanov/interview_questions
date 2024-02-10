@@ -2331,9 +2331,10 @@ public class MyBean {
 ### 433.`redirect с сохранением введенных параметров`
 
 ## `lesson 89. Filter Query`
-434.`Add UserFilter - Controller & Service layers`
-435.`Add UserFilter - users.html`
-436.`Тестирование функционала`
+
+### 434.`Add UserFilter - Controller & Service layers`
+### 435.`Add UserFilter - users.html`
+### 436.`Тестирование функционала`
 
 ## `lesson 90. Pagination. Best practices`
 437.`HTTP endpoints best practices`
