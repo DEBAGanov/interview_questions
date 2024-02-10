@@ -2337,12 +2337,13 @@ public class MyBean {
 ### 436.`Тестирование функционала`
 
 ## `lesson 90. Pagination. Best practices`
-437.`HTTP endpoints best practices`
-438.`2 options of pagination implementation`
-439.`offset-based pagination`
-440.`PageableArgumentResolver`
-441.`Building PageResponse`
-442.`Тестирование функционала`
+
+### 437.`HTTP endpoints best practices`
+### 438.`2 options of pagination implementation`
+### 439.`offset-based pagination`
+### 440.`PageableArgumentResolver`
+### 441.`Building PageResponse`
+### 442.`Тестирование функционала`
 
 
 #`17. Validation Starter`
