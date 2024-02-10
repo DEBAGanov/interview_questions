@@ -2324,10 +2324,11 @@ public class MyBean {
 ### 429.`Добавление кнопки для метода delete`
 
 ## `lesson 88. CRUD. View Layer. Часть 2`
-430.`Создание registration endpoint`
-431.`Создание registration.html`
-432.`Тестирование функционала registration`
-433.`redirect с сохранением введенных параметров`
+
+### 430.`Создание registration endpoint`
+### 431.`Создание registration.html`
+### 432.`Тестирование функционала registration`
+### 433.`redirect с сохранением введенных параметров`
 
 ## `lesson 89. Filter Query`
 434.`Add UserFilter - Controller & Service layers`
