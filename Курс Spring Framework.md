@@ -2309,11 +2309,12 @@ public class MyBean {
 # `16. Thymeleaf`
 
 ## `lesson 86. Thymeleaf Starter. Введение`
-421.`View Resolvers`
-422.`Thymeleaf Template Engine Intro`
-423.`Настройка Thymeleaf в проекте`
-424.`Использование Thymeleaf`
-425.`Тестирование функционала`
+
+### 421.`View Resolvers`
+### 422.`Thymeleaf Template Engine Intro`
+### 423.`Настройка Thymeleaf в проекте`
+### 424.`Использование Thymeleaf`
+### 425.`Тестирование функционала`
 
 ## `lesson 87. CRUD. View Layer. Часть 1`
 426.`Создание users.html для метода findAll`
