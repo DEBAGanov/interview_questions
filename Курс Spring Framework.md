@@ -2300,12 +2300,13 @@ public class MyBean {
 ### 417.`Problem with sending dates in params`
 
 ## `lesson 85. Type Converters`
-418.`spring.mvc.format properties`
-419.`Аннотация @DateTimeFormat`
-420.`Интерфейс WebMvcConfigurer`
+
+### 418.`spring.mvc.format properties`
+### 419.`Аннотация @DateTimeFormat`
+### 420.`Интерфейс WebMvcConfigurer`
 
 
-#`16. Thymeleaf`
+# `16. Thymeleaf`
 
 ## `lesson 86. Thymeleaf Starter. Введение`
 421.`View Resolvers`
