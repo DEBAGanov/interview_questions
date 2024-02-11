@@ -2374,12 +2374,13 @@ public class MyBean {
 ### 458.`Класс ResponseEntityExceptionHandler`
 
 
-#`18. REST`
+# `18. REST`
 
 ## `lesson 94. REST. Введение`
-459.`Проблемы Controller API`
-460.`REST API`
-461.`REST API Usages`
+
+### 459.`Проблемы Controller API`
+### 460.`REST API`
+### 461.`REST API Usages`
 
 ## `lesson 95. REST. Практика`
 462.`@ResponseBody & findAll method`
