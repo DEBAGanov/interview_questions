@@ -2416,13 +2416,14 @@ public class MyBean {
 ### 482.`Отображение отсутствующей картинки`
 ### 483.`Класс ResponseEntity`
 
-#`19. Security Starter`
+# `19. Security Starter`
 
 ## `lesson 99. Security Starter. Введение`
-484.`Понятия Аутентификация и Авторизация`
-485.`Servlet Filters mechanism`
-486.`Spring Servlet Filters mechanism`
-487.`Подключение Spring Security Starter`
+
+### 484.`Понятия Аутентификация и Авторизация`
+### 485.`Servlet Filters mechanism`
+### 486.`Spring Servlet Filters mechanism`
+### 487.`Подключение Spring Security Starter`
 
 ## `lesson 100. Authentication Architecture`
 488.`Spring Security Model`
