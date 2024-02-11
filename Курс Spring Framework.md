@@ -2393,17 +2393,19 @@ public class MyBean {
 ### 468.`@RestControllerAdvice`
 
 ## `lesson 96. Swagger. API docs`
-469.`Rest clients`
-470.`Подключение springdoc`
-471.`Сгенерированная документация для Rest Controllers`
-472.`Swagger ui`
-473.`Swagger annotations`
+
+### 469.`Rest clients`
+### 470.`Подключение springdoc`
+### 471.`Сгенерированная документация для Rest Controllers`
+### 472.`Swagger ui`
+### 473.`Swagger annotations`
 
 ## `lesson 97. Upload image`
-474.`Добавление новой колонки image в таблице users`
-475.`Создание ImageService`
-476.`upload images from html pages. MultipartFile`
-477.`Тестирование функционала`
+
+### 474.`Добавление новой колонки image в таблице users`
+### 475.`Создание ImageService`
+### 476.`upload images from html pages. MultipartFile`
+### 477.`Тестирование функционала`
 
 ## `lesson 98. Get image`
 478.`Реализация функционала на уровне service`
