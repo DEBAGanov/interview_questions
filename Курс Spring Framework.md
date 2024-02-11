@@ -2383,13 +2383,14 @@ public class MyBean {
 ### 461.`REST API Usages`
 
 ## `lesson 95. REST. Практика`
-462.`@ResponseBody & findAll method`
-463.`findById method`
-464.`@RequestBody & create method`
-465.`update method`
-466.`delete method`
-467.`@RestController`
-468.`@RestControllerAdvice`
+
+### 462.`@ResponseBody & findAll method`
+### 463.`findById method`
+### 464.`@RequestBody & create method`
+### 465.`update method`
+### 466.`delete method`
+### 467.`@RestController`
+### 468.`@RestControllerAdvice`
 
 ## `lesson 96. Swagger. API docs`
 469.`Rest clients`
