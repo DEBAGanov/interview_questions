@@ -2367,10 +2367,11 @@ public class MyBean {
 ### 454.`Validation groups`
 
 ## `lesson 93. @ControllerAdvice & @ExceptionHandler`
-455.`@ExceptionHandler annotation`
-456.`Тестирование функционала`
-457.`@ControllerAdvice annotation`
-458.`Класс ResponseEntityExceptionHandler`
+
+### 455.`@ExceptionHandler annotation`
+### 456.`Тестирование функционала`
+### 457.`@ControllerAdvice annotation`
+### 458.`Класс ResponseEntityExceptionHandler`
 
 
 #`18. REST`
