@@ -2349,13 +2349,14 @@ public class MyBean {
 # `17. Validation Starter`
 
 ## `lesson 91. Validation Starter. Введение`
-443.`Подключение validation starter`
-444.`Validation annotations`
-445.`How to use annotations in practice`
-446.`@Valid & @Validated`
-447.`BindingResult object`
-448.`Show validation errors on the page`
-449.`Тестирование функционала`
+
+### 443.`Подключение validation starter`
+### 444.`Validation annotations`
+### 445.`How to use annotations in practice`
+### 446.`@Valid & @Validated`
+### 447.`BindingResult object`
+### 448.`Show validation errors on the page`
+### 449.`Тестирование функционала`
 
 ## `lesson 92. Custom validator`
 450.`Main parts in JSR 303 annotations`
