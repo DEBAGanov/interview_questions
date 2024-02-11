@@ -2359,11 +2359,12 @@ public class MyBean {
 ### 449.`Тестирование функционала`
 
 ## `lesson 92. Custom validator`
-450.`Main parts in JSR 303 annotations`
-451.`Custom annotation @UserInfo`
-452.`Тестирование функционала`
-453.`Configuration properties validation`
-454.`Validation groups`
+
+### 450.`Main parts in JSR 303 annotations`
+### 451.`Custom annotation @UserInfo`
+### 452.`Тестирование функционала`
+### 453.`Configuration properties validation`
+### 454.`Validation groups`
 
 ## `lesson 93. @ControllerAdvice & @ExceptionHandler`
 455.`@ExceptionHandler annotation`
