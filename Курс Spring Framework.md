@@ -2455,10 +2455,11 @@ public class MyBean {
 ### 504.`BasicAuthenticationFilter source code`
 
 ## `lesson 104. PasswordEncoder`
-505.`Зачем шифровать пароли`
-506.`List of password encoders`
-507.`Implement password encode/decode in the app`
-508.`Тестирование функционала`
+
+### 505.`Зачем шифровать пароли`
+### 506.`List of password encoders`
+### 507.`Implement password encode/decode in the app`
+### 508.`Тестирование функционала`
 
 ## `lesson 105. Logout`
 
