@@ -2440,11 +2440,12 @@ public class MyBean {
 ### 495.`Тестирование функциональности`
 
 ## `lesson 102. Form Login`
-496.`Default login page source code`
-497.`Custom login page`
-498.`Customise SecurityFilterChain`
-499.`Тестирование функицонала`
-500.`Class UsernamePasswordAuthenticationFilter`
+
+### 496.`Default login page source code`
+### 497.`Custom login page`
+### 498.`Customise SecurityFilterChain`
+### 499.`Тестирование функицонала`
+### 500.`Class UsernamePasswordAuthenticationFilter`
 
 ## `lesson 103. HTTP Basic Authentication`
 
