@@ -2449,10 +2449,10 @@ public class MyBean {
 
 ## `lesson 103. HTTP Basic Authentication`
 
-501.`HTTP Basic Authentication principle`
-502.`HTTP Basic encoder & decoder`
-503.`Customise SecurityFilterChain to support HTTP Basic`
-504.`BasicAuthenticationFilter source code`
+### 501.`HTTP Basic Authentication principle`
+### 502.`HTTP Basic encoder & decoder`
+### 503.`Customise SecurityFilterChain to support HTTP Basic`
+### 504.`BasicAuthenticationFilter source code`
 
 ## `lesson 104. PasswordEncoder`
 505.`Зачем шифровать пароли`
