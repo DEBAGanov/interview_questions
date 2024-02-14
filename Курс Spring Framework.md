@@ -2463,10 +2463,10 @@ public class MyBean {
 
 ## `lesson 105. Logout`
 
-509.`LogoutFilter source code`
-510.`Customise logout in SecurityFilterChain`
-511.`Add button Logout on pages`
-512.`Тестирование функционала`
+### 509.`LogoutFilter source code`
+### 510.`Customise logout in SecurityFilterChain`
+### 511.`Add button Logout on pages`
+### 512.`Тестирование функционала`
 
 ## `lesson 106. Authorization Architecture`
 513.`AuthorizationFilter source code and logic`
