@@ -2426,16 +2426,18 @@ public class MyBean {
 ### 487.`Подключение Spring Security Starter`
 
 ## `lesson 100. Authentication Architecture`
-488.`Spring Security Model`
-489.`Spring Security Authentication Logic`
-490.`Debug Security filters (default behaviour)`
+
+### 488.`Spring Security Model`
+### 489.`Spring Security Authentication Logic`
+### 490.`Debug Security filters (default behaviour)`
 
 ## `lesson 101. DaoAuthenticationProvider`
-491.`DaoAuthenticationProvider source code`
-492.`Add column password into users table`
-493.`Update entity & enum`
-494.`Implement UserDetailsService`
-495.`Тестирование функциональности`
+
+### 491.`DaoAuthenticationProvider source code`
+### 492.`Add column password into users table`
+### 493.`Update entity & enum`
+### 494.`Implement UserDetailsService`
+### 495.`Тестирование функциональности`
 
 ## `lesson 102. Form Login`
 496.`Default login page source code`
