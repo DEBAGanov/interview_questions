@@ -2494,14 +2494,15 @@ public class MyBean {
 ### 526.`Thymeleaf and Spring Security integration`
 
 ## `lesson 109. CSRF Filter`
-527.`Cross-Site Request Forgery`
-528.`How to solve CSRF problem`
-529.`Synchronizer Token Pattern`
-530.`When to use CSRF protection`
-531.`CsrfFilter source code`
-532.`How to work with CSRF token`
-533.`Class CsrfRequestDataValueProcessor`
-534.`Тестирование функционала`
+
+### 527.`Cross-Site Request Forgery`
+### 528.`How to solve CSRF problem`
+### 529.`Synchronizer Token Pattern`
+### 530.`When to use CSRF protection`
+### 531.`CsrfFilter source code`
+### 532.`How to work with CSRF token`
+### 533.`Class CsrfRequestDataValueProcessor`
+### 534.`Тестирование функционала`
 
 ## `lesson 110. Security Testing`
 
