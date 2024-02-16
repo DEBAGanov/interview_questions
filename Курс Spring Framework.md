@@ -2469,6 +2469,7 @@ public class MyBean {
 ### 512.`Тестирование функционала`
 
 ## `lesson 106. Authorization Architecture`
+
 513.`AuthorizationFilter source code and logic`
 514.`AuthorizationFilter implementations`
 515.`Customise authorizeHttpRequests in SecurityFilterChain`
