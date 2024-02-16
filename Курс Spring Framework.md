@@ -2477,12 +2477,12 @@ public class MyBean {
 
 ## `lesson 107. Method Security`
 
-517.`@PreAuthorize annotation`
-518.`@PostAuthorize annotation`
-519.`@EnableMethodSecurity annotation`
-520.`@Secured annotation`
-521.`Service layer authentication`
-522.`@PreFilter & @PostFilter annotations`
+### 517.`@PreAuthorize annotation`
+### 518.`@PostAuthorize annotation`
+### 519.`@EnableMethodSecurity annotation`
+### 520.`@Secured annotation`
+### 521.`Service layer authentication`
+### 522.`@PreFilter & @PostFilter annotations`
 
 
 
