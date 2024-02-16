@@ -2488,10 +2488,10 @@ public class MyBean {
 
 ## `lesson 108. Access to authenticated user`
 
-523.`Get current user via SecurityContextHolder`
-524.`@CurrentSecutiryContext annotation`
-525.`@AuthenticationPrincipal annotation`
-526.`Thymeleaf and Spring Security integration`
+### 523.`Get current user via SecurityContextHolder`
+### 524.`@CurrentSecutiryContext annotation`
+### 525.`@AuthenticationPrincipal annotation`
+### 526.`Thymeleaf and Spring Security integration`
 
 ## `lesson 109. CSRF Filter`
 527.`Cross-Site Request Forgery`
