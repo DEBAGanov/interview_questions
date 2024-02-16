@@ -2485,6 +2485,7 @@ public class MyBean {
 522.`@PreFilter & @PostFilter annotations`
 
 
+
 ## `lesson 108. Access to authenticated user`
 
 523.`Get current user via SecurityContextHolder`
