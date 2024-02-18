@@ -2531,9 +2531,9 @@ public class MyBean {
 
 ## `lesson 113. OAuth 2.0. Authentication Principle`
 
-552.`Add UserInfoEndpoint config in SecurityFilterChain`
-553.`Create oidcUserService`
-554.`Тестирование функционала`
+### 552.`Add UserInfoEndpoint config in SecurityFilterChain`
+### 553.`Create oidcUserService`
+### 554.`Тестирование функционала`
 
 ## `lesson 114. JWT. JSON Web Token`
 
