@@ -2524,10 +2524,10 @@ public class MyBean {
 
 ## `lesson 112. OAuth 2.0. Практика`
 
-548.`Create a new project in GCP`
-549.`Configure OAuth 2 in the project`
-550.`Configure Login Page`
-551.`Тестирование функционала`
+### 548.`Create a new project in GCP`
+### 549.`Configure OAuth 2 in the project`
+### 550.`Configure Login Page`
+### 551.`Тестирование функционала`
 
 ## `lesson 113. OAuth 2.0. Authentication Principle`
 
