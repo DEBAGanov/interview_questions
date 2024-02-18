@@ -2506,21 +2506,21 @@ public class MyBean {
 
 ## `lesson 110. Security Testing`
 
-536.`Исправление существующих тестов`
-537.`spring-security-test dependency`
-538.`1. Manually define a user in tests`
-539.`2. @WithMockUser annotation`
-540.`3. SecurityMockMvcRequestPostProcessor`
+### 536.`Исправление существующих тестов`
+### 537.`spring-security-test dependency`
+### 538.`1. Manually define a user in tests`
+### 539.`2. @WithMockUser annotation`
+### 540.`3. SecurityMockMvcRequestPostProcessor`
 
 ## `lesson 111. OAuth 2.0. Теория`
 
-541.`Текущий Authentication функционал в приложении`
-542.`Что такое OAuth 2`
-543.`Как внедрить OAuth 2 в приложении`
-544.`OAuth 2 flow types`
-545.`OAuth 2 Authorization Code Flow`
-546.`OAuth 2 Implicit Flow`
-547.`OpenID Connect (OIDC)`
+### 541.`Текущий Authentication функционал в приложении`
+### 542.`Что такое OAuth 2`
+### 543.`Как внедрить OAuth 2 в приложении`
+### 544.`OAuth 2 flow types`
+### 545.`OAuth 2 Authorization Code Flow`
+### 546.`OAuth 2 Implicit Flow`
+### 547.`OpenID Connect (OIDC)`
 
 ## `lesson 112. OAuth 2.0. Практика`
 
