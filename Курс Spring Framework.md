@@ -2605,10 +2605,10 @@ public class MyBean {
 
 ## `lesson 121. AOP. JoinPoint. Params`
 
-594.`JoinPoint object`
-595.`Get access to proxy data from advice method params`
-596.`Тестирование функционала`
-597.`argNames`
+### 594.`JoinPoint object`
+### 595.`Get access to proxy data from advice method params`
+### 596.`Тестирование функционала`
+### 597.`argNames`
 
 ## `lesson 122. AOP. @After Advices`
 598.`All types of advice`
