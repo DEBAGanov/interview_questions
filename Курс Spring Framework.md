@@ -2553,15 +2553,15 @@ public class MyBean {
 
 
 
-#`20. i18n & l10n`
+# `20. i18n & l10n`
 
 
 ## `lesson 116. i18n. MessageSource`
 
-564.`spring.messages properties`
-565.`IntelliJ IDEA UTF-8 settings`
-566.`Creating MessageRestController`
-567.`Тестирование функционала`
+### 564.`spring.messages properties`
+### 565.`IntelliJ IDEA UTF-8 settings`
+### 566.`Creating MessageRestController`
+### 567.`Тестирование функционала`
 
 ## `lesson 117. i18n. Thymeleaf`
 
