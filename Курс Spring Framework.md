@@ -2538,17 +2538,18 @@ public class MyBean {
 ## `lesson 114. JWT. JSON Web Token`
 
 
-555.`How to extract info from JWT`
-556.`JWT header`
-557.`JWT payload`
-558.`JWT signature`
-559.`Code Book`
+### 555.`How to extract info from JWT`
+### 556.`JWT header`
+### 557.`JWT payload`
+### 558.`JWT signature`
+### 559.`Code Book`
 
 ## `lesson 115. Swagger Authorization`
-560.`3 options to pass authorization in Swagger`
-561.`springdoc properties to support OAuth 2`
-562.`@SecurityScheme configuration`
-563.`Тестирование функционала`
+
+### 560.`3 options to pass authorization in Swagger`
+### 561.`springdoc properties to support OAuth 2`
+### 562.`@SecurityScheme configuration`
+### 563.`Тестирование функционала`
 
 
 
