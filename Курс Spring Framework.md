@@ -2595,12 +2595,13 @@ public class MyBean {
 ### 587.`execution`
 
 ## `lesson 120. AOP. @Before Advice`
-588.`@Before annotation`
-589.`Тестирование функционала`
-590.`CglibAopProxy`
-591.`Proxy interceptors`
-592.`Spring AOP diagram`
-593.`AopAutoConfiguration`
+
+### 588.`@Before annotation`
+### 589.`Тестирование функционала`
+### 590.`CglibAopProxy`
+### 591.`Proxy interceptors`
+### 592.`Spring AOP diagram`
+### 593.`AopAutoConfiguration`
 
 ## `lesson 121. AOP. JoinPoint. Params`
 
