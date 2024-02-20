@@ -2565,11 +2565,11 @@ public class MyBean {
 
 ## `lesson 117. i18n. Thymeleaf`
 
-568.`Login page i18n`
-569.`How to change the language`
-570.`LocalChangeInterceptor bean`
-571.`LocaleResolver bean`
-572.`Тестирование функционала`
+### 568.`Login page i18n`
+### 569.`How to change the language`
+### 570.`LocalChangeInterceptor bean`
+### 571.`LocaleResolver bean`
+### 572.`Тестирование функционала`
 
 #`21. AOP Starter`
 
