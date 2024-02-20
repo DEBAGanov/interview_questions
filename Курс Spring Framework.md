@@ -2571,13 +2571,14 @@ public class MyBean {
 ### 571.`LocaleResolver bean`
 ### 572.`Тестирование функционала`
 
-#`21. AOP Starter`
+# `21. AOP Starter`
 
 ## `lesson 118. AOP Starter. Введение`
-573.`Усложнение кода второстепенной логикой`
-574.`Crosscutting concerns`
-575.`AOP terminology`
-576.`AOP approaches`
+
+### 573.`Усложнение кода второстепенной логикой`
+### 574.`Crosscutting concerns`
+### 575.`AOP terminology`
+### 576.`AOP approaches`
 
 ## `lesson 119. AOP. Pointcut`
 
