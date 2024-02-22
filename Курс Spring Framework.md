@@ -1873,10 +1873,10 @@ public class MyBean {
 
 ## `lesson 37. Yaml format`
 
-176.`YAML - Yet Another Markup Language`
-177.`Класс YamlPropertiesFactoryBean`
-178.`Приоритет properties vs yaml`
-179.`Переписывание application.properties на yaml`
+### 176.`YAML - Yet Another Markup Language`
+### 177.`Класс YamlPropertiesFactoryBean`
+### 178.`Приоритет properties vs yaml`
+### 179.`Переписывание application.properties на yaml`
 
 
 ## `lesson 38. @ConfigurationProperties`
