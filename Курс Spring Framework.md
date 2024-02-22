@@ -2619,9 +2619,10 @@ public class MyBean {
 ### 602.`Тестирование функционала`
 
 ## `lesson 123. AOP. @Around Advice`
-603.`TransactionInterceptor`
-604.`@Around annotation`
-605.`Тестирование функционала`
+
+### 603.`TransactionInterceptor`
+### 604.`@Around annotation`
+### 605.`Тестирование функционала`
 
 ## `lesson 124. AOP. Best Practices`
 606.`1. Combine different Pointcut types`
