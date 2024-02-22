@@ -1881,17 +1881,17 @@ public class MyBean {
 
 ## `lesson 38. @ConfigurationProperties`
 
-180.`Класс JpaProperties`
-181.`Класс DatabaseProperties`
-182.`Аннотация @ConfigurationProperties`
-183.`Аннотация @ConfigurationPropertiesScan`
-184.`Immutable DatabaseProperties`
-185.`DatabaseProperties as record`
-186.`Property key names`
+### 180.`Класс JpaProperties`
+### 181.`Класс DatabaseProperties`
+### 182.`Аннотация @ConfigurationProperties`
+### 183.`Аннотация @ConfigurationPropertiesScan`
+### 184.`Immutable DatabaseProperties`
+### 185.`DatabaseProperties as record`
+### 186.`Property key names`
 
 
 
-#`7. Logging Starter`
+# `7. Logging Starter`
 
 
 ## `lesson 39. Logging Starter`
