@@ -1896,14 +1896,14 @@ public class MyBean {
 
 ## `lesson 39. Logging Starter`
 
-190.`Application as a Black Box`
-191.`Logging libraries`
-192.`Log Levels`
-193.`spring-boot-starter-logging dependency`
-194.`Аннотация @Slf4j`
-195.`Delombok annotations`
-196.`Формат логов по умолчанию`
-197.`logging.* properties`
+### 190.`Application as a Black Box`
+### 191.`Logging libraries`
+### 192.`Log Levels`
+### 193.`spring-boot-starter-logging dependency`
+### 194.`Аннотация @Slf4j`
+### 195.`Delombok annotations`
+### 196.`Формат логов по умолчанию`
+### 197.`logging.* properties`
 
 ## `lesson 40. Logback Configuration`
 
