@@ -1856,11 +1856,11 @@ public class MyBean {
 
 ## `lesson 35. Lombok`
 
-165.`Подключение Lombok`
-166.`Gradle Lombok Plugin`
-167.`IntelliJ IDEA Lombok Plugin`
-168.`Аннотации Lombok`
-169.`Файл lombok.config`
+### 165.`Подключение Lombok`
+### 166.`Gradle Lombok Plugin`
+### 167.`IntelliJ IDEA Lombok Plugin`
+### 168.`Аннотации Lombok`
+### 169.`Файл lombok.config`
 
 ## `lesson 36. Properties`
 
