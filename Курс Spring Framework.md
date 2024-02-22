@@ -2625,14 +2625,15 @@ public class MyBean {
 ### 605.`Тестирование функционала`
 
 ## `lesson 124. AOP. Best Practices`
-606.`1. Combine different Pointcut types`
-607.`2. Move common Pointcuts to separate Aspect`
-608.`3. Don t use @Around advice everywhere`
-609.`4. Separate Pointcuts by business logic`
-610.`Aspects order`
+
+### 606.`1. Combine different Pointcut types`
+### 607.`2. Move common Pointcuts to separate Aspect`
+### 608.`3. Don t use @Around advice everywhere`
+### 609.`4. Separate Pointcuts by business logic`
+### 610.`Aspects order`
 
 
-#`22. Заключение`
+# `22. Заключение`
 
 ## `lesson 125. Custom Spring Boot Starter`
 611.`Create a new Gradle module`
