@@ -2611,11 +2611,12 @@ public class MyBean {
 ### 597.`argNames`
 
 ## `lesson 122. AOP. @After Advices`
-598.`All types of advice`
-599.`@AfterReturning annotation`
-600.`@AfterThrowing annotation`
-601.`@After annotation`
-602.`Тестирование функционала`
+
+### 598.`All types of advice`
+### 599.`@AfterReturning annotation`
+### 600.`@AfterThrowing annotation`
+### 601.`@After annotation`
+### 602.`Тестирование функционала`
 
 ## `lesson 123. AOP. @Around Advice`
 603.`TransactionInterceptor`
