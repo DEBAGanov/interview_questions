@@ -2636,14 +2636,15 @@ public class MyBean {
 # `22. Заключение`
 
 ## `lesson 125. Custom Spring Boot Starter`
-611.`Create a new Gradle module`
-612.`Define starter properties`
-613.`Create Autoconfiguration`
-614.`File META-INF/spring.factories`
-615.`Move Aspects from the old to the new module`
-616.`How to use newly created starter`
-617.`spring-boot-configuration-processor`
-618.`Тестирование функционала`
+
+### 611.`Create a new Gradle module`
+### 612.`Define starter properties`
+### 613.`Create Autoconfiguration`
+### 614.`File META-INF/spring.factories`
+### 615.`Move Aspects from the old to the new module`
+### 616.`How to use newly created starter`
+### 617.`spring-boot-configuration-processor`
+### 618.`Тестирование функционала`
 
 ## `lesson 126. Заключение. Путь развития`
 
