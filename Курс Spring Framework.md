@@ -1864,12 +1864,12 @@ public class MyBean {
 
 ## `lesson 36. Properties`
 
-170.`Файл spring.properties`
-171.`Externalized Configuration`
-172.`Profile-specific properties`
-173.`Spring program arguments & VM options`
-174.`Property Placeholders & Default values`
-175.`spring.config.location`
+### 170.`Файл spring.properties`
+### 171.`Externalized Configuration`
+### 172.`Profile-specific properties`
+### 173.`Spring program arguments & VM options`
+### 174.`Property Placeholders & Default values`
+### 175.`spring.config.location`
 
 ## `lesson 37. Yaml format`
 
