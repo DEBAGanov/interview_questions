@@ -1972,6 +1972,7 @@ public class MyBean {
 ### 233.`Postgres Docker Image`
 ### 234.`Подключение к postgres из IntelliJ IDEA`
 
+
 ## `lesson 47. Data JPA Starter. Подключение`
 
 ### 235.`Подключение spring-boot-starter-data-jpa`
