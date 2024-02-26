@@ -2013,6 +2013,7 @@ public class MyBean {
 ### 257.`Как подключить механизм транзакций внутри объекта (не proxy)`
 ### 258.`Механизм транзакций между несколькими Cglib proxy`
 
+
 ## `lesson 51. @Transactional Settings`
 
 ### 259.`Свойства @Transactional. transactionManager`
