@@ -2035,7 +2035,7 @@ public class MyBean {
 ### 271.`Вынесение @Transactional в @IT`
 
 
-#`11. Data JPA Repositories`
+# `11. Data JPA Repositories`
 
 ## `lesson 53. Repository`
 
