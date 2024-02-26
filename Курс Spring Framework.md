@@ -1995,7 +1995,7 @@ public class MyBean {
 ### 248.`Аннотация @EntityScan`
 
 
-#`10. Data JPA Transactions`
+# `10. Data JPA Transactions`
 
 ## `lesson 49. @Transactional. TestContext`
 
