@@ -1983,6 +1983,7 @@ public class MyBean {
 
 ## `lesson 48. Hibernate Entities`
 
+
 ### 240.`UML диаграмма выполненных sql скриптов`
 ### 241.`Создание сущности Company`
 ### 242.`Создание коллекции locales (ElementCollection)`
