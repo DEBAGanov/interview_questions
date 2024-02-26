@@ -1926,6 +1926,7 @@ public class MyBean {
 
 ## `lesson 42. Integration Testing. Part 1`
 
+
 ### 208.`Основные цели Spring Integration Testing`
 ### 209.`Жизненный цикл тестов`
 ### 210.`JUnit 5 Extension Model`
