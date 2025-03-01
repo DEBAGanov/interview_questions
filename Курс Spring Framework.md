@@ -1628,10 +1628,46 @@ public class MyBean {
         this.myArray = myArray;
     }
 }
+```
 
 ### 32.`Указание атрибута type в параметрах конструктора`
 
+В Spring Framework, когда вы создаете бины, иногда необходимо указать тип параметра конструктора. Это особенно важно, когда у вас есть несколько бинов одного типа, и Spring должен знать, какой именно бин использовать.
+
+Например, предположим, у вас есть два бина, которые оба являются списками строк:
+
+```java
+public class MyBean {
+    private List<String> myList;
+
+    public MyBean(List<String> myList) {
+        this.myList = myList;
+    }
+}
+```
+
+В этом примере Spring будет использовать тип `List<String>` для определения, какой именно бин использовать.     
+
+
 ### 33.`Указание атрибута name в параметрах конструктора`
+
+В Spring Framework, когда вы создаете бины, иногда необходимо указать тип параметра конструктора. Это особенно важно, когда у вас есть несколько бинов одного типа, и Spring должен знать, какой именно бин использовать.
+
+Например, предположим, у вас есть два бина, которые оба являются списками строк:    
+
+```java
+public class MyBean {
+    private List<String> myList;
+
+    public MyBean(List<String> myList) {
+        this.myList = myList;
+    }
+}   
+```
+
+В этом примере Spring будет использовать тип `List<String>` для определения, какой именно бин использовать.     
+
+
 
 ## `lesson 7. Factory Method Injection`
 
@@ -2078,6 +2114,7 @@ public class MyCustomScope implements Scope {
 ### 45.`Web Bean Scopes`
 
 ### 46.`Prototype Bean Scope`
+
 
 ## `lesson 10. Lifecycle Callbacks`
 
@@ -3112,6 +3149,6 @@ public class MyCustomScope implements Scope {
 
 ## `lesson 126. Заключение. Путь развития`
 
-619.`Spring Framework Documentation`
-620.`List of all main Spring Boot Starters`
-621.`Java Road Map`
+### 619.`Spring Framework Documentation`
+### 620.`List of all main Spring Boot Starters`
+### 621.`Java Road Map`
